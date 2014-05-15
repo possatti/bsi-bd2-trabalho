@@ -11,7 +11,7 @@ CREATE TABLE endereco (
 
 	CONSTRAINT formato_cep CHECK(cep ~ '^\d{2}\.\d{3}-\d{3}$'),
 	CONSTRAINT formato_estado CHECK(estado ~ '^[A-Z]{2}$'),
-	CONSTRAINT formato_numero CHECK(numero ~ '^\d{1-10}|$')
+	CONSTRAINT formato_numero CHECK(numero ~ '^(\d{1,10}|)$')
 );
 
 CREATE TABLE veiculo (
