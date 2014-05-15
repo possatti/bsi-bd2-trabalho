@@ -9,7 +9,7 @@ CREATE TABLE endereco (
 
 	CONSTRAINT uniques_endereco UNIQUE(cep, bairro, logradouro),
 
-	CONSTRAINT formato_cep CHECK(cep ~ '^\d{5}-\d{3}$'),
+	CONSTRAINT formato_cep CHECK(cep ~ '^\d{2}\.\d{3}-\d{3}$'),
 	CONSTRAINT formato_estado CHECK(estado ~ '^[A-Z]{2}$'),
 	CONSTRAINT formato_numero CHECK(numero ~ '^\d{1-10}|$')
 );
