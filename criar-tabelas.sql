@@ -1,17 +1,16 @@
 CREATE TABLE endereco (
 	id SERIAL PRIMARY KEY,
-	cep CHAR(9) NOT NULL,
+	cep CHAR(10) NOT NULL,
 	estado VARCHAR(2) NOT NULL,
 	cidade VARCHAR(255) NOT NULL,
 	bairro VARCHAR(255) NOT NULL,
 	logradouro VARCHAR(255) NOT NULL,
 	numero VARCHAR(10),
+	pto_referencia VARCHAR(255),
 
-	CONSTRAINT uniques_endereco UNIQUE(cep, bairro, logradouro),
-
-	CONSTRAINT formato_cep CHECK(cep ~ '^\d{5}-\d{3}$'),
+	CONSTRAINT formato_cep CHECK(cep ~ '^\d{2}\.\d{3}-\d{3}$'),
 	CONSTRAINT formato_estado CHECK(estado ~ '^[A-Z]{2}$'),
-	CONSTRAINT formato_numero CHECK(numero ~ '^[1-9]\d*$')
+	CONSTRAINT formato_numero CHECK(numero ~ '^(\d{1,10}|S/N)$')
 );
 
 CREATE TABLE veiculo (
@@ -21,7 +20,7 @@ CREATE TABLE veiculo (
 	modelo VARCHAR(45) NOT NULL,
 
 	CONSTRAINT unique_placa UNIQUE(placa),
-	CONSTRAINT formato_placa CHECK(placa ~ '^[A-Z]{3}-\d\d\d\d$')
+	CONSTRAINT formato_placa CHECK(placa ~ '^[A-Z]{3}-\d{4}$')
 );
 
 CREATE TABLE motorista (
@@ -40,8 +39,8 @@ CREATE TABLE motorista (
 	CONSTRAINT unique_motorista_endereco_id UNIQUE(endereco_id),
 	CONSTRAINT unique_veiculo_id UNIQUE(veiculo_id),
 
-	CONSTRAINT formato_cpf CHECK(cpf ~ '^\d\d\d-\d\d\d-\d\d\d-\d\d$'),
-	CONSTRAINT formato_telefone CHECK(telefone ~ '^\(\d\d\) (\d)?\d{4}-\d{4}$')
+	CONSTRAINT formato_cpf CHECK(cpf ~ '^\d{3}\.\d{3}\.\d{3}-\d{2}$'),
+	CONSTRAINT formato_telefone CHECK(telefone ~ '^\(\d{2}\)(\d)?\d{4}-\d{4}$')
 );
 
 CREATE TABLE cliente (
@@ -52,7 +51,10 @@ CREATE TABLE cliente (
 	endereco_id INT REFERENCES endereco,
 
 	CONSTRAINT unique_cnpj UNIQUE(cnpj),
-	CONSTRAINT unique_cliente_endereco_id UNIQUE(endereco_id)
+	CONSTRAINT unique_cliente_endereco_id UNIQUE(endereco_id),
+	
+	CONSTRAINT formato_cnpj CHECK(cnpj ~ '^\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}$'),
+	CONSTRAINT formato_telefone CHECK(telefone ~ '^\(\d{2}\)(\d)?\d{4}-\d{4}$')
 );
 
 CREATE TABLE pedido (
