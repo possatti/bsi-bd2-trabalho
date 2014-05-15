@@ -6,12 +6,11 @@ CREATE TABLE endereco (
 	bairro VARCHAR(255) NOT NULL,
 	logradouro VARCHAR(255) NOT NULL,
 	numero VARCHAR(10),
-
-	CONSTRAINT uniques_endereco UNIQUE(cep, bairro, logradouro),
+	pto_referencia VARCHAR(255),
 
 	CONSTRAINT formato_cep CHECK(cep ~ '^\d{2}\.\d{3}-\d{3}$'),
 	CONSTRAINT formato_estado CHECK(estado ~ '^[A-Z]{2}$'),
-	CONSTRAINT formato_numero CHECK(numero ~ '^(\d{1,10}|)$')
+	CONSTRAINT formato_numero CHECK(numero ~ '^(\d{1,10}|S/N)$')
 );
 
 CREATE TABLE veiculo (
