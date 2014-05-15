@@ -52,9 +52,9 @@ CREATE TABLE cliente (
 	endereco_id INT REFERENCES endereco,
 
 	CONSTRAINT unique_cnpj UNIQUE(cnpj),
-	CONSTRAINT unique_cliente_endereco_id UNIQUE(endereco_id)
+	CONSTRAINT unique_cliente_endereco_id UNIQUE(endereco_id),
 	
-	CONSTRAINT formato_cnpj CHECK(cpf ~ '^\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}$'),
+	CONSTRAINT formato_cnpj CHECK(cnpj ~ '^\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}$'),
 	CONSTRAINT formato_telefone CHECK(telefone ~ '^\(\d{2}\)(\d)?\d{4}-\d{4}$')
 );
 
