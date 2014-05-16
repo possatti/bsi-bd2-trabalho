@@ -66,7 +66,7 @@ CREATE TABLE pedido (
 	distancia INT,
 	preco_frete DECIMAL(10,2),
 	observacoes VARCHAR(255),
-	status VARCHAR(15) NOT NULL,
+	status VARCHAR(20) NOT NULL,
 	cliente_id INT REFERENCES cliente,
 	endereco_origem INT REFERENCES endereco,
 	endereco_detino INT REFERENCES endereco,
@@ -74,10 +74,10 @@ CREATE TABLE pedido (
 	CONSTRAINT uniques_cliente UNIQUE(timestamp_requisicao, cliente_id),
 
 	CONSTRAINT enum_status
-	CHECK (produto LIKE 'EM_PROCESSAMENTO'
-		OR produto LIKE 'EM_SEPARACAO'
-		OR produto LIKE 'ENVIADO'
-		OR produto LIKE 'RECEBIDO'
+	CHECK (status LIKE 'EM_PROCESSAMENTO'
+		OR status LIKE 'EM_SEPARACAO'
+		OR status LIKE 'ENVIADO'
+		OR status LIKE 'RECEBIDO'
 		)
 
 	/**
