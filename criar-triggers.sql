@@ -1,5 +1,6 @@
-
+﻿--
 -- Mantém os campos QTD_VOLUMES e PESO_ENCOMENDA atualizados na tabela PEDIDO.
+--
 CREATE FUNCTION attr_redundante_qtd_vol_peso_encomenda()
 RETURNS trigger AS 
 $$
@@ -8,8 +9,20 @@ $$
             UPDATE PEDIDO
             SET (QTD_VOLUMES, PESO_ENCOMENDA) = (QTD_VOLUMES + NEW.QTD_VOLUMES, PESO_ENCOMENDA + NEW.PESO_VOLUMES)
             WHERE ID = NEW.PEDIDO_ID;
+            RETURN NEW;
+        ELSIF (TG_OP = 'UPDATE') THEN
+            UPDATE PEDIDO
+            SET (QTD_VOLUMES, PESO_ENCOMENDA) = (QTD_VOLUMES + NEW.QTD_VOLUMES - OLD.QTD_VOLUMES, PESO_ENCOMENDA + NEW.PESO_VOLUMES - OLD.PESO_VOLUMES)
+            WHERE ID = NEW.PEDIDO_ID;
+            RETURN NEW;
+        ELSIF (TG_OP = 'DELETE') THEN
+            UPDATE PEDIDO
+            SET (QTD_VOLUMES, PESO_ENCOMENDA) = (QTD_VOLUMES - OLD.QTD_VOLUMES, PESO_ENCOMENDA - OLD.PESO_VOLUMES)
+            WHERE ID = OLD.PEDIDO_ID;
+            RETURN OLD;
         END IF;
-        RETURN NEW;
+        RETURN NULL;
+
     END;
 $$
 LANGUAGE plpgsql;
