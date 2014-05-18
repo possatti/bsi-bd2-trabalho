@@ -24,12 +24,14 @@
 -- |   020  | Domínio       | Um motorista está indisponível se não tiver um veículo associado OU desde o momento em que ele é associado a uma viagem até que essa viagem termine (tenha o campo TIMESTAMP_FIM definido).
 -- |   021  | Domínio       | Um pedido pode estar em um, e somente um, dos quatro estados a seguir: em PROCESSAMENTO (assim que é criado); EM SEPARAÇÃO (quando os funcionários começam a preparar os veículos para a viagem);  ENVIADO (quando todos os veículos partirem); RECEBIDO (quando todos os veículos deixarem a carga no destino).
 -- |   022  | Domínio       | A quantidade de volumes e o peso de um pedido DEVEM ser a soma da quantidade de volumes e do peso de suas respectivas viagens associadas.
+-- |   023  | Domínio       | Um motorista deve necessariamente possuir um telefone.
+-- |   024  | Domínio       | Um cliente deve necessariamente possuir um telefone.
 -- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 CREATE TABLE ENDERECO (
     ID SERIAL PRIMARY KEY,
     CEP CHAR(10) NOT NULL,
-    ESTADO VARCHAR(2) NOT NULL,
+    ESTADO CHAR(2) NOT NULL,
     CIDADE VARCHAR(255) NOT NULL,
     BAIRRO VARCHAR(255) NOT NULL,
     LOGRADOURO VARCHAR(255) NOT NULL,
@@ -43,7 +45,7 @@ CREATE TABLE ENDERECO (
 
 CREATE TABLE VEICULO (
     ID SERIAL PRIMARY KEY,
-    PLACA VARCHAR(9) NOT NULL,
+    PLACA CHAR(8) NOT NULL,
     MARCA VARCHAR(45) NOT NULL,
     MODELO VARCHAR(45) NOT NULL,
 
@@ -53,13 +55,13 @@ CREATE TABLE VEICULO (
 
 CREATE TABLE MOTORISTA (
     ID SERIAL PRIMARY KEY,
-    CPF VARCHAR(14) NOT NULL,
+    CPF CHAR(14) NOT NULL,
     NOME VARCHAR(255) NOT NULL,
     CNH VARCHAR(20) NOT NULL,
     RG VARCHAR(45) NOT NULL,
-    TELEFONE VARCHAR(14),
-    DISPONIVEL BOOLEAN NOT NULL,
-    ENDERECO_ID INT REFERENCES endereco,
+    TELEFONE VARCHAR(14) NOT NULL,
+    DISPONIVEL BOOLEAN NOT NULL DEFAULT false,
+    ENDERECO_ID INT NOT NULL REFERENCES endereco,
     VEICULO_ID INT REFERENCES veiculo,
 
     CONSTRAINT unique_cpf UNIQUE(cpf),
@@ -72,10 +74,10 @@ CREATE TABLE MOTORISTA (
 
 CREATE TABLE CLIENTE (
     ID SERIAL PRIMARY KEY,
-    CNPJ VARCHAR(18) NOT NULL UNIQUE,
+    CNPJ CHAR(18) NOT NULL UNIQUE,
     NOME VARCHAR(255) NOT NULL,
-    TELEFONE VARCHAR(14),
-    ENDERECO_ID INT REFERENCES endereco,
+    TELEFONE VARCHAR(14) NOT NULL,
+    ENDERECO_ID INT NOT NULL REFERENCES endereco,
 
     CONSTRAINT unique_cnpj UNIQUE(cnpj),
     CONSTRAINT unique_cliente_endereco_id UNIQUE(endereco_id),
@@ -94,9 +96,9 @@ CREATE TABLE PEDIDO (
     PRECO_FRETE DECIMAL(10,2),
     OBSERVACOES VARCHAR(255),
     STATUS VARCHAR(20) NOT NULL,
-    CLIENTE_ID INT REFERENCES cliente,
-    ENDERECO_ORIGEM INT REFERENCES endereco,
-    ENDERECO_DETINO INT REFERENCES endereco,
+    CLIENTE_ID INT NOT NULL REFERENCES cliente,
+    ENDERECO_ORIGEM INT NOT NULL REFERENCES endereco,
+    ENDERECO_DESTINO INT NOT NULL REFERENCES endereco,
 
     CONSTRAINT uniques_cliente UNIQUE(timestamp_requisicao, cliente_id),
 
@@ -119,7 +121,7 @@ CREATE TABLE VIAGEM (
     ID SERIAL PRIMARY KEY,
     QTD_VOLUMES INT NOT NULL,
     PESO_ENCOMENDA INT NOT NULL,
-    TIMESTAMP_INICIO TIMESTAMP,
+    TIMESTAMP_INICIO TIMESTAMP NOT NULL,
     TIMESTAMP_FIM TIMESTAMP,
     OBSERVACOES VARCHAR(255),
     MOTORISTA_ID INT REFERENCES motorista,
