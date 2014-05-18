@@ -2107,906 +2107,906 @@ VALUES (100, '69.346.283/0001-17', 'Comgás', '(53)3487-5577', 200);
 
 -- Popula a tabela Pedido.
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (1, '2011-6-25 17:33', 'Bíblia', null, null, '3', '972.99', null, 'EM_PROCESSAMENTO', 1, 201, 301);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (1, '2011-6-25 17:33', 'Bíblia', '3', '972.99', null, 'EM_PROCESSAMENTO', 1, 201, 301);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (2, '2011-12-23 13:11', 'Notebook', null, null, '1012', '761.71', null, 'EM_PROCESSAMENTO', 2, 202, 302);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (2, '2011-12-23 13:11', 'Notebook', '1012', '761.71', null, 'EM_PROCESSAMENTO', 2, 202, 302);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (3, '2011-4-3 19:24', 'Tabuleiro de Xadrez', null, null, '21', '231.66', null, 'EM_PROCESSAMENTO', 3, 203, 303);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (3, '2011-4-3 19:24', 'Tabuleiro de Xadrez', '21', '231.66', null, 'EM_PROCESSAMENTO', 3, 203, 303);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (4, '2011-6-26 4:54', 'Livro', null, null, '277', '627.14', null, 'EM_PROCESSAMENTO', 4, 204, 304);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (4, '2011-6-26 4:54', 'Livro', '277', '627.14', null, 'EM_PROCESSAMENTO', 4, 204, 304);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (5, '2011-2-4 11:23', 'Caderno', null, null, '640', '693.51', null, 'EM_PROCESSAMENTO', 5, 205, 305);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (5, '2011-2-4 11:23', 'Caderno', '640', '693.51', null, 'EM_PROCESSAMENTO', 5, 205, 305);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (6, '2011-2-25 14:21', 'Madeira', null, null, '697', '585.79', null, 'EM_PROCESSAMENTO', 6, 206, 306);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (6, '2011-2-25 14:21', 'Madeira', '697', '585.79', null, 'EM_PROCESSAMENTO', 6, 206, 306);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (7, '2011-8-18 7:57', 'Chaira', null, null, '560', '746.53', null, 'EM_PROCESSAMENTO', 7, 207, 307);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (7, '2011-8-18 7:57', 'Chaira', '560', '746.53', null, 'EM_PROCESSAMENTO', 7, 207, 307);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (8, '2011-1-19 13:58', 'Bolsa', null, null, '977', '295.43', null, 'EM_PROCESSAMENTO', 8, 208, 308);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (8, '2011-1-19 13:58', 'Bolsa', '977', '295.43', null, 'EM_PROCESSAMENTO', 8, 208, 308);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (9, '2011-6-11 6:25', 'Caneta', null, null, '1135', '210.47', null, 'EM_PROCESSAMENTO', 9, 209, 309);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (9, '2011-6-11 6:25', 'Caneta', '1135', '210.47', null, 'EM_PROCESSAMENTO', 9, 209, 309);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (10, '2011-11-10 23:36', 'Cosméticos', null, null, '19', '728.97', null, 'EM_PROCESSAMENTO', 10, 210, 310);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (10, '2011-11-10 23:36', 'Cosméticos', '19', '728.97', null, 'EM_PROCESSAMENTO', 10, 210, 310);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (11, '2011-7-15 19:8', 'Madeira', null, null, '888', '204.41', null, 'EM_PROCESSAMENTO', 11, 211, 311);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (11, '2011-7-15 19:8', 'Madeira', '888', '204.41', null, 'EM_PROCESSAMENTO', 11, 211, 311);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (12, '2011-2-21 9:46', 'Cosméticos', null, null, '182', '352.16', null, 'EM_PROCESSAMENTO', 12, 212, 312);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (12, '2011-2-21 9:46', 'Cosméticos', '182', '352.16', null, 'EM_PROCESSAMENTO', 12, 212, 312);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (13, '2011-7-11 14:56', 'Lápis', null, null, '391', '230.58', null, 'EM_PROCESSAMENTO', 13, 213, 313);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (13, '2011-7-11 14:56', 'Lápis', '391', '230.58', null, 'EM_PROCESSAMENTO', 13, 213, 313);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (14, '2011-9-27 15:2', 'Caneta', null, null, '559', '968.50', null, 'EM_PROCESSAMENTO', 14, 214, 314);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (14, '2011-9-27 15:2', 'Caneta', '559', '968.50', null, 'EM_PROCESSAMENTO', 14, 214, 314);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (15, '2011-3-21 19:17', 'Madeira', null, null, '481', '409.80', null, 'EM_PROCESSAMENTO', 15, 215, 315);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (15, '2011-3-21 19:17', 'Madeira', '481', '409.80', null, 'EM_PROCESSAMENTO', 15, 215, 315);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (16, '2011-8-2 7:53', 'Bolsa', null, null, '773', '570.10', null, 'EM_PROCESSAMENTO', 16, 216, 316);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (16, '2011-8-2 7:53', 'Bolsa', '773', '570.10', null, 'EM_PROCESSAMENTO', 16, 216, 316);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (17, '2011-5-22 14:52', 'Cadeira', null, null, '992', '822.77', null, 'EM_PROCESSAMENTO', 17, 217, 317);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (17, '2011-5-22 14:52', 'Cadeira', '992', '822.77', null, 'EM_PROCESSAMENTO', 17, 217, 317);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (18, '2011-12-6 21:22', 'Caneta', null, null, '657', '823.55', null, 'EM_PROCESSAMENTO', 18, 218, 318);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (18, '2011-12-6 21:22', 'Caneta', '657', '823.55', null, 'EM_PROCESSAMENTO', 18, 218, 318);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (19, '2011-11-27 6:36', 'Tabuleiro de Xadrez', null, null, '269', '184.75', null, 'EM_PROCESSAMENTO', 19, 219, 319);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (19, '2011-11-27 6:36', 'Tabuleiro de Xadrez', '269', '184.75', null, 'EM_PROCESSAMENTO', 19, 219, 319);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (20, '2011-4-18 5:45', 'Livro', null, null, '1072', '875.38', null, 'EM_PROCESSAMENTO', 20, 220, 320);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (20, '2011-4-18 5:45', 'Livro', '1072', '875.38', null, 'EM_PROCESSAMENTO', 20, 220, 320);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (21, '2011-3-17 15:5', 'Tesouro', null, null, '314', '690.67', null, 'EM_PROCESSAMENTO', 21, 221, 321);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (21, '2011-3-17 15:5', 'Tesouro', '314', '690.67', null, 'EM_PROCESSAMENTO', 21, 221, 321);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (22, '2011-10-1 22:10', 'Caneta', null, null, '1066', '438.41', null, 'EM_PROCESSAMENTO', 22, 222, 322);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (22, '2011-10-1 22:10', 'Caneta', '1066', '438.41', null, 'EM_PROCESSAMENTO', 22, 222, 322);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (23, '2011-11-8 14:59', 'Caderno', null, null, '632', '661.70', null, 'EM_PROCESSAMENTO', 23, 223, 323);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (23, '2011-11-8 14:59', 'Caderno', '632', '661.70', null, 'EM_PROCESSAMENTO', 23, 223, 323);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (24, '2011-7-19 16:14', 'Cadeira', null, null, '266', '106.87', null, 'EM_PROCESSAMENTO', 24, 224, 324);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (24, '2011-7-19 16:14', 'Cadeira', '266', '106.87', null, 'EM_PROCESSAMENTO', 24, 224, 324);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (25, '2011-7-27 21:33', 'Bíblia', null, null, '40', '252.59', null, 'EM_PROCESSAMENTO', 25, 225, 325);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (25, '2011-7-27 21:33', 'Bíblia', '40', '252.59', null, 'EM_PROCESSAMENTO', 25, 225, 325);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (26, '2011-2-23 14:39', 'Notebook', null, null, '983', '919.09', null, 'EM_PROCESSAMENTO', 26, 226, 326);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (26, '2011-2-23 14:39', 'Notebook', '983', '919.09', null, 'EM_PROCESSAMENTO', 26, 226, 326);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (27, '2011-12-12 0:46', 'Mesa', null, null, '273', '407.01', null, 'EM_PROCESSAMENTO', 27, 227, 327);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (27, '2011-12-12 0:46', 'Mesa', '273', '407.01', null, 'EM_PROCESSAMENTO', 27, 227, 327);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (28, '2011-9-16 22:30', 'Madeira', null, null, '1189', '588.65', null, 'EM_PROCESSAMENTO', 28, 228, 328);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (28, '2011-9-16 22:30', 'Madeira', '1189', '588.65', null, 'EM_PROCESSAMENTO', 28, 228, 328);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (29, '2011-6-17 2:53', 'Mochila', null, null, '184', '418.51', null, 'EM_PROCESSAMENTO', 29, 229, 329);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (29, '2011-6-17 2:53', 'Mochila', '184', '418.51', null, 'EM_PROCESSAMENTO', 29, 229, 329);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (30, '2011-10-18 13:30', 'Madeira', null, null, '749', '407.73', null, 'EM_PROCESSAMENTO', 30, 230, 330);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (30, '2011-10-18 13:30', 'Madeira', '749', '407.73', null, 'EM_PROCESSAMENTO', 30, 230, 330);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (31, '2011-9-4 0:42', 'Mesa', null, null, '389', '151.39', null, 'EM_PROCESSAMENTO', 31, 231, 331);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (31, '2011-9-4 0:42', 'Mesa', '389', '151.39', null, 'EM_PROCESSAMENTO', 31, 231, 331);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (32, '2011-1-14 13:25', 'Tesouro', null, null, '1070', '688.26', null, 'EM_PROCESSAMENTO', 32, 232, 332);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (32, '2011-1-14 13:25', 'Tesouro', '1070', '688.26', null, 'EM_PROCESSAMENTO', 32, 232, 332);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (33, '2011-6-25 14:55', 'Cosméticos', null, null, '143', '984.04', null, 'EM_PROCESSAMENTO', 33, 233, 333);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (33, '2011-6-25 14:55', 'Cosméticos', '143', '984.04', null, 'EM_PROCESSAMENTO', 33, 233, 333);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (34, '2011-11-15 4:15', 'Cosméticos', null, null, '837', '878.17', null, 'EM_PROCESSAMENTO', 34, 234, 334);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (34, '2011-11-15 4:15', 'Cosméticos', '837', '878.17', null, 'EM_PROCESSAMENTO', 34, 234, 334);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (35, '2011-10-16 8:59', 'Lápis', null, null, '115', '228.15', null, 'EM_PROCESSAMENTO', 35, 235, 335);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (35, '2011-10-16 8:59', 'Lápis', '115', '228.15', null, 'EM_PROCESSAMENTO', 35, 235, 335);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (36, '2011-6-24 3:28', 'Cosméticos', null, null, '327', '516.04', null, 'EM_PROCESSAMENTO', 36, 236, 336);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (36, '2011-6-24 3:28', 'Cosméticos', '327', '516.04', null, 'EM_PROCESSAMENTO', 36, 236, 336);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (37, '2011-1-21 19:41', 'Televisor', null, null, '828', '374.90', null, 'EM_PROCESSAMENTO', 37, 237, 337);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (37, '2011-1-21 19:41', 'Televisor', '828', '374.90', null, 'EM_PROCESSAMENTO', 37, 237, 337);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (38, '2011-2-8 7:4', 'Lápis', null, null, '177', '283.15', null, 'EM_PROCESSAMENTO', 38, 238, 338);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (38, '2011-2-8 7:4', 'Lápis', '177', '283.15', null, 'EM_PROCESSAMENTO', 38, 238, 338);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (39, '2011-10-7 20:40', 'Ar condicionado', null, null, '576', '536.02', null, 'EM_PROCESSAMENTO', 39, 239, 339);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (39, '2011-10-7 20:40', 'Ar condicionado', '576', '536.02', null, 'EM_PROCESSAMENTO', 39, 239, 339);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (40, '2011-10-16 17:22', 'Cadeira', null, null, '973', '747.82', null, 'EM_PROCESSAMENTO', 40, 240, 340);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (40, '2011-10-16 17:22', 'Cadeira', '973', '747.82', null, 'EM_PROCESSAMENTO', 40, 240, 340);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (41, '2011-5-21 1:59', 'Tabuleiro de Xadrez', null, null, '939', '376.55', null, 'EM_PROCESSAMENTO', 41, 241, 341);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (41, '2011-5-21 1:59', 'Tabuleiro de Xadrez', '939', '376.55', null, 'EM_PROCESSAMENTO', 41, 241, 341);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (42, '2011-6-20 9:47', 'Chaira', null, null, '1094', '227.38', null, 'EM_PROCESSAMENTO', 42, 242, 342);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (42, '2011-6-20 9:47', 'Chaira', '1094', '227.38', null, 'EM_PROCESSAMENTO', 42, 242, 342);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (43, '2011-5-21 10:32', 'Lápis', null, null, '62', '753.53', null, 'EM_PROCESSAMENTO', 43, 243, 343);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (43, '2011-5-21 10:32', 'Lápis', '62', '753.53', null, 'EM_PROCESSAMENTO', 43, 243, 343);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (44, '2011-7-27 6:0', 'Madeira', null, null, '125', '972.91', null, 'EM_PROCESSAMENTO', 44, 244, 344);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (44, '2011-7-27 6:0', 'Madeira', '125', '972.91', null, 'EM_PROCESSAMENTO', 44, 244, 344);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (45, '2011-4-17 9:7', 'Lápis', null, null, '845', '955.59', null, 'EM_PROCESSAMENTO', 45, 245, 345);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (45, '2011-4-17 9:7', 'Lápis', '845', '955.59', null, 'EM_PROCESSAMENTO', 45, 245, 345);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (46, '2011-3-10 20:17', 'Mesa', null, null, '638', '768.10', null, 'EM_PROCESSAMENTO', 46, 246, 346);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (46, '2011-3-10 20:17', 'Mesa', '638', '768.10', null, 'EM_PROCESSAMENTO', 46, 246, 346);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (47, '2011-3-8 10:43', 'Chaira', null, null, '477', '968.24', null, 'EM_PROCESSAMENTO', 47, 247, 347);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (47, '2011-3-8 10:43', 'Chaira', '477', '968.24', null, 'EM_PROCESSAMENTO', 47, 247, 347);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (48, '2011-10-21 15:2', 'Cadeira', null, null, '77', '774.79', null, 'EM_PROCESSAMENTO', 48, 248, 348);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (48, '2011-10-21 15:2', 'Cadeira', '77', '774.79', null, 'EM_PROCESSAMENTO', 48, 248, 348);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (49, '2011-7-2 11:29', 'Mesa', null, null, '1195', '226.67', null, 'EM_PROCESSAMENTO', 49, 249, 349);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (49, '2011-7-2 11:29', 'Mesa', '1195', '226.67', null, 'EM_PROCESSAMENTO', 49, 249, 349);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (50, '2011-6-4 21:50', 'Mesa', null, null, '1102', '435.57', null, 'EM_PROCESSAMENTO', 50, 250, 350);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (50, '2011-6-4 21:50', 'Mesa', '1102', '435.57', null, 'EM_PROCESSAMENTO', 50, 250, 350);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (51, '2011-11-24 10:48', 'Bíblia', null, null, '545', '658.35', null, 'EM_PROCESSAMENTO', 51, 251, 351);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (51, '2011-11-24 10:48', 'Bíblia', '545', '658.35', null, 'EM_PROCESSAMENTO', 51, 251, 351);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (52, '2011-10-27 14:35', 'Mesa', null, null, '1003', '167.01', null, 'EM_PROCESSAMENTO', 52, 252, 352);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (52, '2011-10-27 14:35', 'Mesa', '1003', '167.01', null, 'EM_PROCESSAMENTO', 52, 252, 352);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (53, '2011-4-9 20:6', 'Madeira', null, null, '618', '425.32', null, 'EM_PROCESSAMENTO', 53, 253, 353);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (53, '2011-4-9 20:6', 'Madeira', '618', '425.32', null, 'EM_PROCESSAMENTO', 53, 253, 353);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (54, '2011-11-21 8:44', 'Caneta', null, null, '813', '528.98', null, 'EM_PROCESSAMENTO', 54, 254, 354);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (54, '2011-11-21 8:44', 'Caneta', '813', '528.98', null, 'EM_PROCESSAMENTO', 54, 254, 354);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (55, '2011-3-6 3:46', 'Mochila', null, null, '1178', '827.86', null, 'EM_PROCESSAMENTO', 55, 255, 355);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (55, '2011-3-6 3:46', 'Mochila', '1178', '827.86', null, 'EM_PROCESSAMENTO', 55, 255, 355);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (56, '2011-6-21 16:44', 'Faca', null, null, '1146', '582.81', null, 'EM_PROCESSAMENTO', 56, 256, 356);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (56, '2011-6-21 16:44', 'Faca', '1146', '582.81', null, 'EM_PROCESSAMENTO', 56, 256, 356);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (57, '2011-10-2 15:3', 'Caneta', null, null, '2', '198.78', null, 'EM_PROCESSAMENTO', 57, 257, 357);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (57, '2011-10-2 15:3', 'Caneta', '2', '198.78', null, 'EM_PROCESSAMENTO', 57, 257, 357);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (58, '2011-5-13 3:29', 'Bolsa', null, null, '197', '207.07', null, 'EM_PROCESSAMENTO', 58, 258, 358);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (58, '2011-5-13 3:29', 'Bolsa', '197', '207.07', null, 'EM_PROCESSAMENTO', 58, 258, 358);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (59, '2011-7-16 0:5', 'Faca', null, null, '478', '980.32', null, 'EM_PROCESSAMENTO', 59, 259, 359);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (59, '2011-7-16 0:5', 'Faca', '478', '980.32', null, 'EM_PROCESSAMENTO', 59, 259, 359);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (60, '2011-10-11 7:5', 'Mochila', null, null, '322', '544.21', null, 'EM_PROCESSAMENTO', 60, 260, 360);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (60, '2011-10-11 7:5', 'Mochila', '322', '544.21', null, 'EM_PROCESSAMENTO', 60, 260, 360);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (61, '2011-3-27 3:28', 'Faca', null, null, '928', '591.18', null, 'EM_PROCESSAMENTO', 61, 261, 361);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (61, '2011-3-27 3:28', 'Faca', '928', '591.18', null, 'EM_PROCESSAMENTO', 61, 261, 361);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (62, '2011-3-4 17:36', 'Cosméticos', null, null, '564', '448.01', null, 'EM_PROCESSAMENTO', 62, 262, 362);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (62, '2011-3-4 17:36', 'Cosméticos', '564', '448.01', null, 'EM_PROCESSAMENTO', 62, 262, 362);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (63, '2011-11-23 18:43', 'Cadeira', null, null, '902', '808.55', null, 'EM_PROCESSAMENTO', 63, 263, 363);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (63, '2011-11-23 18:43', 'Cadeira', '902', '808.55', null, 'EM_PROCESSAMENTO', 63, 263, 363);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (64, '2011-1-27 6:58', 'Tesouro', null, null, '491', '881.72', null, 'EM_PROCESSAMENTO', 64, 264, 364);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (64, '2011-1-27 6:58', 'Tesouro', '491', '881.72', null, 'EM_PROCESSAMENTO', 64, 264, 364);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (65, '2011-6-13 22:54', 'Livro', null, null, '959', '946.36', null, 'EM_PROCESSAMENTO', 65, 265, 365);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (65, '2011-6-13 22:54', 'Livro', '959', '946.36', null, 'EM_PROCESSAMENTO', 65, 265, 365);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (66, '2011-12-12 2:16', 'Tesouro', null, null, '209', '897.29', null, 'EM_PROCESSAMENTO', 66, 266, 366);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (66, '2011-12-12 2:16', 'Tesouro', '209', '897.29', null, 'EM_PROCESSAMENTO', 66, 266, 366);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (67, '2011-10-4 11:47', 'Notebook', null, null, '204', '108.90', null, 'EM_PROCESSAMENTO', 67, 267, 367);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (67, '2011-10-4 11:47', 'Notebook', '204', '108.90', null, 'EM_PROCESSAMENTO', 67, 267, 367);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (68, '2011-11-27 0:44', 'Bolsa', null, null, '678', '858.73', null, 'EM_PROCESSAMENTO', 68, 268, 368);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (68, '2011-11-27 0:44', 'Bolsa', '678', '858.73', null, 'EM_PROCESSAMENTO', 68, 268, 368);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (69, '2011-1-26 12:25', 'Bolsa', null, null, '851', '183.36', null, 'EM_PROCESSAMENTO', 69, 269, 369);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (69, '2011-1-26 12:25', 'Bolsa', '851', '183.36', null, 'EM_PROCESSAMENTO', 69, 269, 369);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (70, '2011-5-21 2:30', 'Tabuleiro de Xadrez', null, null, '774', '261.80', null, 'EM_PROCESSAMENTO', 70, 270, 370);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (70, '2011-5-21 2:30', 'Tabuleiro de Xadrez', '774', '261.80', null, 'EM_PROCESSAMENTO', 70, 270, 370);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (71, '2011-5-26 16:37', 'Lápis', null, null, '110', '116.80', null, 'EM_PROCESSAMENTO', 71, 271, 371);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (71, '2011-5-26 16:37', 'Lápis', '110', '116.80', null, 'EM_PROCESSAMENTO', 71, 271, 371);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (72, '2011-3-23 14:10', 'Ar condicionado', null, null, '1160', '532.55', null, 'EM_PROCESSAMENTO', 72, 272, 372);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (72, '2011-3-23 14:10', 'Ar condicionado', '1160', '532.55', null, 'EM_PROCESSAMENTO', 72, 272, 372);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (73, '2011-12-19 16:40', 'Ar condicionado', null, null, '681', '637.40', null, 'EM_PROCESSAMENTO', 73, 273, 373);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (73, '2011-12-19 16:40', 'Ar condicionado', '681', '637.40', null, 'EM_PROCESSAMENTO', 73, 273, 373);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (74, '2011-12-10 16:53', 'Cosméticos', null, null, '780', '621.08', null, 'EM_PROCESSAMENTO', 74, 274, 374);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (74, '2011-12-10 16:53', 'Cosméticos', '780', '621.08', null, 'EM_PROCESSAMENTO', 74, 274, 374);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (75, '2011-1-14 18:42', 'Mesa', null, null, '760', '600.60', null, 'EM_PROCESSAMENTO', 75, 275, 375);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (75, '2011-1-14 18:42', 'Mesa', '760', '600.60', null, 'EM_PROCESSAMENTO', 75, 275, 375);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (76, '2011-2-2 14:46', 'Livro', null, null, '372', '719.03', null, 'EM_PROCESSAMENTO', 76, 276, 376);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (76, '2011-2-2 14:46', 'Livro', '372', '719.03', null, 'EM_PROCESSAMENTO', 76, 276, 376);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (77, '2011-5-12 8:35', 'Tesouro', null, null, '96', '463.01', null, 'EM_PROCESSAMENTO', 77, 277, 377);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (77, '2011-5-12 8:35', 'Tesouro', '96', '463.01', null, 'EM_PROCESSAMENTO', 77, 277, 377);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (78, '2011-12-14 8:55', 'Chaira', null, null, '187', '100.63', null, 'EM_PROCESSAMENTO', 78, 278, 378);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (78, '2011-12-14 8:55', 'Chaira', '187', '100.63', null, 'EM_PROCESSAMENTO', 78, 278, 378);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (79, '2011-10-11 13:3', 'Tabuleiro de Xadrez', null, null, '223', '294.73', null, 'EM_PROCESSAMENTO', 79, 279, 379);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (79, '2011-10-11 13:3', 'Tabuleiro de Xadrez', '223', '294.73', null, 'EM_PROCESSAMENTO', 79, 279, 379);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (80, '2011-8-13 15:40', 'Notebook', null, null, '641', '623.52', null, 'EM_PROCESSAMENTO', 80, 280, 380);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (80, '2011-8-13 15:40', 'Notebook', '641', '623.52', null, 'EM_PROCESSAMENTO', 80, 280, 380);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (81, '2011-5-20 11:33', 'Chaira', null, null, '588', '167.38', null, 'EM_PROCESSAMENTO', 81, 281, 381);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (81, '2011-5-20 11:33', 'Chaira', '588', '167.38', null, 'EM_PROCESSAMENTO', 81, 281, 381);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (82, '2011-9-14 11:37', 'Faca', null, null, '668', '415.69', null, 'EM_PROCESSAMENTO', 82, 282, 382);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (82, '2011-9-14 11:37', 'Faca', '668', '415.69', null, 'EM_PROCESSAMENTO', 82, 282, 382);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (83, '2011-5-6 11:40', 'Caneta', null, null, '470', '367.61', null, 'EM_PROCESSAMENTO', 83, 283, 383);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (83, '2011-5-6 11:40', 'Caneta', '470', '367.61', null, 'EM_PROCESSAMENTO', 83, 283, 383);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (84, '2011-10-19 3:29', 'Faca', null, null, '468', '727.49', null, 'EM_PROCESSAMENTO', 84, 284, 384);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (84, '2011-10-19 3:29', 'Faca', '468', '727.49', null, 'EM_PROCESSAMENTO', 84, 284, 384);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (85, '2011-7-9 22:35', 'Ar condicionado', null, null, '178', '339.86', null, 'EM_PROCESSAMENTO', 85, 285, 385);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (85, '2011-7-9 22:35', 'Ar condicionado', '178', '339.86', null, 'EM_PROCESSAMENTO', 85, 285, 385);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (86, '2011-10-5 18:54', 'Madeira', null, null, '1123', '793.87', null, 'EM_PROCESSAMENTO', 86, 286, 386);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (86, '2011-10-5 18:54', 'Madeira', '1123', '793.87', null, 'EM_PROCESSAMENTO', 86, 286, 386);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (87, '2011-6-5 13:23', 'Cadeira', null, null, '584', '378.58', null, 'EM_PROCESSAMENTO', 87, 287, 387);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (87, '2011-6-5 13:23', 'Cadeira', '584', '378.58', null, 'EM_PROCESSAMENTO', 87, 287, 387);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (88, '2011-10-12 23:59', 'Ar condicionado', null, null, '929', '872.52', null, 'EM_PROCESSAMENTO', 88, 288, 388);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (88, '2011-10-12 23:59', 'Ar condicionado', '929', '872.52', null, 'EM_PROCESSAMENTO', 88, 288, 388);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (89, '2011-12-28 15:23', 'Livro', null, null, '8', '443.37', null, 'EM_PROCESSAMENTO', 89, 289, 389);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (89, '2011-12-28 15:23', 'Livro', '8', '443.37', null, 'EM_PROCESSAMENTO', 89, 289, 389);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (90, '2011-12-22 1:23', 'Lápis', null, null, '342', '219.00', null, 'EM_PROCESSAMENTO', 90, 290, 390);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (90, '2011-12-22 1:23', 'Lápis', '342', '219.00', null, 'EM_PROCESSAMENTO', 90, 290, 390);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (91, '2011-8-3 14:14', 'Tabuleiro de Xadrez', null, null, '184', '891.78', null, 'EM_PROCESSAMENTO', 91, 291, 391);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (91, '2011-8-3 14:14', 'Tabuleiro de Xadrez', '184', '891.78', null, 'EM_PROCESSAMENTO', 91, 291, 391);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (92, '2011-4-19 9:16', 'Mochila', null, null, '21', '425.50', null, 'EM_PROCESSAMENTO', 92, 292, 392);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (92, '2011-4-19 9:16', 'Mochila', '21', '425.50', null, 'EM_PROCESSAMENTO', 92, 292, 392);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (93, '2011-4-8 10:56', 'Notebook', null, null, '1065', '356.15', null, 'EM_PROCESSAMENTO', 93, 293, 393);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (93, '2011-4-8 10:56', 'Notebook', '1065', '356.15', null, 'EM_PROCESSAMENTO', 93, 293, 393);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (94, '2011-7-22 2:5', 'Faca', null, null, '227', '908.18', null, 'EM_PROCESSAMENTO', 94, 294, 394);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (94, '2011-7-22 2:5', 'Faca', '227', '908.18', null, 'EM_PROCESSAMENTO', 94, 294, 394);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (95, '2011-2-24 0:55', 'Faca', null, null, '243', '733.84', null, 'EM_PROCESSAMENTO', 95, 295, 395);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (95, '2011-2-24 0:55', 'Faca', '243', '733.84', null, 'EM_PROCESSAMENTO', 95, 295, 395);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (96, '2011-9-18 10:54', 'Mochila', null, null, '1109', '118.27', null, 'EM_PROCESSAMENTO', 96, 296, 396);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (96, '2011-9-18 10:54', 'Mochila', '1109', '118.27', null, 'EM_PROCESSAMENTO', 96, 296, 396);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (97, '2011-7-25 3:31', 'Mochila', null, null, '198', '527.14', null, 'EM_PROCESSAMENTO', 97, 297, 397);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (97, '2011-7-25 3:31', 'Mochila', '198', '527.14', null, 'EM_PROCESSAMENTO', 97, 297, 397);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (98, '2011-10-2 22:7', 'Notebook', null, null, '1072', '733.56', null, 'EM_PROCESSAMENTO', 98, 298, 398);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (98, '2011-10-2 22:7', 'Notebook', '1072', '733.56', null, 'EM_PROCESSAMENTO', 98, 298, 398);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (99, '2011-4-25 22:35', 'Televisor', null, null, '1000', '595.13', null, 'EM_PROCESSAMENTO', 99, 299, 399);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (99, '2011-4-25 22:35', 'Televisor', '1000', '595.13', null, 'EM_PROCESSAMENTO', 99, 299, 399);
 
-INSERT INTO Pedido(id, timestamp_requisicao, produto, qtd_volumes, peso_encomenda, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
-VALUES (100, '2011-12-3 8:49', 'Lápis', null, null, '471', '356.45', null, 'EM_PROCESSAMENTO', 100, 300, 400);
+INSERT INTO Pedido(id, timestamp_requisicao, produto, distancia, preco_frete, observacoes, status, cliente_id, endereco_origem, endereco_destino)
+VALUES (100, '2011-12-3 8:49', 'Lápis', '471', '356.45', null, 'EM_PROCESSAMENTO', 100, 300, 400);
 
 -- Popula a tabela Viagem.
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (1, '2012-9-15 5:17', '2013-1-8 1:26', 71, 49, null, 30, 53);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (2, '2012-4-4 9:23', '2013-4-5 13:18', 81, 36, null, 97, 44);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (3, '2012-9-26 17:7', '2013-1-3 4:49', 82, 92, null, 49, 42);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (4, '2012-4-13 16:46', null, 50, 39, null, 13, 12);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (5, '2012-4-7 8:5', '2013-6-3 8:32', 74, 91, null, 89, 84);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (6, '2012-7-5 16:29', null, 68, 49, null, 89, 82);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (7, '2012-2-4 16:23', null, 14, 14, null, 68, 43);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (8, '2012-9-4 23:23', null, 29, 70, null, 39, 16);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (9, '2012-2-4 3:3', '2013-9-18 0:16', 18, 19, null, 14, 62);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (10, '2012-10-28 4:33', null, 38, 60, null, 85, 73);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (11, '2012-5-5 3:41', null, 83, 27, null, 96, 55);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (12, '2012-10-14 2:20', '2013-7-15 12:27', 83, 96, null, 42, 53);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (13, '2012-9-4 3:10', '2013-4-24 18:26', 58, 80, null, 21, 61);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (14, '2012-3-16 4:22', null, 47, 42, null, 64, 39);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (15, '2012-3-23 5:50', null, 45, 78, null, 47, 95);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (16, '2012-4-23 15:27', '2013-4-23 11:22', 72, 78, null, 61, 16);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (17, '2012-1-8 15:17', null, 20, 30, null, 1, 70);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (18, '2012-6-10 8:42', null, 54, 32, null, 48, 39);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (19, '2012-11-27 3:21', null, 16, 27, null, 49, 40);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (20, '2012-3-3 0:30', null, 15, 51, null, 41, 65);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (21, '2012-4-27 23:40', '2013-8-25 3:2', 86, 65, null, 38, 66);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (22, '2012-5-11 1:40', '2013-3-4 0:36', 26, 44, null, 78, 79);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (23, '2012-9-1 15:34', '2013-9-19 14:49', 11, 30, null, 74, 64);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (24, '2012-2-26 2:29', null, 96, 80, null, 84, 7);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (25, '2012-3-1 17:36', null, 57, 22, null, 35, 57);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (26, '2012-7-11 6:13', null, 94, 18, null, 34, 81);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (27, '2012-5-17 0:58', null, 80, 10, null, 52, 61);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (28, '2012-12-10 0:54', null, 19, 18, null, 51, 47);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (29, '2012-5-1 13:43', '2013-5-17 5:3', 33, 49, null, 85, 51);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (30, '2012-12-15 22:4', null, 97, 24, null, 57, 39);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (31, '2012-12-8 1:57', '2013-11-15 13:0', 92, 27, null, 10, 85);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (32, '2012-1-14 4:19', null, 83, 54, null, 28, 19);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (33, '2012-10-14 14:39', null, 10, 12, null, 68, 55);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (34, '2012-3-16 12:12', '2013-10-12 8:49', 75, 51, null, 55, 78);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (35, '2012-6-2 10:7', null, 43, 10, null, 43, 98);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (36, '2012-4-23 7:54', '2013-5-21 12:17', 89, 18, null, 46, 8);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (37, '2012-4-7 20:51', null, 79, 18, null, 19, 34);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (38, '2012-1-16 17:50', '2013-5-17 8:41', 43, 16, null, 73, 52);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (39, '2012-11-8 12:14', '2013-12-12 0:31', 60, 19, null, 14, 59);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (40, '2012-4-26 18:4', '2013-7-8 8:44', 96, 16, null, 45, 15);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (41, '2012-3-27 20:43', '2013-10-12 15:23', 15, 49, null, 2, 98);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (42, '2012-7-28 7:23', null, 11, 59, null, 51, 92);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (43, '2012-9-2 18:52', '2013-10-24 10:52', 41, 52, null, 15, 37);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (44, '2012-10-12 8:3', null, 13, 16, null, 38, 10);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (45, '2012-6-28 12:39', '2013-2-22 6:45', 21, 65, null, 93, 86);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (46, '2012-1-24 3:45', null, 77, 21, null, 31, 31);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (47, '2012-5-4 18:54', '2013-5-12 22:3', 10, 70, null, 18, 44);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (48, '2012-11-14 23:13', null, 31, 79, null, 52, 77);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (49, '2012-3-24 10:50', null, 81, 75, null, 38, 96);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (50, '2012-8-9 17:10', null, 36, 63, null, 6, 29);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (51, '2012-5-11 14:52', '2013-9-14 15:50', 43, 98, null, 11, 79);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (52, '2012-8-6 22:56', '2013-9-22 11:51', 74, 14, null, 48, 22);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (53, '2012-5-7 3:40', null, 34, 74, null, 100, 41);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (54, '2012-7-13 14:58', '2013-3-4 15:52', 30, 35, null, 93, 99);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (55, '2012-5-25 3:54', '2013-12-16 4:11', 20, 13, null, 96, 25);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (56, '2012-6-11 8:36', null, 72, 13, null, 96, 87);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (57, '2012-1-16 18:56', '2013-7-7 6:16', 32, 17, null, 13, 20);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (58, '2012-8-23 5:15', '2013-6-13 11:19', 47, 15, null, 25, 49);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (59, '2012-1-14 7:41', null, 15, 93, null, 58, 26);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (60, '2012-9-4 9:37', '2013-10-1 4:41', 97, 30, null, 23, 48);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (61, '2012-7-11 3:24', '2013-4-3 22:43', 60, 34, null, 79, 46);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (62, '2012-1-14 11:16', null, 11, 34, null, 20, 76);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (63, '2012-10-3 22:11', null, 16, 22, null, 68, 52);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (64, '2012-11-10 15:19', null, 26, 50, null, 96, 10);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (65, '2012-4-2 6:49', null, 26, 15, null, 57, 11);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (66, '2012-7-4 14:38', null, 29, 79, null, 94, 57);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (67, '2012-1-12 23:11', null, 61, 17, null, 77, 28);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (68, '2012-9-20 10:13', '2013-5-12 14:13', 30, 18, null, 51, 74);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (69, '2012-11-5 0:26', null, 74, 80, null, 5, 82);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (70, '2012-4-18 6:41', '2013-7-19 14:20', 52, 89, null, 50, 13);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (71, '2012-2-27 23:21', null, 64, 71, null, 69, 94);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (72, '2012-11-1 22:17', null, 94, 46, null, 70, 70);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (73, '2012-5-2 9:22', '2013-4-19 9:7', 41, 59, null, 87, 26);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (74, '2012-3-22 3:13', '2013-5-22 2:55', 32, 75, null, 94, 27);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (75, '2012-3-28 7:40', '2013-1-2 0:1', 19, 55, null, 76, 56);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (76, '2012-8-4 5:49', '2013-6-17 8:15', 25, 12, null, 3, 61);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (77, '2012-9-6 23:14', null, 38, 45, null, 51, 87);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (78, '2012-10-27 9:36', null, 72, 24, null, 68, 99);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (79, '2012-2-17 16:32', '2013-12-1 5:19', 38, 37, null, 25, 4);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (80, '2012-9-22 20:48', '2013-8-5 17:27', 75, 99, null, 73, 24);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (81, '2012-6-10 16:18', '2013-11-5 2:28', 19, 17, null, 65, 39);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (82, '2012-7-11 19:41', '2013-3-3 1:7', 33, 62, null, 15, 84);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (83, '2012-8-8 4:18', '2013-12-14 17:55', 11, 23, null, 64, 95);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (84, '2012-1-22 21:49', null, 17, 72, null, 2, 46);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (85, '2012-8-6 16:3', '2013-11-26 13:40', 15, 96, null, 18, 12);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (86, '2012-6-25 10:9', '2013-6-23 7:39', 73, 93, null, 9, 66);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (87, '2012-8-8 3:41', null, 34, 13, null, 64, 75);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (88, '2012-11-26 17:43', null, 98, 77, null, 90, 38);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (89, '2012-10-21 5:0', '2013-11-3 10:27', 36, 62, null, 11, 36);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (90, '2012-7-25 17:59', '2013-2-15 13:40', 75, 35, null, 75, 68);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (91, '2012-8-25 0:43', '2013-4-24 6:21', 21, 17, null, 61, 52);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (92, '2012-3-18 16:43', null, 16, 37, null, 89, 19);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (93, '2012-11-27 16:44', null, 31, 66, null, 83, 38);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (94, '2012-8-21 14:50', null, 14, 13, null, 44, 25);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (95, '2012-1-3 1:26', null, 74, 90, null, 40, 100);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (96, '2012-11-26 21:28', null, 96, 81, null, 76, 92);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (97, '2012-2-3 9:47', '2013-1-5 2:51', 66, 95, null, 22, 21);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (98, '2012-6-19 7:58', null, 54, 78, null, 67, 34);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (99, '2012-3-17 16:16', '2013-10-5 20:15', 97, 74, null, 82, 96);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (100, '2012-1-2 16:24', '2013-1-8 5:5', 23, 70, null, 22, 2);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (101, '2012-5-7 0:44', '2013-4-10 21:32', 99, 50, null, 39, 41);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (102, '2012-9-25 6:31', null, 43, 75, null, 1, 31);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (103, '2012-8-25 7:43', '2013-4-15 22:0', 20, 89, null, 29, 27);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (104, '2012-4-14 2:53', null, 53, 51, null, 75, 90);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (105, '2012-9-16 15:5', null, 36, 17, null, 46, 10);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (106, '2012-5-11 5:26', null, 39, 32, null, 95, 100);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (107, '2012-9-2 1:55', '2013-10-22 11:52', 58, 95, null, 64, 6);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (108, '2012-3-2 7:9', '2013-6-1 16:39', 89, 87, null, 81, 56);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (109, '2012-9-6 5:58', '2013-12-17 6:59', 17, 72, null, 66, 42);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (110, '2012-2-27 21:23', null, 50, 40, null, 6, 30);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (111, '2012-10-20 15:30', '2013-11-26 15:20', 64, 41, null, 52, 94);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (112, '2012-3-15 10:29', '2013-9-16 16:3', 49, 71, null, 70, 20);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (113, '2012-9-17 3:32', '2013-3-18 7:44', 77, 10, null, 8, 2);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (114, '2012-9-13 23:30', '2013-7-15 10:47', 54, 67, null, 83, 71);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (115, '2012-12-10 14:33', '2013-3-4 7:59', 16, 38, null, 52, 56);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (116, '2012-4-28 4:46', null, 62, 76, null, 74, 1);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (117, '2012-8-11 8:42', '2013-5-28 11:40', 87, 25, null, 87, 17);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (118, '2012-12-22 3:48', '2013-12-20 23:26', 51, 60, null, 68, 11);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (119, '2012-1-9 6:39', '2013-1-11 18:54', 57, 15, null, 14, 76);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (120, '2012-1-21 11:43', '2013-1-19 14:48', 34, 23, null, 23, 54);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (121, '2012-11-15 16:57', '2013-3-14 19:54', 98, 69, null, 78, 44);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (122, '2012-6-1 18:45', '2013-3-5 19:4', 31, 54, null, 83, 51);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (123, '2012-2-16 16:3', null, 81, 15, null, 76, 52);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (124, '2012-2-17 7:35', null, 10, 96, null, 68, 27);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (125, '2012-7-21 6:38', '2013-4-27 7:38', 77, 16, null, 63, 10);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (126, '2012-12-22 16:41', null, 13, 15, null, 26, 23);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (127, '2012-1-13 5:52', null, 63, 36, null, 50, 51);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (128, '2012-4-10 9:57', '2013-4-3 0:10', 46, 43, null, 96, 20);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (129, '2012-8-10 7:6', '2013-3-18 2:56', 94, 19, null, 54, 80);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (130, '2012-2-16 10:0', null, 10, 39, null, 90, 5);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (131, '2012-4-14 15:40', '2013-10-27 9:37', 93, 18, null, 84, 57);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (132, '2012-1-16 18:49', null, 54, 92, null, 96, 57);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (133, '2012-10-28 18:3', null, 17, 37, null, 21, 74);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (134, '2012-3-18 18:17', '2013-4-9 6:50', 24, 38, null, 62, 33);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (135, '2012-4-24 17:6', '2013-6-9 19:31', 30, 16, null, 47, 62);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (136, '2012-9-2 13:32', null, 23, 13, null, 6, 55);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (137, '2012-5-16 10:41', null, 69, 25, null, 42, 64);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (138, '2012-2-7 2:39', '2013-12-3 21:39', 77, 12, null, 83, 59);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (139, '2012-8-17 15:21', '2013-11-3 16:1', 11, 96, null, 52, 30);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (140, '2012-10-9 7:36', '2013-6-26 21:12', 49, 11, null, 34, 68);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (141, '2012-1-14 3:45', null, 26, 19, null, 2, 87);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (142, '2012-7-1 23:32', null, 93, 32, null, 28, 50);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (143, '2012-2-8 12:47', '2013-5-17 21:38', 20, 59, null, 39, 46);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (144, '2012-12-1 11:22', null, 77, 72, null, 52, 56);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (145, '2012-11-3 5:50', null, 96, 95, null, 86, 92);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (146, '2012-7-12 13:25', '2013-12-4 13:40', 17, 19, null, 15, 80);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (147, '2012-12-8 23:4', null, 33, 18, null, 91, 72);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (148, '2012-11-9 20:15', null, 16, 39, null, 99, 56);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (149, '2012-2-10 19:24', '2013-1-26 16:6', 22, 71, null, 17, 69);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (150, '2012-8-4 10:2', null, 13, 73, null, 32, 92);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (151, '2012-5-3 7:31', '2013-11-19 3:25', 33, 13, null, 47, 32);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (152, '2012-8-23 14:54', null, 75, 27, null, 54, 68);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (153, '2012-11-14 10:39', null, 21, 35, null, 92, 99);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (154, '2012-2-9 2:3', null, 69, 62, null, 76, 15);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (155, '2012-7-23 5:3', null, 13, 63, null, 24, 58);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (156, '2012-4-11 20:12', null, 20, 67, null, 99, 35);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (157, '2012-5-11 18:50', '2013-7-21 16:53', 54, 16, null, 84, 8);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (158, '2012-5-7 4:17', null, 52, 39, null, 35, 23);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (159, '2012-11-13 6:5', null, 16, 14, null, 86, 4);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (160, '2012-12-7 18:46', null, 48, 58, null, 20, 80);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (161, '2012-2-27 7:13', '2013-5-16 3:6', 16, 32, null, 47, 90);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (162, '2012-3-11 22:3', null, 16, 36, null, 33, 97);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (163, '2012-7-10 5:15', null, 44, 55, null, 9, 99);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (164, '2012-7-10 5:36', '2013-5-13 14:20', 61, 15, null, 50, 34);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (165, '2012-8-6 18:51', '2013-3-18 12:0', 35, 14, null, 40, 78);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (166, '2012-2-21 0:51', null, 77, 50, null, 13, 48);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (167, '2012-10-13 7:20', '2013-8-28 7:6', 31, 74, null, 67, 69);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (168, '2012-4-22 9:37', '2013-10-5 23:24', 95, 58, null, 21, 21);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (169, '2012-3-28 18:19', null, 87, 76, null, 73, 52);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (170, '2012-10-9 17:26', '2013-11-12 6:27', 77, 15, null, 28, 62);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (171, '2012-4-18 21:33', '2013-3-18 3:18', 57, 84, null, 3, 53);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (172, '2012-6-6 17:30', null, 28, 92, null, 13, 26);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (173, '2012-4-15 11:28', null, 77, 31, null, 86, 53);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (174, '2012-12-16 13:28', null, 80, 85, null, 16, 69);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (175, '2012-9-28 1:39', null, 62, 80, null, 9, 36);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (176, '2012-6-15 3:22', '2013-8-19 15:41', 49, 31, null, 80, 30);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (177, '2012-4-24 23:47', '2013-5-14 16:2', 31, 80, null, 31, 65);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (178, '2012-10-15 6:4', '2013-5-24 0:57', 94, 14, null, 13, 43);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (179, '2012-5-4 8:45', null, 42, 62, null, 46, 88);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (180, '2012-4-4 20:23', '2013-10-19 1:14', 45, 47, null, 87, 30);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (181, '2012-4-9 21:37', '2013-6-26 9:6', 97, 12, null, 14, 4);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (182, '2012-6-2 20:51', '2013-6-3 18:12', 10, 15, null, 10, 26);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (183, '2012-4-17 1:4', null, 43, 18, null, 56, 100);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (184, '2012-8-7 15:34', null, 77, 14, null, 8, 3);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (185, '2012-6-28 16:12', null, 20, 74, null, 76, 40);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (186, '2012-11-21 9:14', '2013-12-2 6:11', 68, 63, null, 87, 19);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (187, '2012-7-27 4:43', '2013-1-5 1:58', 99, 10, null, 95, 96);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (188, '2012-9-23 2:55', '2013-2-20 18:49', 43, 12, null, 37, 48);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (189, '2012-9-26 17:30', '2013-4-5 22:12', 55, 65, null, 1, 27);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (190, '2012-11-8 18:59', null, 34, 52, null, 41, 42);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (191, '2012-9-12 2:35', null, 40, 98, null, 41, 18);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (192, '2012-12-7 1:36', null, 18, 87, null, 20, 93);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (193, '2012-3-19 22:58', '2013-4-4 18:1', 15, 24, null, 71, 87);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (194, '2012-5-7 9:32', null, 77, 72, null, 35, 44);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (195, '2012-5-27 15:10', '2013-4-10 3:33', 40, 54, null, 92, 61);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (196, '2012-8-19 2:52', '2013-12-23 14:16', 24, 27, null, 46, 10);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (197, '2012-11-22 12:58', null, 68, 74, null, 56, 76);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (198, '2012-7-5 8:22', null, 96, 37, null, 58, 13);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (199, '2012-3-23 19:4', '2013-4-25 1:37', 49, 88, null, 25, 27);
 
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
+INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
 VALUES (200, '2012-10-24 18:24', '2013-12-15 23:1', 12, 50, null, 63, 96);
 
 SELECT setval('cliente_id_seq', 100);
