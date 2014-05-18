@@ -3009,3 +3009,9 @@ VALUES (199, '2012-3-23 19:4', '2013-4-25 1:37', 49, 88, null, 25, 27);
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_encomenda, observacoes, motorista_id, pedido_id)
 VALUES (200, '2012-10-24 18:24', '2013-12-15 23:1', 12, 50, null, 63, 96);
 
+SELECT setval('cliente_id_seq', 100);
+SELECT setval('endereco_id_seq', 400);
+SELECT setval('motorista_id_seq', 100);
+SELECT setval('pedido_id_seq', 100);
+SELECT setval('veiculo_id_seq', 100);
+SELECT setval('viagem_id_seq', 100);
