@@ -1,102 +1,129 @@
-CREATE TABLE endereco (
-	id SERIAL PRIMARY KEY,
-	cep CHAR(10) NOT NULL,
-	estado VARCHAR(2) NOT NULL,
-	cidade VARCHAR(255) NOT NULL,
-	bairro VARCHAR(255) NOT NULL,
-	logradouro VARCHAR(255) NOT NULL,
-	numero VARCHAR(10),
-	pto_referencia VARCHAR(255),
+-- |          Restrições de integridade
+-- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- |   Nº   | Tipo          |       Restrição
+-- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- |   001  | Identidade    | Um Cliente é identificado por seu CNPJ.
+-- |   002  | Identidade    | Cada veículo possui uma placa única.
+-- |   003  | Identidade    | Um motorista é identificado por seu CPF.
+-- |   004  | Identidade    | O RG e a CNH de um motorista devem ser únicos.
+-- |   005  | Identidade    | Um pedido é identificado por pela Data e Hora da requisição e pelo cliente que fez o pedido (TIMESTAMP_REQUISICAO, CLIENTE).
+-- |   006  | Identidade    | Uma viagem é identificada pela sua Data e Hora planejada para seu início e pelo motorista que irá executá-la (TIMESTAMP_INICIO, MOTORISTA).
+-- |   007  | Identidade    | Cada endereço é único, ainda que contenham os mesmos dados. O motivo disso é para que caso de mudança do endereço de uma entidade que tenha o mesmo endereço de uma outra entidade, não seja necessário realizar outro cadastro, mas apenas uma alteração nessa tabela.
+-- |   008  | Referencial   | Cada motorista tem um único veículo de trabalho.
+-- |   009  | Referencial   | Um motorista não precisa necessariamente estar associado a um veículo no momento de seu cadastro.
+-- |   010  | Referencial   | Podem haver mais de um motorista associado a um veículo.
+-- |   011  | Referencial   | Podem haver veículos que ainda não estão associados a qualquer motorista (estão ociosos).
+-- |   012  | Referencial   | Cada Cliente tem um único endereço registrado. Da mesma forma para os Motoristas.
+-- |   013  | Referencial   | Um pedido tem necessariamente associado a ele um endereço de origem e outro de destino.
+-- |   014  | Referencial   | Um pedido tem necessariamente um cliente associado à ele. Caso o cliente não exista, ele deverá ser cadastrado.
+-- |   015  | Referencial   | Para que um pedido seja cumprido, serão necessárias uma ou mais viagens. Logo o pedido está associado a um conjunto de viagens.
+-- |   016  | Referencial   | Porém um pedido não precisa ter nenhuma viagem associada no momento de seu cadastro.
+-- |   017  | Referencial   | Cada viagem está necessariamente associada a um único pedido.
+-- |   018  | Referencial   | Cada viagem será feita por um único motorista, mas um motorista pode cumprir com várias viagens.
+-- |   019  | Domínio       | Um motorista só pode realizar uma viagem se estiver disponível.
+-- |   020  | Domínio       | Um motorista está indisponível se não tiver um veículo associado OU desde o momento em que ele é associado a uma viagem até que essa viagem termine (tenha o campo TIMESTAMP_FIM definido).
+-- |   021  | Domínio       | Um pedido pode estar em um, e somente um, dos quatro estados a seguir: em PROCESSAMENTO (assim que é criado); EM SEPARAÇÃO (quando os funcionários começam a preparar os veículos para a viagem);  ENVIADO (quando todos os veículos partirem); RECEBIDO (quando todos os veículos deixarem a carga no destino).
+-- |   022  | Domínio       | A quantidade de volumes e o peso de um pedido DEVEM ser a soma da quantidade de volumes e do peso de suas respectivas viagens associadas.
+-- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-	CONSTRAINT formato_cep CHECK(cep ~ '^\d{2}\.\d{3}-\d{3}$'),
-	CONSTRAINT formato_estado CHECK(estado ~ '^[A-Z]{2}$'),
-	CONSTRAINT formato_numero CHECK(numero ~ '^([1-9]\d{1,9})|(S/N)$')
+CREATE TABLE ENDERECO (
+    ID SERIAL PRIMARY KEY,
+    CEP CHAR(10) NOT NULL,
+    ESTADO VARCHAR(2) NOT NULL,
+    CIDADE VARCHAR(255) NOT NULL,
+    BAIRRO VARCHAR(255) NOT NULL,
+    LOGRADOURO VARCHAR(255) NOT NULL,
+    NUMERO VARCHAR(10),
+    PTO_REFERENCIA VARCHAR(255),
+
+    CONSTRAINT formato_cep CHECK(cep ~ '^\d{2}\.\d{3}-\d{3}$'),
+    CONSTRAINT formato_estado CHECK(estado ~ '^[A-Z]{2}$'),
+    CONSTRAINT formato_numero CHECK(numero ~ '^([1-9]\d{1,9})|(S/N)$')
 );
 
-CREATE TABLE veiculo (
-	id SERIAL PRIMARY KEY,
-	placa VARCHAR(9) NOT NULL,
-	marca VARCHAR(45) NOT NULL,
-	modelo VARCHAR(45) NOT NULL,
+CREATE TABLE VEICULO (
+    ID SERIAL PRIMARY KEY,
+    PLACA VARCHAR(9) NOT NULL,
+    MARCA VARCHAR(45) NOT NULL,
+    MODELO VARCHAR(45) NOT NULL,
 
-	CONSTRAINT unique_placa UNIQUE(placa),
-	CONSTRAINT formato_placa CHECK(placa ~ '^[A-Z]{3}-\d{4}$')
+    CONSTRAINT unique_placa UNIQUE(placa),
+    CONSTRAINT formato_placa CHECK(placa ~ '^[A-Z]{3}-\d{4}$')
 );
 
-CREATE TABLE motorista (
-	id SERIAL PRIMARY KEY,
-	cpf VARCHAR(14) NOT NULL,
-	nome VARCHAR(255) NOT NULL,
-	cnh VARCHAR(20) NOT NULL,
-	rg VARCHAR(45) NOT NULL,
-	telefone VARCHAR(14),
-	disponivel BOOLEAN NOT NULL,
-	endereco_id INT REFERENCES endereco,
-	veiculo_id INT REFERENCES veiculo,
+CREATE TABLE MOTORISTA (
+    ID SERIAL PRIMARY KEY,
+    CPF VARCHAR(14) NOT NULL,
+    NOME VARCHAR(255) NOT NULL,
+    CNH VARCHAR(20) NOT NULL,
+    RG VARCHAR(45) NOT NULL,
+    TELEFONE VARCHAR(14),
+    DISPONIVEL BOOLEAN NOT NULL,
+    ENDERECO_ID INT REFERENCES endereco,
+    VEICULO_ID INT REFERENCES veiculo,
 
-	CONSTRAINT unique_cpf UNIQUE(cpf),
-	CONSTRAINT unique_rg UNIQUE(rg),
-	CONSTRAINT unique_motorista_endereco_id UNIQUE(endereco_id),
-	CONSTRAINT unique_veiculo_id UNIQUE(veiculo_id),
+    CONSTRAINT unique_cpf UNIQUE(cpf),
+    CONSTRAINT unique_rg UNIQUE(rg),
+    CONSTRAINT unique_motorista_endereco_id UNIQUE(endereco_id),
 
-	CONSTRAINT formato_cpf CHECK(cpf ~ '^\d{3}\.\d{3}\.\d{3}-\d{2}$'),
-	CONSTRAINT formato_telefone CHECK(telefone ~ '^\(\d{2}\)(\d)?\d{4}-\d{4}$')
+    CONSTRAINT formato_cpf CHECK(cpf ~ '^\d{3}\.\d{3}\.\d{3}-\d{2}$'),
+    CONSTRAINT formato_telefone CHECK(telefone ~ '^\(\d{2}\)(\d)?\d{4}-\d{4}$')
 );
 
-CREATE TABLE cliente (
-	id SERIAL PRIMARY KEY,
-	cnpj VARCHAR(18) NOT NULL UNIQUE,
-	nome VARCHAR(255) NOT NULL,
-	telefone VARCHAR(14),
-	endereco_id INT REFERENCES endereco,
+CREATE TABLE CLIENTE (
+    ID SERIAL PRIMARY KEY,
+    CNPJ VARCHAR(18) NOT NULL UNIQUE,
+    NOME VARCHAR(255) NOT NULL,
+    TELEFONE VARCHAR(14),
+    ENDERECO_ID INT REFERENCES endereco,
 
-	CONSTRAINT unique_cnpj UNIQUE(cnpj),
-	CONSTRAINT unique_cliente_endereco_id UNIQUE(endereco_id),
-	
-	CONSTRAINT formato_cnpj CHECK(cnpj ~ '^\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}$'),
-	CONSTRAINT formato_telefone CHECK(telefone ~ '^\(\d{2}\)(\d)?\d{4}-\d{4}$')
+    CONSTRAINT unique_cnpj UNIQUE(cnpj),
+    CONSTRAINT unique_cliente_endereco_id UNIQUE(endereco_id),
+    
+    CONSTRAINT formato_cnpj CHECK(cnpj ~ '^\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}$'),
+    CONSTRAINT formato_telefone CHECK(telefone ~ '^\(\d{2}\)(\d)?\d{4}-\d{4}$')
 );
 
-CREATE TABLE pedido (
-	id SERIAL PRIMARY KEY,
-	timestamp_requisicao TIMESTAMP NOT NULL,
-	produto VARCHAR(255) NOT NULL,
-	qtd_volumes INT,
-	peso_encomenda INT,
-	distancia INT,
-	preco_frete DECIMAL(10,2),
-	observacoes VARCHAR(255),
-	status VARCHAR(20) NOT NULL,
-	cliente_id INT REFERENCES cliente,
-	endereco_origem INT REFERENCES endereco,
-	endereco_detino INT REFERENCES endereco,
+CREATE TABLE PEDIDO (
+    ID SERIAL PRIMARY KEY,
+    TIMESTAMP_REQUISICAO TIMESTAMP NOT NULL,
+    PRODUTO VARCHAR(255) NOT NULL,
+    QTD_VOLUMES INT,
+    PESO_ENCOMENDA INT,
+    DISTANCIA INT,
+    PRECO_FRETE DECIMAL(10,2),
+    OBSERVACOES VARCHAR(255),
+    STATUS VARCHAR(20) NOT NULL,
+    CLIENTE_ID INT REFERENCES cliente,
+    ENDERECO_ORIGEM INT REFERENCES endereco,
+    ENDERECO_DETINO INT REFERENCES endereco,
 
-	CONSTRAINT uniques_cliente UNIQUE(timestamp_requisicao, cliente_id),
+    CONSTRAINT uniques_cliente UNIQUE(timestamp_requisicao, cliente_id),
 
-	CONSTRAINT enum_status
-	CHECK (status LIKE 'EM_PROCESSAMENTO'
-		OR status LIKE 'EM_SEPARACAO'
-		OR status LIKE 'ENVIADO'
-		OR status LIKE 'RECEBIDO'
-		)
+    CONSTRAINT enum_status
+    CHECK (status LIKE 'EM_PROCESSAMENTO'
+        OR status LIKE 'EM_SEPARACAO'
+        OR status LIKE 'ENVIADO'
+        OR status LIKE 'RECEBIDO'
+        )
 
-	/**
-	 * TODO:
-	 * Campos QTD_VOLUMES E PESO_ENCOMENDA
-	 * são a soma desses atributos de todas as
-	 * viagens associadas ao PEDIDO.
-	 */
+    /**
+     * TODO:
+     * Campos QTD_VOLUMES E PESO_ENCOMENDA
+     * são a soma desses atributos de todas as
+     * viagens associadas ao PEDIDO.
+     */
 );
 
-CREATE TABLE viagem (
-	id SERIAL PRIMARY KEY,
-	qtd_volumes INT NOT NULL,
-	peso_encomenda INT NOT NULL,
-	timestamp_inicio TIMESTAMP,
-	timestamp_fim TIMESTAMP,
-	observacoes VARCHAR(255),
-	motorista_id INT REFERENCES motorista,
-	pedido_id INT REFERENCES pedido,
+CREATE TABLE VIAGEM (
+    ID SERIAL PRIMARY KEY,
+    QTD_VOLUMES INT NOT NULL,
+    PESO_ENCOMENDA INT NOT NULL,
+    TIMESTAMP_INICIO TIMESTAMP,
+    TIMESTAMP_FIM TIMESTAMP,
+    OBSERVACOES VARCHAR(255),
+    MOTORISTA_ID INT REFERENCES motorista,
+    PEDIDO_ID INT REFERENCES pedido,
 
-	CONSTRAINT uniques_viagem UNIQUE(timestamp_inicio, motorista_id)
+    CONSTRAINT uniques_viagem UNIQUE(timestamp_inicio, motorista_id)
 );
