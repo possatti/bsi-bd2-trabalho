@@ -1503,305 +1503,305 @@ VALUES (400, '57.522-309', 'MA', 'Ibirubá', 'Frutas do Cerrado', 'Rua 23', '26'
 
 -- Popula a tabela Motorista.
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (1, '418.233.499-65', 'Rashad Romer', '60601537352', '8283217', '(62)3848-2245', true, 1, 1);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (1, '418.233.499-65', 'Rashad Romer', '60601537352', '8283217', '(62)3848-2245', 1, 1);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (2, '102.234.115-43', 'Teresa Tant', '82501544935', '1263223', '(23)3067-8984', true, 2, 2);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (2, '102.234.115-43', 'Teresa Tant', '82501544935', '1263223', '(23)3067-8984', 2, 2);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (3, '303.235.659-81', 'Kyoko Korn', '50861554992', '3643235', '(12)3022-3620', true, 3, 3);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (3, '303.235.659-81', 'Kyoko Korn', '50861554992', '3643235', '(12)3022-3620', 3, 3);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (4, '501.236.585-65', 'Latonya Leaman', '54441569481', '5333244', '(39)3482-7924', true, 4, 4);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (4, '501.236.585-65', 'Latonya Leaman', '54441569481', '5333244', '(39)3482-7924', 4, 4);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (5, '080.237.020-16', 'Luigi Lamay', '92131570617', '5863251', '(52)3735-8938', false, 5, 5);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (5, '080.237.020-16', 'Luigi Lamay', '92131570617', '5863251', '(52)3735-8938', 5, 5);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (6, '574.238.476-55', 'Suzanne Scola', '40961581504', '9963268', '(34)3430-4695', false, 6, 6);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (6, '574.238.476-55', 'Suzanne Scola', '40961581504', '9963268', '(34)3430-4695', 6, 6);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (7, '110.239.129-12', 'Tabitha Tunnell', '66541595601', '8763271', '(83)3112-3860', false, 7, 7);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (7, '110.239.129-12', 'Tabitha Tunnell', '66541595601', '8763271', '(83)3112-3860', 7, 7);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (8, '716.240.484-53', 'Lonny Lacasse', '61701606895', '1263288', '(27)3125-4236', false, 8, 8);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (8, '716.240.484-53', 'Lonny Lacasse', '61701606895', '1263288', '(27)3125-4236', 8, 8);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (9, '777.241.168-67', 'Tangela Trowbridge', '93981614116', '7793295', '(46)3708-2679', false, 9, 9);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (9, '777.241.168-67', 'Tangela Trowbridge', '93981614116', '7793295', '(46)3708-2679', 9, 9);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (10, '903.242.578-84', 'Theressa Tarkington', '16561625961', '2853309', '(14)3670-3558', false, 10, 10);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (10, '903.242.578-84', 'Theressa Tarkington', '16561625961', '2853309', '(14)3670-3558', 10, 10);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (11, '469.243.672-04', 'Bettye Beaubien', '90771630176', '2513316', '(73)3142-7876', true, 11, 11);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (11, '469.243.672-04', 'Bettye Beaubien', '90771630176', '2513316', '(73)3142-7876', 11, 11);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (12, '740.244.689-23', 'Sung Southall', '36181648102', '9203324', '(95)3917-8881', true, 12, 12);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (12, '740.244.689-23', 'Sung Southall', '36181648102', '9203324', '(95)3917-8881', 12, 12);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (13, '677.245.304-07', 'Leighann Logan', '83171651917', '6853330', '(45)3078-9141', false, 13, 13);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (13, '677.245.304-07', 'Leighann Logan', '83171651917', '6853330', '(45)3078-9141', 13, 13);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (14, '645.246.177-56', 'Avery Almanzar', '38691669027', '6953347', '(28)3283-7106', false, 14, 14);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (14, '645.246.177-56', 'Avery Almanzar', '38691669027', '6953347', '(28)3283-7106', 14, 14);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (15, '714.247.340-05', 'Horace Huber', '27291672093', '8143351', '(42)3573-5690', false, 15, 15);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (15, '714.247.340-05', 'Horace Huber', '27291672093', '8143351', '(42)3573-5690', 15, 15);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (16, '662.248.424-36', 'Candace Calderone', '42671687348', '4123363', '(27)3435-2885', false, 16, 16);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (16, '662.248.424-36', 'Candace Calderone', '42671687348', '4123363', '(27)3435-2885', 16, 16);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (17, '789.249.695-71', 'Selma Siegler', '87891694105', '5153377', '(83)3696-4535', false, 17, 17);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (17, '789.249.695-71', 'Selma Siegler', '87891694105', '5153377', '(83)3696-4535', 17, 17);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (18, '594.250.706-15', 'Ok Oyler', '26001706770', '0233380', '(48)3848-5284', false, 18, 18);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (18, '594.250.706-15', 'Ok Oyler', '26001706770', '0233380', '(48)3848-5284', 18, 18);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (19, '908.251.325-21', 'Rex Raynes', '74321715842', '3433390', '(24)3803-3900', false, 19, 19);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (19, '908.251.325-21', 'Rex Raynes', '74321715842', '3433390', '(24)3803-3900', 19, 19);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (20, '401.252.814-34', 'Mariela Mccorkle', '17271724536', '0003406', '(54)3082-3087', true, 20, 20);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (20, '401.252.814-34', 'Mariela Mccorkle', '17271724536', '0003406', '(54)3082-3087', 20, 20);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (21, '517.253.013-47', 'Andres Auman', '10651738416', '9173415', '(54)3980-3222', true, 21, 21);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (21, '517.253.013-47', 'Andres Auman', '10651738416', '9173415', '(54)3980-3222', 21, 21);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (22, '259.254.139-47', 'Vera Vannote', '63701745160', '4373426', '(26)3408-9191', true, 22, 22);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (22, '259.254.139-47', 'Vera Vannote', '63701745160', '4373426', '(26)3408-9191', 22, 22);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (23, '218.255.885-30', 'Cristine Condie', '75651755311', '2033433', '(64)3547-7938', true, 23, 23);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (23, '218.255.885-30', 'Cristine Condie', '75651755311', '2033433', '(64)3547-7938', 23, 23);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (24, '051.256.564-54', 'Andree Audet', '11611766086', '3113445', '(22)3346-4675', false, 24, 24);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (24, '051.256.564-54', 'Andree Audet', '11611766086', '3113445', '(22)3346-4675', 24, 24);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (25, '409.257.831-52', 'Samual Sparacino', '32051777899', '3123455', '(76)3137-7629', false, 25, 25);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (25, '409.257.831-52', 'Samual Sparacino', '32051777899', '3123455', '(76)3137-7629', 25, 25);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (26, '464.258.189-85', 'Rosalba Riehl', '91141788326', '8593462', '(96)3156-7137', false, 26, 26);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (26, '464.258.189-85', 'Rosalba Riehl', '91141788326', '8593462', '(96)3156-7137', 26, 26);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (27, '304.259.034-16', 'Blair Becerra', '87601791828', '6253470', '(87)3308-2302', true, 27, 27);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (27, '304.259.034-16', 'Blair Becerra', '87601791828', '6253470', '(87)3308-2302', 27, 27);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (28, '247.260.675-55', 'Ilene Iman', '19181805887', '8793484', '(96)3194-5266', false, 28, 28);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (28, '247.260.675-55', 'Ilene Iman', '19181805887', '8793484', '(96)3194-5266', 28, 28);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (29, '412.261.659-19', 'Sherley Stuber', '13151812040', '9523494', '(65)3198-7532', false, 29, 29);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (29, '412.261.659-19', 'Sherley Stuber', '13151812040', '9523494', '(65)3198-7532', 29, 29);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (30, '360.262.613-03', 'Leslee Lafler', '38461820059', '0933500', '(89)3892-9098', false, 30, 30);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (30, '360.262.613-03', 'Leslee Lafler', '38461820059', '0933500', '(89)3892-9098', 30, 30);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (31, '438.263.737-96', 'Lavonne Leverette', '48411831216', '6573512', '(19)3733-1171', true, 31, 31);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (31, '438.263.737-96', 'Lavonne Leverette', '48411831216', '6573512', '(19)3733-1171', 31, 31);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (32, '691.264.377-79', 'Chantal Chubb', '73941848390', '9463521', '(94)3240-8753', true, 32, 32);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (32, '691.264.377-79', 'Chantal Chubb', '73941848390', '9463521', '(94)3240-8753', 32, 32);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (33, '971.265.544-34', 'Ozie Ottley', '23221857364', '1813532', '(31)3485-8884', true, 33, 33);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (33, '971.265.544-34', 'Ozie Ottley', '23221857364', '1813532', '(31)3485-8884', 33, 33);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (34, '645.266.554-74', 'Judie Jaycox', '07691865179', '6963540', '(14)3663-6193', false, 34, 34);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (34, '645.266.554-74', 'Judie Jaycox', '07691865179', '6963540', '(14)3663-6193', 34, 34);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (35, '350.267.036-46', 'Faye Fluellen', '08271875603', '1283554', '(15)3521-2023', false, 35, 35);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (35, '350.267.036-46', 'Faye Fluellen', '08271875603', '1283554', '(15)3521-2023', 35, 35);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (36, '741.268.636-04', 'Shakia Snelson', '31601885934', '0293567', '(96)3146-1526', true, 36, 36);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (36, '741.268.636-04', 'Shakia Snelson', '31601885934', '0293567', '(96)3146-1526', 36, 36);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (37, '769.269.178-49', 'Louisa Lathan', '09661899305', '7303572', '(64)3821-3864', false, 37, 37);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (37, '769.269.178-49', 'Louisa Lathan', '09661899305', '7303572', '(64)3821-3864', 37, 37);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (38, '361.270.363-00', 'Dexter Dana', '43511905450', '5843587', '(99)3234-1722', true, 38, 38);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (38, '361.270.363-00', 'Dexter Dana', '43511905450', '5843587', '(99)3234-1722', 38, 38);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (39, '487.271.710-65', 'Ray Ridder', '80511915042', '0473596', '(86)3930-3820', false, 39, 39);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (39, '487.271.710-65', 'Ray Ridder', '80511915042', '0473596', '(86)3930-3820', 39, 39);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (40, '589.272.855-30', 'Kenny Kosak', '77231926318', '0113604', '(29)3985-4408', false, 40, 40);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (40, '589.272.855-30', 'Kenny Kosak', '77231926318', '0113604', '(29)3985-4408', 40, 40);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (41, '107.273.484-70', 'Eliz Elie', '16151935752', '6713614', '(64)3319-6354', false, 41, 41);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (41, '107.273.484-70', 'Eliz Elie', '16151935752', '6713614', '(64)3319-6354', 41, 41);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (42, '154.274.827-86', 'Nichole Newingham', '54201946356', '5793628', '(54)3418-2532', false, 42, 42);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (42, '154.274.827-86', 'Nichole Newingham', '54201946356', '5793628', '(54)3418-2532', 42, 42);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (43, '835.275.875-24', 'Saul Soto', '69001958812', '4753633', '(61)3212-5100', false, 43, 43);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (43, '835.275.875-24', 'Saul Soto', '69001958812', '4753633', '(61)3212-5100', 43, 43);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (44, '926.276.543-19', 'Julissa Jone', '74861967240', '4673640', '(16)3511-6858', true, 44, 44);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (44, '926.276.543-19', 'Julissa Jone', '74861967240', '4673640', '(16)3511-6858', 44, 44);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (45, '231.277.503-19', 'Abram Applin', '67671970727', '5573652', '(37)3831-6654', true, 45, 45);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (45, '231.277.503-19', 'Abram Applin', '67671970727', '5573652', '(37)3831-6654', 45, 45);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (46, '970.278.395-62', 'Rosenda Rossman', '54461984898', '4453666', '(39)3655-4190', false, 46, 46);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (46, '970.278.395-62', 'Rosenda Rossman', '54461984898', '4453666', '(39)3655-4190', 46, 46);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (47, '361.279.253-31', 'Nidia Nembhard', '94941994969', '4373679', '(16)3541-3173', false, 47, 47);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (47, '361.279.253-31', 'Nidia Nembhard', '94941994969', '4373679', '(16)3541-3173', 47, 47);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (48, '617.280.162-63', 'Patty Preece', '97432007081', '2623688', '(37)3468-8631', true, 48, 48);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (48, '617.280.162-63', 'Patty Preece', '97432007081', '2623688', '(37)3468-8631', 48, 48);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (49, '928.281.587-97', 'Berenice Butt', '53602011522', '9853696', '(77)3610-9232', true, 49, 49);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (49, '928.281.587-97', 'Berenice Butt', '53602011522', '9853696', '(77)3610-9232', 49, 49);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (50, '840.282.971-53', 'Ashlee Andreas', '97392026728', '3333701', '(18)3740-3385', true, 50, 50);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (50, '840.282.971-53', 'Ashlee Andreas', '97392026728', '3333701', '(18)3740-3385', 50, 50);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (51, '322.283.228-72', 'Marisela Morrow', '41072037710', '0913718', '(71)3179-5230', true, 51, 51);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (51, '322.283.228-72', 'Marisela Morrow', '41072037710', '0913718', '(71)3179-5230', 51, 51);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (52, '845.284.234-91', 'Katheleen Kenan', '51462042532', '0013721', '(19)3629-6526', false, 52, 52);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (52, '845.284.234-91', 'Katheleen Kenan', '51462042532', '0013721', '(19)3629-6526', 52, 52);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (53, '314.285.731-12', 'Scarlett Schiavo', '49662054760', '6693735', '(66)3574-0546', false, 53, 53);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (53, '314.285.731-12', 'Scarlett Schiavo', '49662054760', '6693735', '(66)3574-0546', 53, 53);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (54, '916.286.359-79', 'Collin Cuneo', '86272061593', '0753741', '(79)3986-9833', true, 54, 54);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (54, '916.286.359-79', 'Collin Cuneo', '86272061593', '0753741', '(79)3986-9833', 54, 54);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (55, '676.287.477-58', 'Sharika Severs', '76422078959', '8643759', '(16)3674-5961', false, 55, 55);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (55, '676.287.477-58', 'Sharika Severs', '76422078959', '8643759', '(16)3674-5961', 55, 55);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (56, '144.288.247-32', 'Ardelle Arrieta', '61332087667', '2493766', '(96)3960-1496', true, 56, 56);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (56, '144.288.247-32', 'Ardelle Arrieta', '61332087667', '2493766', '(96)3960-1496', 56, 56);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (57, '089.289.862-40', 'Gaynelle Geraghty', '50712097910', '2633775', '(55)3471-3981', true, 57, 57);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (57, '089.289.862-40', 'Gaynelle Geraghty', '50712097910', '2633775', '(55)3471-3981', 57, 57);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (58, '075.290.758-65', 'Noemi Nuzzo', '27472107419', '3293785', '(77)3618-7473', false, 58, 58);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (58, '075.290.758-65', 'Noemi Nuzzo', '27472107419', '3293785', '(77)3618-7473', 58, 58);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (59, '184.291.702-98', 'Willis Wilkens', '13042111374', '2943790', '(85)3466-1952', true, 59, 59);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (59, '184.291.702-98', 'Willis Wilkens', '13042111374', '2943790', '(85)3466-1952', 59, 59);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (60, '864.292.032-69', 'Nisha Neilson', '51862128049', '1943804', '(42)3719-3084', false, 60, 60);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (60, '864.292.032-69', 'Nisha Neilson', '51862128049', '1943804', '(42)3719-3084', 60, 60);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (61, '153.293.895-39', 'Trula Toomey', '24302136138', '8713810', '(24)3792-4569', false, 61, 61);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (61, '153.293.895-39', 'Trula Toomey', '24302136138', '8713810', '(24)3792-4569', 61, 61);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (62, '960.294.163-89', 'Jonie Johnstone', '62912148122', '7833822', '(58)3200-2708', false, 62, 62);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (62, '960.294.163-89', 'Jonie Johnstone', '62912148122', '7833822', '(58)3200-2708', 62, 62);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (63, '859.295.575-12', 'Tod Traughber', '44882150282', '3543830', '(64)3765-2954', true, 63, 63);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (63, '859.295.575-12', 'Tod Traughber', '44882150282', '3543830', '(64)3765-2954', 63, 63);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (64, '814.296.558-27', 'Nidia Null', '65912167983', '8093848', '(42)3919-8648', false, 64, 64);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (64, '814.296.558-27', 'Nidia Null', '65912167983', '8093848', '(42)3919-8648', 64, 64);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (65, '511.297.988-73', 'Mamie Mccumber', '97312172611', '8333857', '(36)3747-2314', true, 65, 65);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (65, '511.297.988-73', 'Mamie Mccumber', '97312172611', '8333857', '(36)3747-2314', 65, 65);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (66, '875.298.460-62', 'Becky Babcock', '09262183898', '8163860', '(23)3304-7896', false, 66, 66);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (66, '875.298.460-62', 'Becky Babcock', '09262183898', '8163860', '(23)3304-7896', 66, 66);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (67, '037.299.256-09', 'Yvone Yaple', '04712193777', '5483871', '(14)3775-1649', true, 67, 67);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (67, '037.299.256-09', 'Yvone Yaple', '04712193777', '5483871', '(14)3775-1649', 67, 67);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (68, '031.300.359-33', 'Bee Breck', '58392202933', '6453888', '(51)3310-3827', true, 68, 68);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (68, '031.300.359-33', 'Bee Breck', '58392202933', '6453888', '(51)3310-3827', 68, 68);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (69, '206.301.867-34', 'Ara Alves', '93292214195', '7723898', '(47)3031-7142', true, 69, 69);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (69, '206.301.867-34', 'Ara Alves', '93292214195', '7723898', '(47)3031-7142', 69, 69);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (70, '734.302.755-74', 'May Mongillo', '29822225017', '1943900', '(62)3652-8359', true, 70, 70);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (70, '734.302.755-74', 'May Mongillo', '29822225017', '1943900', '(62)3652-8359', 70, 70);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (71, '631.303.994-92', 'Angel Altizer', '49322239537', '1823912', '(26)3000-2858', false, 71, 71);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (71, '631.303.994-92', 'Angel Altizer', '49322239537', '1823912', '(26)3000-2858', 71, 71);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (72, '423.304.732-00', 'Bo Bledsoe', '64372241112', '4803921', '(65)3261-1225', true, 72, 72);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (72, '423.304.732-00', 'Bo Bledsoe', '64372241112', '4803921', '(65)3261-1225', 72, 72);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (73, '163.305.999-95', 'Andre Avis', '90152253472', '9223934', '(41)3610-3776', true, 73, 73);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (73, '163.305.999-95', 'Andre Avis', '90152253472', '9223934', '(41)3610-3776', 73, 73);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (74, '161.306.899-00', 'Lanny Lennon', '03322260604', '4363944', '(81)3670-3232', true, 74, 74);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (74, '161.306.899-00', 'Lanny Lennon', '03322260604', '4363944', '(81)3670-3232', 74, 74);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (75, '659.307.267-21', 'Carla Cogdill', '31852272720', '9343954', '(66)3465-0708', true, 75, 75);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (75, '659.307.267-21', 'Carla Cogdill', '31852272720', '9343954', '(66)3465-0708', 75, 75);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (76, '552.308.322-80', 'Donna Dobbin', '35022284865', '2753968', '(63)3558-2334', false, 76, 76);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (76, '552.308.322-80', 'Donna Dobbin', '35022284865', '2753968', '(63)3558-2334', 76, 76);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (77, '962.309.372-71', 'Troy Turman', '90922293624', '7683979', '(27)3355-2905', false, 77, 77);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (77, '962.309.372-71', 'Troy Turman', '90922293624', '7683979', '(27)3355-2905', 77, 77);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (78, '125.310.893-01', 'Mozella Mcneil', '50552301405', '1983987', '(29)3124-0938', false, 78, 78);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (78, '125.310.893-01', 'Mozella Mcneil', '50552301405', '1983987', '(29)3124-0938', 78, 78);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (79, '306.311.784-07', 'Jennell Jarrett', '74022314656', '3243998', '(76)3794-9319', true, 79, 79);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (79, '306.311.784-07', 'Jennell Jarrett', '74022314656', '3243998', '(76)3794-9319', 79, 79);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (80, '474.312.949-09', 'Tasha Tu', '69262326043', '2894002', '(49)3252-4685', true, 80, 80);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (80, '474.312.949-09', 'Tasha Tu', '69262326043', '2894002', '(49)3252-4685', 80, 80);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (81, '346.313.537-79', 'Reena Releford', '89962330673', '6454010', '(96)3290-8217', false, 81, 81);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (81, '346.313.537-79', 'Reena Releford', '89962330673', '6454010', '(96)3290-8217', 81, 81);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (82, '410.314.258-56', 'Carin Crabill', '64012342176', '1004025', '(95)3489-9071', true, 82, 82);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (82, '410.314.258-56', 'Carin Crabill', '64012342176', '1004025', '(95)3489-9071', 82, 82);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (83, '361.315.158-58', 'Ernestine Eberhardt', '67422359261', '4674037', '(26)3429-9342', false, 83, 83);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (83, '361.315.158-58', 'Ernestine Eberhardt', '67422359261', '4674037', '(26)3429-9342', 83, 83);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (84, '096.316.536-43', 'Berenice Benshoof', '85832364053', '8384045', '(88)3118-2249', true, 84, 84);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (84, '096.316.536-43', 'Berenice Benshoof', '85832364053', '8384045', '(88)3118-2249', 84, 84);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (85, '603.317.131-07', 'Sharleen Spengler', '23682379328', '6804058', '(64)3429-8181', false, 85, 85);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (85, '603.317.131-07', 'Sharleen Spengler', '23682379328', '6804058', '(64)3429-8181', 85, 85);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (86, '394.318.984-71', 'Ruth Routt', '71522387369', '4184068', '(48)3978-6694', false, 86, 86);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (86, '394.318.984-71', 'Ruth Routt', '71522387369', '4184068', '(48)3978-6694', 86, 86);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (87, '932.319.593-00', 'Marivel Mangum', '95982396106', '5654070', '(87)3939-3948', false, 87, 87);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (87, '932.319.593-00', 'Marivel Mangum', '95982396106', '5654070', '(87)3939-3948', 87, 87);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (88, '814.320.128-32', 'Bobby Burchard', '00012407188', '4394081', '(75)3472-8038', true, 88, 88);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (88, '814.320.128-32', 'Bobby Burchard', '00012407188', '4394081', '(75)3472-8038', 88, 88);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (89, '361.321.614-73', 'Candance Ceniceros', '96952415874', '3834099', '(92)3146-0431', true, 89, 89);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (89, '361.321.614-73', 'Candance Ceniceros', '96952415874', '3834099', '(92)3146-0431', 89, 89);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (90, '319.322.733-53', 'Jamee Jaillet', '17842429668', '0014100', '(65)3474-8239', false, 90, 90);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (90, '319.322.733-53', 'Jamee Jaillet', '17842429668', '0014100', '(65)3474-8239', 90, 90);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (91, '220.323.247-87', 'Anh Arens', '09222437110', '4804114', '(93)3060-5010', false, 91, 91);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (91, '220.323.247-87', 'Anh Arens', '09222437110', '4804114', '(93)3060-5010', 91, 91);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (92, '706.324.483-00', 'Arvilla Amore', '28952445516', '4644123', '(14)3282-0942', false, 92, 92);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (92, '706.324.483-00', 'Arvilla Amore', '28952445516', '4644123', '(14)3282-0942', 92, 92);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (93, '520.325.579-38', 'Sierra Suess', '45642455702', '7904134', '(62)3580-4036', true, 93, 93);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (93, '520.325.579-38', 'Sierra Suess', '45642455702', '7904134', '(62)3580-4036', 93, 93);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (94, '134.326.344-72', 'Arthur Armagost', '68332464971', '6294140', '(28)3868-0265', true, 94, 94);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (94, '134.326.344-72', 'Arthur Armagost', '68332464971', '6294140', '(28)3868-0265', 94, 94);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (95, '073.327.028-93', 'Cami Chaplin', '31002477980', '6224150', '(55)3002-0907', true, 95, 95);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (95, '073.327.028-93', 'Cami Chaplin', '31002477980', '6224150', '(55)3002-0907', 95, 95);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (96, '838.328.447-17', 'Joi Jarrell', '57912486838', '7954169', '(32)3763-5216', false, 96, 96);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (96, '838.328.447-17', 'Joi Jarrell', '57912486838', '7954169', '(32)3763-5216', 96, 96);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (97, '628.329.763-35', 'Claudie Curtsinger', '22112498289', '9534172', '(87)3817-7433', true, 97, 97);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (97, '628.329.763-35', 'Claudie Curtsinger', '22112498289', '9534172', '(87)3817-7433', 97, 97);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (98, '273.330.973-64', 'Luisa Leinen', '83372506645', '0504185', '(78)3142-2360', false, 98, 98);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (98, '273.330.973-64', 'Luisa Leinen', '83372506645', '0504185', '(78)3142-2360', 98, 98);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (99, '869.331.507-76', 'Kendra Kitzman', '32842511369', '3104198', '(36)3123-7313', false, 99, 99);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (99, '869.331.507-76', 'Kendra Kitzman', '32842511369', '3104198', '(36)3123-7313', 99, 99);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, disponivel, endereco_id, veiculo_id)
-VALUES (100, '211.332.620-01', 'Lucille Lirette', '41312526069', '3884200', '(18)3237-6444', false, 100, 100);
+INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
+VALUES (100, '211.332.620-01', 'Lucille Lirette', '41312526069', '3884200', '(18)3237-6444', 100, 100);
 
 -- Popula a tabela Cliente.
 
@@ -2410,608 +2410,308 @@ VALUES (100, '2011-12-3 8:49', 'Lápis', '471', '356.45', null, 'EM_PROCESSAMENT
 -- Popula a tabela Viagem.
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (1, '2012-9-15 5:17', '2013-1-8 1:26', 71, 49, null, 30, 53);
+VALUES (1, '2012-9-15 5:17', '2013-1-8 1:26', 71, 49, null, 1, 53);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (2, '2012-4-4 9:23', '2013-4-5 13:18', 81, 36, null, 97, 44);
+VALUES (2, '2012-4-4 9:23', '2013-4-5 13:18', 81, 36, null, 2, 44);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (3, '2012-9-26 17:7', '2013-1-3 4:49', 82, 92, null, 49, 42);
+VALUES (3, '2012-9-26 17:7', '2013-1-3 4:49', 82, 92, null, 3, 42);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (4, '2012-4-13 16:46', null, 50, 39, null, 13, 12);
+VALUES (4, '2012-4-13 16:46', null, 50, 39, null, 4, 12);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (5, '2012-4-7 8:5', '2013-6-3 8:32', 74, 91, null, 89, 84);
+VALUES (5, '2012-4-7 8:5', '2013-6-3 8:32', 74, 91, null, 5, 84);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (6, '2012-7-5 16:29', null, 68, 49, null, 89, 82);
+VALUES (6, '2012-7-5 16:29', null, 68, 49, null, 6, 82);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (7, '2012-2-4 16:23', null, 14, 14, null, 68, 43);
+VALUES (7, '2012-2-4 16:23', null, 14, 14, null, 7, 43);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (8, '2012-9-4 23:23', null, 29, 70, null, 39, 16);
+VALUES (8, '2012-9-4 23:23', null, 29, 70, null, 8, 16);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (9, '2012-2-4 3:3', '2013-9-18 0:16', 18, 19, null, 14, 62);
+VALUES (9, '2012-2-4 3:3', '2013-9-18 0:16', 18, 19, null, 9, 62);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (10, '2012-10-28 4:33', null, 38, 60, null, 85, 73);
+VALUES (10, '2012-10-28 4:33', null, 38, 60, null, 10, 73);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (11, '2012-5-5 3:41', null, 83, 27, null, 96, 55);
+VALUES (11, '2012-5-5 3:41', null, 83, 27, null, 11, 55);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (12, '2012-10-14 2:20', '2013-7-15 12:27', 83, 96, null, 42, 53);
+VALUES (12, '2012-10-14 2:20', '2013-7-15 12:27', 83, 96, null, 12, 53);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (13, '2012-9-4 3:10', '2013-4-24 18:26', 58, 80, null, 21, 61);
+VALUES (13, '2012-9-4 3:10', '2013-4-24 18:26', 58, 80, null, 13, 61);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (14, '2012-3-16 4:22', null, 47, 42, null, 64, 39);
+VALUES (14, '2012-3-16 4:22', null, 47, 42, null, 14, 39);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (15, '2012-3-23 5:50', null, 45, 78, null, 47, 95);
+VALUES (15, '2012-3-23 5:50', null, 45, 78, null, 15, 95);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (16, '2012-4-23 15:27', '2013-4-23 11:22', 72, 78, null, 61, 16);
+VALUES (16, '2012-4-23 15:27', '2013-4-23 11:22', 72, 78, null, 16, 16);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (17, '2012-1-8 15:17', null, 20, 30, null, 1, 70);
+VALUES (17, '2012-1-8 15:17', null, 20, 30, null, 17, 70);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (18, '2012-6-10 8:42', null, 54, 32, null, 48, 39);
+VALUES (18, '2012-6-10 8:42', null, 54, 32, null, 18, 39);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (19, '2012-11-27 3:21', null, 16, 27, null, 49, 40);
+VALUES (19, '2012-11-27 3:21', null, 16, 27, null, 19, 40);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (20, '2012-3-3 0:30', null, 15, 51, null, 41, 65);
+VALUES (20, '2012-3-3 0:30', null, 15, 51, null, 20, 65);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (21, '2012-4-27 23:40', '2013-8-25 3:2', 86, 65, null, 38, 66);
+VALUES (21, '2012-4-27 23:40', '2013-8-25 3:2', 86, 65, null, 21, 66);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (22, '2012-5-11 1:40', '2013-3-4 0:36', 26, 44, null, 78, 79);
+VALUES (22, '2012-5-11 1:40', '2013-3-4 0:36', 26, 44, null, 22, 79);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (23, '2012-9-1 15:34', '2013-9-19 14:49', 11, 30, null, 74, 64);
+VALUES (23, '2012-9-1 15:34', '2013-9-19 14:49', 11, 30, null, 23, 64);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (24, '2012-2-26 2:29', null, 96, 80, null, 84, 7);
+VALUES (24, '2012-2-26 2:29', null, 96, 80, null, 24, 7);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (25, '2012-3-1 17:36', null, 57, 22, null, 35, 57);
+VALUES (25, '2012-3-1 17:36', null, 57, 22, null, 25, 57);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (26, '2012-7-11 6:13', null, 94, 18, null, 34, 81);
+VALUES (26, '2012-7-11 6:13', null, 94, 18, null, 26, 81);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (27, '2012-5-17 0:58', null, 80, 10, null, 52, 61);
+VALUES (27, '2012-5-17 0:58', null, 80, 10, null, 27, 61);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (28, '2012-12-10 0:54', null, 19, 18, null, 51, 47);
+VALUES (28, '2012-12-10 0:54', null, 19, 18, null, 28, 47);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (29, '2012-5-1 13:43', '2013-5-17 5:3', 33, 49, null, 85, 51);
+VALUES (29, '2012-5-1 13:43', '2013-5-17 5:3', 33, 49, null, 29, 51);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (30, '2012-12-15 22:4', null, 97, 24, null, 57, 39);
+VALUES (30, '2012-12-15 22:4', null, 97, 24, null, 30, 39);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (31, '2012-12-8 1:57', '2013-11-15 13:0', 92, 27, null, 10, 85);
+VALUES (31, '2012-12-8 1:57', '2013-11-15 13:0', 92, 27, null, 31, 85);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (32, '2012-1-14 4:19', null, 83, 54, null, 28, 19);
+VALUES (32, '2012-1-14 4:19', null, 83, 54, null, 32, 19);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (33, '2012-10-14 14:39', null, 10, 12, null, 68, 55);
+VALUES (33, '2012-10-14 14:39', null, 10, 12, null, 33, 55);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (34, '2012-3-16 12:12', '2013-10-12 8:49', 75, 51, null, 55, 78);
+VALUES (34, '2012-3-16 12:12', '2013-10-12 8:49', 75, 51, null, 34, 78);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (35, '2012-6-2 10:7', null, 43, 10, null, 43, 98);
+VALUES (35, '2012-6-2 10:7', null, 43, 10, null, 35, 98);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (36, '2012-4-23 7:54', '2013-5-21 12:17', 89, 18, null, 46, 8);
+VALUES (36, '2012-4-23 7:54', '2013-5-21 12:17', 89, 18, null, 36, 8);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (37, '2012-4-7 20:51', null, 79, 18, null, 19, 34);
+VALUES (37, '2012-4-7 20:51', null, 79, 18, null, 37, 34);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (38, '2012-1-16 17:50', '2013-5-17 8:41', 43, 16, null, 73, 52);
+VALUES (38, '2012-1-16 17:50', '2013-5-17 8:41', 43, 16, null, 38, 52);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (39, '2012-11-8 12:14', '2013-12-12 0:31', 60, 19, null, 14, 59);
+VALUES (39, '2012-11-8 12:14', '2013-12-12 0:31', 60, 19, null, 39, 59);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (40, '2012-4-26 18:4', '2013-7-8 8:44', 96, 16, null, 45, 15);
+VALUES (40, '2012-4-26 18:4', '2013-7-8 8:44', 96, 16, null, 40, 15);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (41, '2012-3-27 20:43', '2013-10-12 15:23', 15, 49, null, 2, 98);
+VALUES (41, '2012-3-27 20:43', '2013-10-12 15:23', 15, 49, null, 41, 98);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (42, '2012-7-28 7:23', null, 11, 59, null, 51, 92);
+VALUES (42, '2012-7-28 7:23', null, 11, 59, null, 42, 92);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (43, '2012-9-2 18:52', '2013-10-24 10:52', 41, 52, null, 15, 37);
+VALUES (43, '2012-9-2 18:52', '2013-10-24 10:52', 41, 52, null, 43, 37);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (44, '2012-10-12 8:3', null, 13, 16, null, 38, 10);
+VALUES (44, '2012-10-12 8:3', null, 13, 16, null, 44, 10);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (45, '2012-6-28 12:39', '2013-2-22 6:45', 21, 65, null, 93, 86);
+VALUES (45, '2012-6-28 12:39', '2013-2-22 6:45', 21, 65, null, 45, 86);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (46, '2012-1-24 3:45', null, 77, 21, null, 31, 31);
+VALUES (46, '2012-1-24 3:45', null, 77, 21, null, 46, 31);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (47, '2012-5-4 18:54', '2013-5-12 22:3', 10, 70, null, 18, 44);
+VALUES (47, '2012-5-4 18:54', '2013-5-12 22:3', 10, 70, null, 47, 44);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (48, '2012-11-14 23:13', null, 31, 79, null, 52, 77);
+VALUES (48, '2012-11-14 23:13', null, 31, 79, null, 48, 77);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (49, '2012-3-24 10:50', null, 81, 75, null, 38, 96);
+VALUES (49, '2012-3-24 10:50', null, 81, 75, null, 49, 96);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (50, '2012-8-9 17:10', null, 36, 63, null, 6, 29);
+VALUES (50, '2012-8-9 17:10', null, 36, 63, null, 50, 29);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (51, '2012-5-11 14:52', '2013-9-14 15:50', 43, 98, null, 11, 79);
+VALUES (51, '2012-5-11 14:52', '2013-9-14 15:50', 43, 98, null, 51, 79);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (52, '2012-8-6 22:56', '2013-9-22 11:51', 74, 14, null, 48, 22);
+VALUES (52, '2012-8-6 22:56', '2013-9-22 11:51', 74, 14, null, 52, 22);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (53, '2012-5-7 3:40', null, 34, 74, null, 100, 41);
+VALUES (53, '2012-5-7 3:40', null, 34, 74, null, 53, 41);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (54, '2012-7-13 14:58', '2013-3-4 15:52', 30, 35, null, 93, 99);
+VALUES (54, '2012-7-13 14:58', '2013-3-4 15:52', 30, 35, null, 54, 99);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (55, '2012-5-25 3:54', '2013-12-16 4:11', 20, 13, null, 96, 25);
+VALUES (55, '2012-5-25 3:54', '2013-12-16 4:11', 20, 13, null, 55, 25);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (56, '2012-6-11 8:36', null, 72, 13, null, 96, 87);
+VALUES (56, '2012-6-11 8:36', null, 72, 13, null, 56, 87);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (57, '2012-1-16 18:56', '2013-7-7 6:16', 32, 17, null, 13, 20);
+VALUES (57, '2012-1-16 18:56', '2013-7-7 6:16', 32, 17, null, 57, 20);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (58, '2012-8-23 5:15', '2013-6-13 11:19', 47, 15, null, 25, 49);
+VALUES (58, '2012-8-23 5:15', '2013-6-13 11:19', 47, 15, null, 58, 49);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (59, '2012-1-14 7:41', null, 15, 93, null, 58, 26);
+VALUES (59, '2012-1-14 7:41', null, 15, 93, null, 59, 26);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (60, '2012-9-4 9:37', '2013-10-1 4:41', 97, 30, null, 23, 48);
+VALUES (60, '2012-9-4 9:37', '2013-10-1 4:41', 97, 30, null, 60, 48);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (61, '2012-7-11 3:24', '2013-4-3 22:43', 60, 34, null, 79, 46);
+VALUES (61, '2012-7-11 3:24', '2013-4-3 22:43', 60, 34, null, 61, 46);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (62, '2012-1-14 11:16', null, 11, 34, null, 20, 76);
+VALUES (62, '2012-1-14 11:16', null, 11, 34, null, 62, 76);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (63, '2012-10-3 22:11', null, 16, 22, null, 68, 52);
+VALUES (63, '2012-10-3 22:11', null, 16, 22, null, 63, 52);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (64, '2012-11-10 15:19', null, 26, 50, null, 96, 10);
+VALUES (64, '2012-11-10 15:19', null, 26, 50, null, 64, 10);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (65, '2012-4-2 6:49', null, 26, 15, null, 57, 11);
+VALUES (65, '2012-4-2 6:49', null, 26, 15, null, 65, 11);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (66, '2012-7-4 14:38', null, 29, 79, null, 94, 57);
+VALUES (66, '2012-7-4 14:38', null, 29, 79, null, 66, 57);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (67, '2012-1-12 23:11', null, 61, 17, null, 77, 28);
+VALUES (67, '2012-1-12 23:11', null, 61, 17, null, 67, 28);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (68, '2012-9-20 10:13', '2013-5-12 14:13', 30, 18, null, 51, 74);
+VALUES (68, '2012-9-20 10:13', '2013-5-12 14:13', 30, 18, null, 68, 74);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (69, '2012-11-5 0:26', null, 74, 80, null, 5, 82);
+VALUES (69, '2012-11-5 0:26', null, 74, 80, null, 69, 82);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (70, '2012-4-18 6:41', '2013-7-19 14:20', 52, 89, null, 50, 13);
+VALUES (70, '2012-4-18 6:41', '2013-7-19 14:20', 52, 89, null, 70, 13);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (71, '2012-2-27 23:21', null, 64, 71, null, 69, 94);
+VALUES (71, '2012-2-27 23:21', null, 64, 71, null, 71, 94);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (72, '2012-11-1 22:17', null, 94, 46, null, 70, 70);
+VALUES (72, '2012-11-1 22:17', null, 94, 46, null, 72, 70);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (73, '2012-5-2 9:22', '2013-4-19 9:7', 41, 59, null, 87, 26);
+VALUES (73, '2012-5-2 9:22', '2013-4-19 9:7', 41, 59, null, 73, 26);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (74, '2012-3-22 3:13', '2013-5-22 2:55', 32, 75, null, 94, 27);
+VALUES (74, '2012-3-22 3:13', '2013-5-22 2:55', 32, 75, null, 74, 27);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (75, '2012-3-28 7:40', '2013-1-2 0:1', 19, 55, null, 76, 56);
+VALUES (75, '2012-3-28 7:40', '2013-1-2 0:1', 19, 55, null, 75, 56);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (76, '2012-8-4 5:49', '2013-6-17 8:15', 25, 12, null, 3, 61);
+VALUES (76, '2012-8-4 5:49', '2013-6-17 8:15', 25, 12, null, 76, 61);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (77, '2012-9-6 23:14', null, 38, 45, null, 51, 87);
+VALUES (77, '2012-9-6 23:14', null, 38, 45, null, 77, 87);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (78, '2012-10-27 9:36', null, 72, 24, null, 68, 99);
+VALUES (78, '2012-10-27 9:36', null, 72, 24, null, 78, 99);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (79, '2012-2-17 16:32', '2013-12-1 5:19', 38, 37, null, 25, 4);
+VALUES (79, '2012-2-17 16:32', '2013-12-1 5:19', 38, 37, null, 79, 4);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (80, '2012-9-22 20:48', '2013-8-5 17:27', 75, 99, null, 73, 24);
+VALUES (80, '2012-9-22 20:48', '2013-8-5 17:27', 75, 99, null, 80, 24);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (81, '2012-6-10 16:18', '2013-11-5 2:28', 19, 17, null, 65, 39);
+VALUES (81, '2012-6-10 16:18', '2013-11-5 2:28', 19, 17, null, 81, 39);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (82, '2012-7-11 19:41', '2013-3-3 1:7', 33, 62, null, 15, 84);
+VALUES (82, '2012-7-11 19:41', '2013-3-3 1:7', 33, 62, null, 82, 84);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (83, '2012-8-8 4:18', '2013-12-14 17:55', 11, 23, null, 64, 95);
+VALUES (83, '2012-8-8 4:18', '2013-12-14 17:55', 11, 23, null, 83, 95);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (84, '2012-1-22 21:49', null, 17, 72, null, 2, 46);
+VALUES (84, '2012-1-22 21:49', null, 17, 72, null, 84, 46);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (85, '2012-8-6 16:3', '2013-11-26 13:40', 15, 96, null, 18, 12);
+VALUES (85, '2012-8-6 16:3', '2013-11-26 13:40', 15, 96, null, 85, 12);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (86, '2012-6-25 10:9', '2013-6-23 7:39', 73, 93, null, 9, 66);
+VALUES (86, '2012-6-25 10:9', '2013-6-23 7:39', 73, 93, null, 86, 66);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (87, '2012-8-8 3:41', null, 34, 13, null, 64, 75);
+VALUES (87, '2012-8-8 3:41', null, 34, 13, null, 87, 75);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (88, '2012-11-26 17:43', null, 98, 77, null, 90, 38);
+VALUES (88, '2012-11-26 17:43', null, 98, 77, null, 88, 38);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (89, '2012-10-21 5:0', '2013-11-3 10:27', 36, 62, null, 11, 36);
+VALUES (89, '2012-10-21 5:0', '2013-11-3 10:27', 36, 62, null, 89, 36);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (90, '2012-7-25 17:59', '2013-2-15 13:40', 75, 35, null, 75, 68);
+VALUES (90, '2012-7-25 17:59', '2013-2-15 13:40', 75, 35, null, 90, 68);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (91, '2012-8-25 0:43', '2013-4-24 6:21', 21, 17, null, 61, 52);
+VALUES (91, '2012-8-25 0:43', '2013-4-24 6:21', 21, 17, null, 91, 52);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (92, '2012-3-18 16:43', null, 16, 37, null, 89, 19);
+VALUES (92, '2012-3-18 16:43', null, 16, 37, null, 92, 19);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (93, '2012-11-27 16:44', null, 31, 66, null, 83, 38);
+VALUES (93, '2012-11-27 16:44', null, 31, 66, null, 93, 38);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (94, '2012-8-21 14:50', null, 14, 13, null, 44, 25);
+VALUES (94, '2012-8-21 14:50', null, 14, 13, null, 94, 25);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (95, '2012-1-3 1:26', null, 74, 90, null, 40, 100);
+VALUES (95, '2012-1-3 1:26', null, 74, 90, null, 95, 100);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (96, '2012-11-26 21:28', null, 96, 81, null, 76, 92);
+VALUES (96, '2012-11-26 21:28', null, 96, 81, null, 96, 92);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (97, '2012-2-3 9:47', '2013-1-5 2:51', 66, 95, null, 22, 21);
+VALUES (97, '2012-2-3 9:47', '2013-1-5 2:51', 66, 95, null, 97, 21);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (98, '2012-6-19 7:58', null, 54, 78, null, 67, 34);
+VALUES (98, '2012-6-19 7:58', null, 54, 78, null, 98, 34);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (99, '2012-3-17 16:16', '2013-10-5 20:15', 97, 74, null, 82, 96);
+VALUES (99, '2012-3-17 16:16', '2013-10-5 20:15', 97, 74, null, 99, 96);
 
 INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (100, '2012-1-2 16:24', '2013-1-8 5:5', 23, 70, null, 22, 2);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (101, '2012-5-7 0:44', '2013-4-10 21:32', 99, 50, null, 39, 41);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (102, '2012-9-25 6:31', null, 43, 75, null, 1, 31);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (103, '2012-8-25 7:43', '2013-4-15 22:0', 20, 89, null, 29, 27);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (104, '2012-4-14 2:53', null, 53, 51, null, 75, 90);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (105, '2012-9-16 15:5', null, 36, 17, null, 46, 10);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (106, '2012-5-11 5:26', null, 39, 32, null, 95, 100);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (107, '2012-9-2 1:55', '2013-10-22 11:52', 58, 95, null, 64, 6);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (108, '2012-3-2 7:9', '2013-6-1 16:39', 89, 87, null, 81, 56);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (109, '2012-9-6 5:58', '2013-12-17 6:59', 17, 72, null, 66, 42);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (110, '2012-2-27 21:23', null, 50, 40, null, 6, 30);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (111, '2012-10-20 15:30', '2013-11-26 15:20', 64, 41, null, 52, 94);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (112, '2012-3-15 10:29', '2013-9-16 16:3', 49, 71, null, 70, 20);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (113, '2012-9-17 3:32', '2013-3-18 7:44', 77, 10, null, 8, 2);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (114, '2012-9-13 23:30', '2013-7-15 10:47', 54, 67, null, 83, 71);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (115, '2012-12-10 14:33', '2013-3-4 7:59', 16, 38, null, 52, 56);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (116, '2012-4-28 4:46', null, 62, 76, null, 74, 1);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (117, '2012-8-11 8:42', '2013-5-28 11:40', 87, 25, null, 87, 17);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (118, '2012-12-22 3:48', '2013-12-20 23:26', 51, 60, null, 68, 11);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (119, '2012-1-9 6:39', '2013-1-11 18:54', 57, 15, null, 14, 76);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (120, '2012-1-21 11:43', '2013-1-19 14:48', 34, 23, null, 23, 54);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (121, '2012-11-15 16:57', '2013-3-14 19:54', 98, 69, null, 78, 44);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (122, '2012-6-1 18:45', '2013-3-5 19:4', 31, 54, null, 83, 51);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (123, '2012-2-16 16:3', null, 81, 15, null, 76, 52);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (124, '2012-2-17 7:35', null, 10, 96, null, 68, 27);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (125, '2012-7-21 6:38', '2013-4-27 7:38', 77, 16, null, 63, 10);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (126, '2012-12-22 16:41', null, 13, 15, null, 26, 23);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (127, '2012-1-13 5:52', null, 63, 36, null, 50, 51);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (128, '2012-4-10 9:57', '2013-4-3 0:10', 46, 43, null, 96, 20);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (129, '2012-8-10 7:6', '2013-3-18 2:56', 94, 19, null, 54, 80);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (130, '2012-2-16 10:0', null, 10, 39, null, 90, 5);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (131, '2012-4-14 15:40', '2013-10-27 9:37', 93, 18, null, 84, 57);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (132, '2012-1-16 18:49', null, 54, 92, null, 96, 57);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (133, '2012-10-28 18:3', null, 17, 37, null, 21, 74);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (134, '2012-3-18 18:17', '2013-4-9 6:50', 24, 38, null, 62, 33);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (135, '2012-4-24 17:6', '2013-6-9 19:31', 30, 16, null, 47, 62);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (136, '2012-9-2 13:32', null, 23, 13, null, 6, 55);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (137, '2012-5-16 10:41', null, 69, 25, null, 42, 64);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (138, '2012-2-7 2:39', '2013-12-3 21:39', 77, 12, null, 83, 59);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (139, '2012-8-17 15:21', '2013-11-3 16:1', 11, 96, null, 52, 30);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (140, '2012-10-9 7:36', '2013-6-26 21:12', 49, 11, null, 34, 68);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (141, '2012-1-14 3:45', null, 26, 19, null, 2, 87);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (142, '2012-7-1 23:32', null, 93, 32, null, 28, 50);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (143, '2012-2-8 12:47', '2013-5-17 21:38', 20, 59, null, 39, 46);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (144, '2012-12-1 11:22', null, 77, 72, null, 52, 56);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (145, '2012-11-3 5:50', null, 96, 95, null, 86, 92);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (146, '2012-7-12 13:25', '2013-12-4 13:40', 17, 19, null, 15, 80);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (147, '2012-12-8 23:4', null, 33, 18, null, 91, 72);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (148, '2012-11-9 20:15', null, 16, 39, null, 99, 56);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (149, '2012-2-10 19:24', '2013-1-26 16:6', 22, 71, null, 17, 69);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (150, '2012-8-4 10:2', null, 13, 73, null, 32, 92);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (151, '2012-5-3 7:31', '2013-11-19 3:25', 33, 13, null, 47, 32);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (152, '2012-8-23 14:54', null, 75, 27, null, 54, 68);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (153, '2012-11-14 10:39', null, 21, 35, null, 92, 99);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (154, '2012-2-9 2:3', null, 69, 62, null, 76, 15);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (155, '2012-7-23 5:3', null, 13, 63, null, 24, 58);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (156, '2012-4-11 20:12', null, 20, 67, null, 99, 35);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (157, '2012-5-11 18:50', '2013-7-21 16:53', 54, 16, null, 84, 8);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (158, '2012-5-7 4:17', null, 52, 39, null, 35, 23);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (159, '2012-11-13 6:5', null, 16, 14, null, 86, 4);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (160, '2012-12-7 18:46', null, 48, 58, null, 20, 80);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (161, '2012-2-27 7:13', '2013-5-16 3:6', 16, 32, null, 47, 90);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (162, '2012-3-11 22:3', null, 16, 36, null, 33, 97);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (163, '2012-7-10 5:15', null, 44, 55, null, 9, 99);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (164, '2012-7-10 5:36', '2013-5-13 14:20', 61, 15, null, 50, 34);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (165, '2012-8-6 18:51', '2013-3-18 12:0', 35, 14, null, 40, 78);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (166, '2012-2-21 0:51', null, 77, 50, null, 13, 48);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (167, '2012-10-13 7:20', '2013-8-28 7:6', 31, 74, null, 67, 69);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (168, '2012-4-22 9:37', '2013-10-5 23:24', 95, 58, null, 21, 21);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (169, '2012-3-28 18:19', null, 87, 76, null, 73, 52);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (170, '2012-10-9 17:26', '2013-11-12 6:27', 77, 15, null, 28, 62);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (171, '2012-4-18 21:33', '2013-3-18 3:18', 57, 84, null, 3, 53);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (172, '2012-6-6 17:30', null, 28, 92, null, 13, 26);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (173, '2012-4-15 11:28', null, 77, 31, null, 86, 53);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (174, '2012-12-16 13:28', null, 80, 85, null, 16, 69);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (175, '2012-9-28 1:39', null, 62, 80, null, 9, 36);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (176, '2012-6-15 3:22', '2013-8-19 15:41', 49, 31, null, 80, 30);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (177, '2012-4-24 23:47', '2013-5-14 16:2', 31, 80, null, 31, 65);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (178, '2012-10-15 6:4', '2013-5-24 0:57', 94, 14, null, 13, 43);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (179, '2012-5-4 8:45', null, 42, 62, null, 46, 88);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (180, '2012-4-4 20:23', '2013-10-19 1:14', 45, 47, null, 87, 30);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (181, '2012-4-9 21:37', '2013-6-26 9:6', 97, 12, null, 14, 4);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (182, '2012-6-2 20:51', '2013-6-3 18:12', 10, 15, null, 10, 26);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (183, '2012-4-17 1:4', null, 43, 18, null, 56, 100);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (184, '2012-8-7 15:34', null, 77, 14, null, 8, 3);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (185, '2012-6-28 16:12', null, 20, 74, null, 76, 40);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (186, '2012-11-21 9:14', '2013-12-2 6:11', 68, 63, null, 87, 19);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (187, '2012-7-27 4:43', '2013-1-5 1:58', 99, 10, null, 95, 96);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (188, '2012-9-23 2:55', '2013-2-20 18:49', 43, 12, null, 37, 48);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (189, '2012-9-26 17:30', '2013-4-5 22:12', 55, 65, null, 1, 27);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (190, '2012-11-8 18:59', null, 34, 52, null, 41, 42);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (191, '2012-9-12 2:35', null, 40, 98, null, 41, 18);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (192, '2012-12-7 1:36', null, 18, 87, null, 20, 93);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (193, '2012-3-19 22:58', '2013-4-4 18:1', 15, 24, null, 71, 87);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (194, '2012-5-7 9:32', null, 77, 72, null, 35, 44);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (195, '2012-5-27 15:10', '2013-4-10 3:33', 40, 54, null, 92, 61);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (196, '2012-8-19 2:52', '2013-12-23 14:16', 24, 27, null, 46, 10);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (197, '2012-11-22 12:58', null, 68, 74, null, 56, 76);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (198, '2012-7-5 8:22', null, 96, 37, null, 58, 13);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (199, '2012-3-23 19:4', '2013-4-25 1:37', 49, 88, null, 25, 27);
-
-INSERT INTO Viagem(id, timestamp_inicio, timestamp_fim, qtd_volumes, peso_volumes, observacoes, motorista_id, pedido_id)
-VALUES (200, '2012-10-24 18:24', '2013-12-15 23:1', 12, 50, null, 63, 96);
+VALUES (100, '2012-1-2 16:24', '2013-1-8 5:5', 23, 70, null, 100, 2);
 
 SELECT setval('cliente_id_seq', 100);
 SELECT setval('endereco_id_seq', 400);
 SELECT setval('motorista_id_seq', 100);
 SELECT setval('pedido_id_seq', 100);
 SELECT setval('veiculo_id_seq', 100);
-SELECT setval('viagem_id_seq', 100);
+SELECT setval('viagem_id_seq', 200);

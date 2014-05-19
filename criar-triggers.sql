@@ -31,9 +31,114 @@ CREATE TRIGGER attr_redundante_qtd_vol_peso_encomenda_tgr BEFORE INSERT OR UPDAT
 FOR EACH ROW
 EXECUTE PROCEDURE attr_redundante_qtd_vol_peso_encomenda();
 
+--
+-- Essa SP garante o estado disponivel do motorista pra alterações na mesma tabela.
+--
+CREATE FUNCTION assert_motorista_disponivel_motorista()
+RETURNS trigger AS 
+$$
+    BEGIN
+        IF (TG_OP = 'INSERT') THEN
+            IF (NEW.VEICULO_ID IS NOT NULL) THEN
+                NEW.DISPONIVEL := true;
+            END IF;
+            RETURN NEW;
+        ELSIF (TG_OP = 'UPDATE') THEN
+            IF (OLD.VEICULO_ID IS NULL AND NEW.VEICULO_ID IS NOT NULL) THEN
+                IF (NOT EXISTS (SELECT * FROM VIAGEM WHERE MOTORISTA_ID = NEW.ID AND TIMESTAMP_FIM IS NULL)) THEN
+                    NEW.DISPONIVEL := true;
+                ELSE
+                    NEW.DISPONIVEL := false;
+                END IF;
+            END IF;
+            RETURN NEW;
+        END IF;
+        RETURN NULL;
+    END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER assert_motorista_disponivel_motorista BEFORE INSERT OR UPDATE OF DISPONIVEL, VEICULO_ID ON MOTORISTA
+FOR EACH ROW
+EXECUTE PROCEDURE assert_motorista_disponivel_motorista();
+
+--
+-- Essa SP serve para garantir que uma viagem não tenha um motorista indisponível.
+--
+CREATE FUNCTION assert_motorista_diponivel_viagem()
+RETURNS trigger AS 
+$$
+    DECLARE
+        motorista_disponivel BOOLEAN;
+    BEGIN
+        IF (TG_OP = 'INSERT') THEN
+            SELECT DISPONIVEL INTO motorista_disponivel
+            FROM MOTORISTA
+            WHERE MOTORISTA.ID = NEW.MOTORISTA_ID;
+            
+            IF NOT motorista_disponivel THEN
+                RAISE EXCEPTION 'Motorista não disponivel!';
+            ELSE
+                UPDATE MOTORISTA
+                SET DISPONIVEL = false
+                WHERE ID = NEW.MOTORISTA_ID;
+            END IF;
+
+            IF NEW.TIMESTAMP_FIM IS NOT NULL THEN
+                UPDATE MOTORISTA
+                SET DISPONIVEL = true
+                WHERE ID = NEW.MOTORISTA_ID;
+            END IF;
+
+            RETURN NEW;
+        ELSIF (TG_OP = 'UPDATE') THEN
+            SELECT DISPONIVEL INTO motorista_disponivel
+            FROM MOTORISTA
+            WHERE MOTORISTA.ID = NEW.MOTORISTA_ID;
+            
+            IF (NEW.MOTORISTA_ID != OLD.MOTORISTA_ID) THEN
+                IF NOT motorista_disponivel THEN
+                    RAISE EXCEPTION 'Motorista não disponivel!';
+                ELSE
+                    UPDATE MOTORISTA
+                    SET DISPONIVEL = false
+                    WHERE ID = NEW.MOTORISTA_ID;
+                    
+                    UPDATE MOTORISTA
+                    SET DISPONIVEL = true
+                    WHERE ID = OLD.MOTORISTA_ID;
+                END IF;
+            END IF;
+            IF (OLD.TIMESTAMP_FIM IS NULL AND NEW.TIMESTAMP_FIM IS NOT NULL) THEN
+                UPDATE MOTORISTA
+                SET DISPONIVEL = true
+                WHERE ID = NEW.MOTORISTA_ID;
+            END IF;
+            IF (NEW.TIMESTAMP_FIM IS NULL) THEN
+                RAISE EXCEPTION 'Não se pode apagar uma data de fim de viagem!';
+            END IF;
+
+            RETURN NEW;
+        ELSIF (TG_OP = 'DELETE') THEN
+            UPDATE MOTORISTA
+            SET DISPONIVEL = true
+            WHERE ID = OLD.MOTORISTA_ID;
+            RETURN OLD;
+        END IF;
+
+        RETURN NULL;
+    END;
+$$
+LANGUAGE plpgsql;
+
+CREATE TRIGGER assert_motorista_diponivel_viagem_tgr BEFORE INSERT OR UPDATE OF MOTORISTA_ID, TIMESTAMP_FIM OR DELETE ON VIAGEM
+FOR EACH ROW
+EXECUTE PROCEDURE assert_motorista_diponivel_viagem();
+
+--
 -- A função será usada na trigger da view REGISTRO_CLIENTE. Ela
 -- intercepta todos os comandos exceto o SELECT para realizar as
 -- operações adequadamente em cada tabela que é usada na view.
+--
 CREATE FUNCTION iud_registro_cliente()
     RETURNS trigger AS $iud_registro_cliente$
 
@@ -101,7 +206,6 @@ CREATE FUNCTION iud_registro_cliente()
         END IF;
     END;
 $iud_registro_cliente$ LANGUAGE plpgsql;
-
 -- Trigger para a view REGISTRO_CLIENTE. Ela é usada para
 -- interceptar os comando de INSERT, UPDATE e DELETE.
 CREATE TRIGGER IUD_REGISTRO_CLIENTE
