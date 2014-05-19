@@ -1,7 +1,7 @@
 -- Exibe os dados básicos dos motoristas que estão disponíveis
 CREATE VIEW MOTORISTAS_DISPONIVEIS
 AS
-    SELECT ID, CPF, NOME
+    SELECT ID, CPF, NOME, TELEFONE
     FROM MOTORISTA M
     WHERE DISPONIVEL = true;
 
