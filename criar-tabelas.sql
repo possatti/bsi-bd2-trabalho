@@ -1,4 +1,4 @@
--- |          Restrições de integridade
+﻿-- |          Restrições de integridade
 -- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- |   Nº   | Tipo          |       Restrição
 -- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -95,7 +95,7 @@ CREATE TABLE PEDIDO (
     DISTANCIA INT,
     PRECO_FRETE DECIMAL(10,2),
     OBSERVACOES VARCHAR(255),
-    STATUS VARCHAR(20) NOT NULL,
+    STATUS VARCHAR(20) NOT NULL DEFAULT 'EM_PROCESSAMENTO',
     CLIENTE_ID INT NOT NULL REFERENCES cliente,
     ENDERECO_ORIGEM INT NOT NULL REFERENCES endereco,
     ENDERECO_DESTINO INT NOT NULL REFERENCES endereco,
@@ -120,5 +120,6 @@ CREATE TABLE VIAGEM (
     MOTORISTA_ID INT REFERENCES motorista,
     PEDIDO_ID INT REFERENCES pedido,
 
-    CONSTRAINT uniques_viagem UNIQUE(timestamp_inicio, motorista_id)
+    CONSTRAINT uniques_viagem UNIQUE(timestamp_inicio, motorista_id),
+    CONSTRAINT datas_inicio_fim CHECK((TIMESTAMP_INICIO < TIMESTAMP_FIM) OR (TIMESTAMP_FIM IS NULL))
 );

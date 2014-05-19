@@ -62,7 +62,8 @@ FOR EACH ROW
 EXECUTE PROCEDURE assert_motorista_disponivel_motorista();
 
 --
--- Essa SP serve para garantir que uma viagem não tenha um motorista indisponível.
+-- Essa SP serve para garantir que uma viagem não tenha um motorista indisponível,
+-- além de atualizar o STATUS do motorista conforme as associações.
 --
 CREATE FUNCTION assert_motorista_diponivel_viagem()
 RETURNS trigger AS 
@@ -133,6 +134,35 @@ LANGUAGE plpgsql;
 CREATE TRIGGER assert_motorista_diponivel_viagem_tgr BEFORE INSERT OR UPDATE OF MOTORISTA_ID, TIMESTAMP_FIM OR DELETE ON VIAGEM
 FOR EACH ROW
 EXECUTE PROCEDURE assert_motorista_diponivel_viagem();
+
+--
+-- Checa as restrições de integridade confore a alteração no status do pedido.
+--
+CREATE FUNCTION check_status_pedido()
+RETURNS trigger AS
+$$
+    BEGIN
+        IF (NEW.STATUS LIKE 'ENVIADO') THEN
+            IF (NOT EXISTS (SELECT * FROM VIAGEM WHERE PEDIDO_ID = NEW.ID AND TIMESTAMP_FIM IS NULL) OR EXISTS (SELECT * FROM VIAGEM WHERE PEDIDO_ID = NEW.ID AND TIMESTAMP_FIM IS NOT NULL)) THEN
+                RAISE EXCEPTION 'Não existem viagens associadas a este pedido.';
+            END IF;
+        ELSIF (NEW.STATUS LIKE 'EM_PROCESSAMENTO') THEN
+            RAISE EXCEPTION 'Não se pode alterar o estado para EM_PROCESSAMENTO.';
+        ELSIF (OLD.STATUS NOT LIKE 'EM_PROCESSAMENTO' AND NEW.STATUS LIKE 'EM_SEPARACAO') THEN
+            RAISE EXCEPTION 'Não se pode alterar o estado para EM_SEPARACAO.';
+        ELSIF (NEW.STATUS LIKE 'RECEBIDO') THEN
+            IF (EXISTS (SELECT * FROM VIAGEM WHERE PEDIDO_ID = NEW.ID AND TIMESTAMP_FIM IS NULL) OR NOT EXISTS (SELECT * FROM VIAGEM WHERE PEDIDO_ID = NEW.ID AND TIMESTAMP_FIM IS NOT NULL)) THEN
+                RAISE EXCEPTION 'Existem viagens que não foram concluídas ainda.';
+            END IF;
+        END IF;
+        RETURN NEW;
+    END;
+$$
+LANGUAGE plpgsql;
+
+CREATE TRIGGER check_status_pedido_tgr BEFORE UPDATE OF STATUS ON PEDIDO
+FOR EACH ROW
+EXECUTE PROCEDURE check_status_pedido();
 
 --
 -- A função será usada na trigger da view REGISTRO_CLIENTE. Ela
