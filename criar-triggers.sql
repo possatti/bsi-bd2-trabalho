@@ -190,7 +190,7 @@ CREATE FUNCTION iud_registro_cliente()
 
             -- Insere o cliente, usando o valor de id do endereço para referencia-lo.
             INSERT INTO CLIENTE
-            VALUES (NEW.CNPJ, NEW.NOME, NEW.TELEFONE, NEW.ENDERECO_ID, id_endereco);
+            VALUES (NEXTVAL('cliente_id_seq'), NEW.CNPJ, NEW.NOME, NEW.TELEFONE, id_endereco);
 
             RETURN NEW;
 
@@ -200,7 +200,7 @@ CREATE FUNCTION iud_registro_cliente()
             SELECT ID, ENDERECO_ID
             INTO id_cliente, id_endereco
             FROM CLIENTE
-            WHERE CPF = OLD.CPF;
+            WHERE CNPJ LIKE OLD.CNPJ;
 
             -- Atualiza os dados do cliente.
             UPDATE CLIENTE
@@ -222,15 +222,15 @@ CREATE FUNCTION iud_registro_cliente()
             SELECT ID, ENDERECO_ID
             INTO id_cliente, id_endereco
             FROM CLIENTE
-            WHERE CPF = OLD.CPF;
+            WHERE CNPJ LIKE OLD.CNPJ;
 
             -- Apaga o registro do cliente.
             DELETE FROM CLIENTE
-            WHERE OLD.ID = id_cliente;
+            WHERE ID = id_cliente;
 
             -- Apaga o registro do endereço.
             DELETE FROM ENDERECO
-            WHERE OLD.ENDERECO_ID = id_endereco;
+            WHERE ID = id_endereco;
 
             RETURN OLD;
         END IF;
