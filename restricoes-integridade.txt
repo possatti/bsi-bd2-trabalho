@@ -114,9 +114,3 @@
 |       |             | volumes nas cargas que foram
 |       |             | transportadas.
 |---------------------------------------------------------------
-|  029  | Domínio     | Um motorista deve necessariamente
-|       |             | possuir um telefone.
-|---------------------------------------------------------------
-|  030  | Domínio     | Um cliente deve necessariamente
-|       |             | possuir um telefone.
-|----------------------------------------------------------------
