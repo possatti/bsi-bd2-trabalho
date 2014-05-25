@@ -1,34 +1,4 @@
-﻿-- |          Restrições de integridade
--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
--- |   Nº   | Tipo          |       Restrição
--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
--- |   001  | Identidade    | Um Cliente é identificado por seu CNPJ.
--- |   002  | Identidade    | Cada veículo possui uma placa única.
--- |   003  | Identidade    | Um motorista é identificado por seu CPF.
--- |   004  | Identidade    | O RG e a CNH de um motorista devem ser únicos.
--- |   005  | Identidade    | Um pedido é identificado por pela Data e Hora da requisição e pelo cliente que fez o pedido (TIMESTAMP_REQUISICAO, CLIENTE).
--- |   006  | Identidade    | Uma viagem é identificada pela sua Data e Hora planejada para seu início e pelo motorista que irá executá-la (TIMESTAMP_INICIO, MOTORISTA).
--- |   007  | Identidade    | Cada endereço é único, ainda que contenham os mesmos dados. O motivo disso é para que caso de mudança do endereço de uma entidade que tenha o mesmo endereço de uma outra entidade, não seja necessário realizar outro cadastro, mas apenas uma alteração nessa tabela.
--- |   008  | Referencial   | Cada motorista tem um único veículo de trabalho.
--- |   009  | Referencial   | Um motorista não precisa necessariamente estar associado a um veículo no momento de seu cadastro.
--- |   010  | Referencial   | Podem haver mais de um motorista associado a um veículo.
--- |   011  | Referencial   | Podem haver veículos que ainda não estão associados a qualquer motorista (estão ociosos).
--- |   012  | Referencial   | Cada Cliente tem um único endereço registrado. Da mesma forma para os Motoristas.
--- |   013  | Referencial   | Um pedido tem necessariamente associado a ele um endereço de origem e outro de destino.
--- |   014  | Referencial   | Um pedido tem necessariamente um cliente associado à ele. Caso o cliente não exista, ele deverá ser cadastrado.
--- |   015  | Referencial   | Para que um pedido seja cumprido, serão necessárias uma ou mais viagens. Logo o pedido está associado a um conjunto de viagens.
--- |   016  | Referencial   | Porém um pedido não precisa ter nenhuma viagem associada no momento de seu cadastro.
--- |   017  | Referencial   | Cada viagem está necessariamente associada a um único pedido.
--- |   018  | Referencial   | Cada viagem será feita por um único motorista, mas um motorista pode cumprir com várias viagens.
--- |   019  | Domínio       | Um motorista só pode realizar uma viagem se estiver disponível.
--- |   020  | Domínio       | Um motorista está indisponível se não tiver um veículo associado OU desde o momento em que ele é associado a uma viagem até que essa viagem termine (tenha o campo TIMESTAMP_FIM definido).
--- |   021  | Domínio       | Um pedido pode estar em um, e somente um, dos quatro estados a seguir: em PROCESSAMENTO (assim que é criado); EM SEPARAÇÃO (quando os funcionários começam a preparar os veículos para a viagem);  ENVIADO (quando todos os veículos partirem); RECEBIDO (quando todos os veículos deixarem a carga no destino).
--- |   022  | Domínio       | A quantidade de volumes e o peso de um pedido DEVEM ser a soma da quantidade de volumes e do peso de suas respectivas viagens associadas.
--- |   023  | Domínio       | Um motorista deve necessariamente possuir um telefone.
--- |   024  | Domínio       | Um cliente deve necessariamente possuir um telefone.
--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-CREATE TABLE ENDERECO (
+﻿CREATE TABLE ENDERECO (
     ID SERIAL PRIMARY KEY,
     CEP CHAR(10) NOT NULL,
     ESTADO CHAR(2) NOT NULL,
