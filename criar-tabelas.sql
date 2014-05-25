@@ -1,28 +1,61 @@
 ﻿-- -----------------------------------------------------
--- Table cliente
+-- Criação dos tipos e domínios
+-- -----------------------------------------------------
+CREATE TYPE STATUS_PEDIDO AS ENUM
+    ('PREPARACAO', 'INICIADO', 'SUCESSO', 'FALHA');
+
+CREATE DOMAIN D_TELEFONE AS VARCHAR(14)
+    CONSTRAINT formato_telefone CHECK(VALUE ~ '^\(\d{2}\)\d?\d{4}-\d{4}$');
+CREATE DOMAIN D_CEP AS CHAR(10)
+    CONSTRAINT formato_cep CHECK(VALUE ~ '^\d{2}\.\d{3}-\d{3}$');
+CREATE DOMAIN D_ESTADO AS CHAR(2)
+    CONSTRAINT formato_estado CHECK(VALUE ~ '^[A-Z]{2}$');
+CREATE DOMAIN D_NUMERO AS VARCHAR(10)
+    CONSTRAINT formato_numero CHECK(VALUE ~ '^([1-9]\d{1,9})|(S/N)$');
+CREATE DOMAIN D_PLACA AS CHAR(8)
+    CONSTRAINT formato_placa CHECK(VALUE ~ '^[A-Z]{3}-\d{4}$');
+CREATE DOMAIN D_CPF AS CHAR(14)
+    CONSTRAINT formato_cpf CHECK(VALUE ~ '^\d{3}\.\d{3}\.\d{3}-\d{2}$');
+CREATE DOMAIN D_CNPJ AS CHAR(18)
+    CONSTRAINT formato_cnpj CHECK(VALUE ~ '^\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}$');
+
+CREATE DOMAIN D_NOME AS VARCHAR(255);
+CREATE DOMAIN D_CIDADE AS VARCHAR(255);
+CREATE DOMAIN D_BAIRRO AS VARCHAR(255);
+CREATE DOMAIN D_LOGRADOURO AS VARCHAR(255);
+CREATE DOMAIN D_CNH AS VARCHAR(20);
+CREATE DOMAIN D_RG AS VARCHAR(20);
+CREATE DOMAIN D_MARCA AS VARCHAR(45);
+CREATE DOMAIN D_MODELO AS VARCHAR(45);
+CREATE DOMAIN D_PRODUTO AS VARCHAR(255);
+CREATE DOMAIN D_PESO AS DECIMAL(20,3);
+CREATE DOMAIN D_PRECO AS DECIMAL(20,2);
+
+-- -----------------------------------------------------
+-- Tabela cliente
 -- -----------------------------------------------------
 CREATE TABLE cliente (
     id SERIAL,
-    cnpj CHAR(18) NOT NULL,
-    nome VARCHAR(255) NOT NULL,
-    telefone1 VARCHAR(14) NULL,
-    telefone2 VARCHAR(14) NULL,
+    cnpj D_CNPJ NOT NULL,
+    nome D_NOME NOT NULL,
+    telefone1 D_TELEFONE NULL,
+    telefone2 D_TELEFONE NULL,
 
     PRIMARY KEY (id),
     CONSTRAINT unique_cnpj UNIQUE(cnpj)
 );
 
 -- -----------------------------------------------------
--- Table endereco
+-- Tabela endereco
 -- -----------------------------------------------------
 CREATE TABLE endereco (
     id SERIAL,
-    cep CHAR(10) NOT NULL,
-    estado CHAR(2) NOT NULL,
-    cidade VARCHAR(255) NOT NULL,
-    bairro VARCHAR(255) NOT NULL,
-    logradouro VARCHAR(255) NOT NULL,
-    numero VARCHAR(10) NOT NULL,
+    cep D_CEP NOT NULL,
+    estado D_ESTADO NOT NULL,
+    cidade D_ESTADO NOT NULL,
+    bairro D_BAIRRO NOT NULL,
+    logradouro D_LOGRADOURO NOT NULL,
+    numero D_NUMERO NOT NULL,
     ponto_referencia TEXT NULL,
 
     PRIMARY KEY (id),
@@ -31,16 +64,16 @@ CREATE TABLE endereco (
 );
 
 -- -----------------------------------------------------
--- Table motorista
+-- Tabela motorista
 -- -----------------------------------------------------
 CREATE TABLE motorista (
     id SERIAL,
-    cpf CHAR(14) NOT NULL,
-    nome VARCHAR(255) NOT NULL,
-    cnh VARCHAR(20) NOT NULL,
-    rg VARCHAR(20) NOT NULL,
-    telefone1 VARCHAR(14) NULL,
-    telefone2 VARCHAR(14) NULL,
+    cpf D_CPF NOT NULL,
+    nome D_NOME NOT NULL,
+    cnh D_CNH NOT NULL,
+    rg D_RG NOT NULL,
+    telefone1 D_TELEFONE NULL,
+    telefone2 D_TELEFONE NULL,
     disponivel BOOLEAN NOT NULL,
 
     PRIMARY KEY (id),
@@ -50,29 +83,29 @@ CREATE TABLE motorista (
 );
 
 -- -----------------------------------------------------
--- Table veiculo
+-- Tabela veiculo
 -- -----------------------------------------------------
 CREATE TABLE veiculo (
     id SERIAL,
-    placa CHAR(8) NOT NULL,
-    marca VARCHAR(45) NOT NULL,
-    modelo VARCHAR(45) NOT NULL,
+    placa D_PLACA NOT NULL,
+    marca D_MARCA NOT NULL,
+    modelo D_MODELO NOT NULL,
 
     PRIMARY KEY (id),
     CONSTRAINT unique_placa UNIQUE(placa)
 );
 
 -- -----------------------------------------------------
--- Table pedido
+-- Tabela pedido
 -- -----------------------------------------------------
 CREATE TABLE pedido (
     id SERIAL,
-    produto VARCHAR(255) NOT NULL,
+    produto D_PRODUTO NOT NULL,
     momento_pedido TIMESTAMP NOT NULL,
-    situacao VARCHAR(45) NOT NULL,
+    situacao STATUS_PEDIDO NOT NULL,
     qtd_volumes INT NULL,
-    peso_liquido DECIMAL(10,3) NULL,
-    preco_frete DECIMAL(10,2) NULL,
+    peso_liquido D_PESO NULL,
+    preco_frete D_PRECO NULL,
     observacoes TEXT NULL,
     cliente_id INT NOT NULL,
     endereco_origem_id INT NOT NULL,
@@ -95,7 +128,7 @@ CREATE TABLE pedido (
 );
 
 -- -----------------------------------------------------
--- Table viagem
+-- Tabela viagem
 -- -----------------------------------------------------
 CREATE TABLE viagem (
     id SERIAL,
@@ -112,11 +145,11 @@ CREATE TABLE viagem (
 );
 
 -- -----------------------------------------------------
--- Table carga
+-- Tabela carga
 -- -----------------------------------------------------
 CREATE TABLE carga (
-    pedido_id BIGINT NOT NULL,
-    viagem_id BIGINT NOT NULL,
+    pedido_id INT NOT NULL,
+    viagem_id INT NOT NULL,
     qtd_volumes INT NULL,
     momento_carregamento TIMESTAMP NULL,
     momento_descarregamento TIMESTAMP NULL,
@@ -133,14 +166,14 @@ CREATE TABLE carga (
 );
 
 -- -----------------------------------------------------
--- Table motorista_veiculo
+-- Tabela motorista_veiculo
 -- -----------------------------------------------------
 CREATE TABLE motorista_veiculo (
     id SERIAL,
     veiculo_id INT NOT NULL,
     motorista_id INT NOT NULL,
     momento_alocacao TIMESTAMP NULL,
-    momento_liberacao VARCHAR(45) NULL,
+    momento_liberacao TIMESTAMP NULL,
 
     PRIMARY KEY (id),
     CONSTRAINT unique_motorista_veiculo
