@@ -1,29 +1,122 @@
--- |          Restrições de integridade
--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
--- |   Nº   | Tipo          |       Restrição
--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
--- |   001  | Identidade    | Um Cliente é identificado por seu CNPJ.
--- |   002  | Identidade    | Cada veículo possui uma placa única.
--- |   003  | Identidade    | Um motorista é identificado por seu CPF.
--- |   004  | Identidade    | O RG e a CNH de um motorista devem ser únicos.
--- |   005  | Identidade    | Um pedido é identificado por pela Data e Hora da requisição e pelo cliente que fez o pedido (TIMESTAMP_REQUISICAO, CLIENTE).
--- |   006  | Identidade    | Uma viagem é identificada pela sua Data e Hora planejada para seu início e pelo motorista que irá executá-la (TIMESTAMP_INICIO, MOTORISTA).
--- |   007  | Identidade    | Cada endereço é único, ainda que contenham os mesmos dados. O motivo disso é para que caso de mudança do endereço de uma entidade que tenha o mesmo endereço de uma outra entidade, não seja necessário realizar outro cadastro, mas apenas uma alteração nessa tabela.
--- |   008  | Referencial   | Cada motorista tem um único veículo de trabalho.
--- |   009  | Referencial   | Um motorista não precisa necessariamente estar associado a um veículo no momento de seu cadastro.
--- |   010  | Referencial   | Podem haver mais de um motorista associado a um veículo.
--- |   011  | Referencial   | Podem haver veículos que ainda não estão associados a qualquer motorista (estão ociosos).
--- |   012  | Referencial   | Cada Cliente tem um único endereço registrado. Da mesma forma para os Motoristas.
--- |   013  | Referencial   | Um pedido tem necessariamente associado a ele um endereço de origem e outro de destino.
--- |   014  | Referencial   | Um pedido tem necessariamente um cliente associado à ele. Caso o cliente não exista, ele deverá ser cadastrado.
--- |   015  | Referencial   | Para que um pedido seja cumprido, serão necessárias uma ou mais viagens. Logo o pedido está associado a um conjunto de viagens.
--- |   016  | Referencial   | Porém um pedido não precisa ter nenhuma viagem associada no momento de seu cadastro.
--- |   017  | Referencial   | Cada viagem está necessariamente associada a um único pedido.
--- |   018  | Referencial   | Cada viagem será feita por um único motorista, mas um motorista pode cumprir com várias viagens.
--- |   019  | Domínio       | Um motorista só pode realizar uma viagem se estiver disponível.
--- |   020  | Domínio       | Um motorista está indisponível se não tiver um veículo associado OU desde o momento em que ele é associado a uma viagem até que essa viagem termine (tenha o campo TIMESTAMP_FIM definido).
--- |   021  | Domínio       | Um pedido pode estar em um, e somente um, dos quatro estados a seguir: em PROCESSAMENTO (assim que é criado); EM SEPARAÇÃO (quando os funcionários começam a preparar os veículos para a viagem);  ENVIADO (quando todos os veículos partirem); RECEBIDO (quando todos os veículos deixarem a carga no destino).
--- |   022  | Domínio       | A quantidade de volumes e o peso de um pedido DEVEM ser a soma da quantidade de volumes e do peso de suas respectivas viagens associadas.
--- |   023  | Domínio       | Um motorista deve necessariamente possuir um telefone.
--- |   024  | Domínio       | Um cliente deve necessariamente possuir um telefone.
--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|===============================================================
+|            ***  RESTRIÇÕES DE INTEGRIDADE  ***
+|===============================================================
+|   Nº  | Tipo        |       Restrição
+|===============================================================
+|  001  | Identidade  | Um Cliente é identificado por seu
+|       |             | CNPJ.
+|---------------------------------------------------------------
+|  002  | Identidade  | Cada veículo possui uma placa única.
+|---------------------------------------------------------------
+|  003  | Identidade  | Um motorista é identificado por seu
+|       |             | CPF.
+|---------------------------------------------------------------
+|  004  | Identidade  | O RG e a CNH de um motorista devem
+|       |             | ser únicos.
+|---------------------------------------------------------------
+|  005  | Identidade  | Um pedido é identificado por pela
+|       |             | Data e Hora da requisição e pelo
+|       |             | cliente que fez o pedido
+|       |             | (ie. momento_pedido, cliente).
+|---------------------------------------------------------------
+|  006  | Identidade  | Uma viagem é identificada pelo
+|       |             | momento da sua saida e pelo veiculo
+|       |             | que está fazendo a viagem
+|       |             | (ie. momento_saida, veiculo_id).
+|---------------------------------------------------------------
+|  007  | Identidade  | Cada endereço é único, e é
+|       |             | identificado pelo conjunto de todos
+|       |             | os seus atributos.
+|---------------------------------------------------------------
+|  008  | Identidade  | Uma carga é identificada pelo pedido ao 
+|       |             | qual está relacionada e à viagem que a 
+|       |             | transportará.
+|---------------------------------------------------------------
+|  009  | Referencial | Cada motorista pode ter um ou mais
+|       |             | veiculos que ele tem permissão para
+|       |             | dirigir.
+|---------------------------------------------------------------
+|  010  | Referencial | Um motorista não precisa
+|       |             | necessariamente estar associado a
+|       |             | algum veículo.
+|---------------------------------------------------------------
+|  011  | Referencial | Podem haver mais de um motorista
+|       |             | associado a um veículo.
+|---------------------------------------------------------------
+|  012  | Referencial | Podem haver veículos que ainda não
+|       |             | estão associados a qualquer motorista
+|       |             | (estão ociosos).
+|---------------------------------------------------------------
+|  013  | Referencial | Um pedido tem necessariamente
+|       |             | associado a ele um endereço de origem
+|       |             | e outro de destino.
+|---------------------------------------------------------------
+|  014  | Referencial | Um pedido tem necessariamente um
+|       |             | cliente associado à ele, que é quem 
+|       |             | solicitou a entrega.
+|---------------------------------------------------------------
+|  015  | Referencial | Para que um pedido seja cumprido,
+|       |             | serão necessárias uma ou mais
+|       |             | viagens. Logo o pedido está associado
+|       |             | a um conjunto de viagens.
+|---------------------------------------------------------------
+|  016  | Referencial | E ainda, uma viagem pode tranportar
+|       |             | vários pedidos simultâneamente.
+|---------------------------------------------------------------
+|  017  | Referencial | Porém um pedido não precisa ter
+|       |             | nenhuma carga associada no momento
+|       |             | de seu cadastro. Essa associação é
+|       |             | feita depois.
+|---------------------------------------------------------------
+|  018  | Referencial | Cada viagem poderá ser feita por um
+|       |             | conjunto de motoristas.
+|       |             | 
+|---------------------------------------------------------------
+|  019  | Domínio     | Enquanto um motorista está em uma
+|       |             | viagem ele está indisponível.
+|---------------------------------------------------------------
+|  020  | Domínio     | O endereço de origem e destino de um 
+|       |             | pedido não podem ser iguais.
+|---------------------------------------------------------------
+|  021  | Domínio     | Um motorista está indisponível se não
+|       |             | tiver um veículo associado OU se ele 
+|       |             | estiver em alguma viagem 
+|---------------------------------------------------------------
+|  022  | Domínio     | Os telefones do cliente não podem ser 
+|       |             | iguais.
+|---------------------------------------------------------------
+|  023  | Domínio     | Os telefones do motorista não podem ser 
+|       |             | iguais.
+|---------------------------------------------------------------
+|  024  | Domínio     | O momento de liberação de um motorista 
+|       |             | deve ocorrer *depois* do momento de 
+|       |             | alocação.
+|---------------------------------------------------------------
+|  025  | Domínio     | O momento de descarregamento de um 
+|       |             | pedido deve ocorrer *depois* do momento 
+|       |             | de carregamento.
+|---------------------------------------------------------------
+|  026  | Domínio     | O momento de chegada de uma viagem deve 
+|       |             | ocorrer *depois* do momento de saída.
+|---------------------------------------------------------------
+|  027  | Domínio     | Um pedido pode estar em um, e somente
+|       |             | um, dos estados a seguir:
+|       |             |  - PREPARACAO (assim que é criado);
+|       |             |  - INICIADO (quando uma primeira parte
+|       |             | do pedido é recolhido);
+|       |             |  - SUCESSO (quando toda a carga for
+|       |             | deixada no destino);
+|       |             |  - FALHA (se houve alguma situação que
+|       |             | impede que o pedido seja cumprido).
+|---------------------------------------------------------------
+|  028  | Domínio     | A quantidade de volumes de um pedido
+|       |             | DEVEM ser a soma da quantidade de
+|       |             | volumes nas cargas que foram
+|       |             | transportadas.
+|---------------------------------------------------------------
+|  029  | Domínio     | Um motorista deve necessariamente
+|       |             | possuir um telefone.
+|---------------------------------------------------------------
+|  030  | Domínio     | Um cliente deve necessariamente
+|       |             | possuir um telefone.
+|----------------------------------------------------------------
