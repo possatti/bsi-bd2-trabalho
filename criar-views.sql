@@ -1,39 +1,38 @@
+-- ----------------------------------------------------------
 -- Esta view exibe os dados básicos dos motoristas que estão
 -- disponíveis no momento. Ela será utilizada para que seja
 -- possível detectar com facilidade os motoristas que já não
 -- estão ocupados e, portanto, podem realizar novos serviços.
-CREATE VIEW MOTORISTAS_DISPONIVEIS
+-- ----------------------------------------------------------
+CREATE VIEW motoristas_disponiveis
 AS
-    SELECT CPF, NOME, TELEFONE
-    FROM MOTORISTA M
-    WHERE DISPONIVEL = true;
+    SELECT m.cpf, m.nome, m.telefone1, m.telefone2
+    FROM motorista m
+    WHERE disponivel = true;
 
--- Esta view reune todos os dados dos clientes em um lugar só,
--- para que seja mais fácil visualizar os seus cadastros. Pois no
--- modelo do banco de dados, os dados do endereço se encontram em
--- uma tabela separada dos dados gerais dos clientes.
--- 
--- Além disso, para que o cadastro, edição e deleção de clientes
--- fique mais simples, uma trigger será usada para tratar essas
--- operações em cima desta própria visão. Assim, quando for
--- necessário alguma operação nos dados de clientes, não será
--- necessário manipular as tabelas CLIENTE e ENDERECO diretamente.
-CREATE VIEW REGISTRO_CLIENTE
-AS
-    SELECT C.CNPJ, C.NOME, C.TELEFONE,
-        E.CEP, E.ESTADO, E.CIDADE, E.BAIRRO,
-        E.LOGRADOURO, E.NUMERO, E.PTO_REFERENCIA
-    FROM CLIENTE C
-    INNER JOIN ENDERECO E ON C.ENDERECO_ID = E.ID;
 
--- Esta view reune todos os dados dos motoristas em um lugar só,
--- para que seja mais fácil visualizar os seus cadastros. Pois no
--- modelo do banco de dados, os dados do endereço do motorista 
--- se encontram em uma tabela separada dos dados gerais dos deles.
-CREATE VIEW REGISTRO_MOTORISTA
+-- ----------------------------------------------------------
+-- Esta view exibe os clientes, porém, ordenados quanto aos
+-- que mais já fizeram pedidos.
+-- ----------------------------------------------------------
+CREATE VIEW clientes_frequentes
 AS
-    SELECT M.CPF, M.NOME, M.CNH, M.RG, M.TELEFONE, M.DISPONIVEL,
-        E.CEP, E.ESTADO, E.CIDADE, E.BAIRRO,
-        E.LOGRADOURO, E.NUMERO, E.PTO_REFERENCIA
-    FROM MOTORISTA M
-    INNER JOIN ENDERECO E ON M.ENDERECO_ID = E.ID;
+    SELECT c.cnpj, c.nome, c.telefone1, c.telefone2,
+        COUNT(p.id) AS qtd_pedidos
+    FROM cliente c
+        INNER JOIN pedido p ON c.id = p.cliente_id
+    GROUP BY c.cnpj, c.nome, c.telefone1, c.telefone2
+    ORDER BY qtd_pedidos;
+
+-- ----------------------------------------------------------
+-- Exibe todos os veículos que estão ociosos no momento atual.
+-- ----------------------------------------------------------
+CREATE VIEW veiculos_ociosos
+AS
+    SELECT ve.placa, ve.marca, ve.modelo
+    FROM veiculo ve
+    WHERE ve.id = ANY (
+        SELECT vi.veiculo_id
+        FROM viagem vi
+        WHERE momento_chegada = NULL
+    );
