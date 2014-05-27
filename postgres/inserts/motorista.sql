@@ -2,304 +2,404 @@
 -- Popula a tabela Motorista.
 -- ----------------------------------------------------------
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (1, '418.233.499-65', 'Rashad Romer', '60601537352', '8283217', '(62)3848-2245', 1, 1);
+INSERT INTO motorista VALUES (1, '418.233.499-65', 'Rashad Romer', '60601537352', '8283217', '(62)3848-2245', '(27)98391-5928', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (2, '102.234.115-43', 'Teresa Tant', '82501544935', '1263223', '(23)3067-8984', 2, 2);
+INSERT INTO motorista VALUES (2, '102.234.115-43', 'Teresa Tant', '82501544935', '1263223', '(23)3067-8984', '(27)98139-4667', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (3, '303.235.659-81', 'Kyoko Korn', '50861554992', '3643235', '(12)3022-3620', 3, 3);
+INSERT INTO motorista VALUES (3, '303.235.659-81', 'Kyoko Korn', '50861554992', '3643235', '(12)3022-3620', '(27)98495-9670', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (4, '501.236.585-65', 'Latonya Leaman', '54441569481', '5333244', '(39)3482-7924', 4, 4);
+INSERT INTO motorista VALUES (4, '501.236.585-65', 'Latonya Leaman', '54441569481', '5333244', '(39)3482-7924', '(27)98685-2807', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (5, '080.237.020-16', 'Luigi Lamay', '92131570617', '5863251', '(52)3735-8938', 5, 5);
+INSERT INTO motorista VALUES (5, '080.237.020-16', 'Luigi Lamay', '92131570617', '5863251', '(52)3735-8938', '(27)98749-3742', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (6, '574.238.476-55', 'Suzanne Scola', '40961581504', '9963268', '(34)3430-4695', 6, 6);
+INSERT INTO motorista VALUES (6, '574.238.476-55', 'Suzanne Scola', '40961581504', '9963268', '(34)3430-4695', '(27)98333-3201', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (7, '110.239.129-12', 'Tabitha Tunnell', '66541595601', '8763271', '(83)3112-3860', 7, 7);
+INSERT INTO motorista VALUES (7, '110.239.129-12', 'Tabitha Tunnell', '66541595601', '8763271', '(83)3112-3860', '(27)98920-9156', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (8, '716.240.484-53', 'Lonny Lacasse', '61701606895', '1263288', '(27)3125-4236', 8, 8);
+INSERT INTO motorista VALUES (8, '716.240.484-53', 'Lonny Lacasse', '61701606895', '1263288', '(27)3125-4236', '(27)98185-8928', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (9, '777.241.168-67', 'Tangela Trowbridge', '93981614116', '7793295', '(46)3708-2679', 9, 9);
+INSERT INTO motorista VALUES (9, '777.241.168-67', 'Tangela Trowbridge', '93981614116', '7793295', '(46)3708-2679', '(27)98260-2901', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (10, '903.242.578-84', 'Theressa Tarkington', '16561625961', '2853309', '(14)3670-3558', 10, 10);
+INSERT INTO motorista VALUES (10, '903.242.578-84', 'Theressa Tarkington', '16561625961', '2853309', '(14)3670-3558', '(27)98212-1815', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (11, '469.243.672-04', 'Bettye Beaubien', '90771630176', '2513316', '(73)3142-7876', 11, 11);
+INSERT INTO motorista VALUES (11, '469.243.672-04', 'Bettye Beaubien', '90771630176', '2513316', '(73)3142-7876', '(27)98319-2089', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (12, '740.244.689-23', 'Sung Southall', '36181648102', '9203324', '(95)3917-8881', 12, 12);
+INSERT INTO motorista VALUES (12, '740.244.689-23', 'Sung Southall', '36181648102', '9203324', '(95)3917-8881', '(27)98073-4017', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (13, '677.245.304-07', 'Leighann Logan', '83171651917', '6853330', '(45)3078-9141', 13, 13);
+INSERT INTO motorista VALUES (13, '677.245.304-07', 'Leighann Logan', '83171651917', '6853330', '(45)3078-9141', '(27)98699-0703', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (14, '645.246.177-56', 'Avery Almanzar', '38691669027', '6953347', '(28)3283-7106', 14, 14);
+INSERT INTO motorista VALUES (14, '645.246.177-56', 'Avery Almanzar', '38691669027', '6953347', '(28)3283-7106', '(27)98986-4043', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (15, '714.247.340-05', 'Horace Huber', '27291672093', '8143351', '(42)3573-5690', 15, 15);
+INSERT INTO motorista VALUES (15, '714.247.340-05', 'Horace Huber', '27291672093', '8143351', '(42)3573-5690', '(27)98471-5416', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (16, '662.248.424-36', 'Candace Calderone', '42671687348', '4123363', '(27)3435-2885', 16, 16);
+INSERT INTO motorista VALUES (16, '662.248.424-36', 'Candace Calderone', '42671687348', '4123363', '(27)3435-2885', '(27)98634-7587', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (17, '789.249.695-71', 'Selma Siegler', '87891694105', '5153377', '(83)3696-4535', 17, 17);
+INSERT INTO motorista VALUES (17, '789.249.695-71', 'Selma Siegler', '87891694105', '5153377', '(83)3696-4535', '(27)98118-3525', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (18, '594.250.706-15', 'Ok Oyler', '26001706770', '0233380', '(48)3848-5284', 18, 18);
+INSERT INTO motorista VALUES (18, '594.250.706-15', 'Ok Oyler', '26001706770', '0233380', '(48)3848-5284', '(27)98100-5013', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (19, '908.251.325-21', 'Rex Raynes', '74321715842', '3433390', '(24)3803-3900', 19, 19);
+INSERT INTO motorista VALUES (19, '908.251.325-21', 'Rex Raynes', '74321715842', '3433390', '(24)3803-3900', '(27)98000-7473', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (20, '401.252.814-34', 'Mariela Mccorkle', '17271724536', '0003406', '(54)3082-3087', 20, 20);
+INSERT INTO motorista VALUES (20, '401.252.814-34', 'Mariela Mccorkle', '17271724536', '0003406', '(54)3082-3087', '(27)98295-1954', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (21, '517.253.013-47', 'Andres Auman', '10651738416', '9173415', '(54)3980-3222', 21, 21);
+INSERT INTO motorista VALUES (21, '517.253.013-47', 'Andres Auman', '10651738416', '9173415', '(54)3980-3222', '(27)98610-0826', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (22, '259.254.139-47', 'Vera Vannote', '63701745160', '4373426', '(26)3408-9191', 22, 22);
+INSERT INTO motorista VALUES (22, '259.254.139-47', 'Vera Vannote', '63701745160', '4373426', '(26)3408-9191', '(27)98855-2290', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (23, '218.255.885-30', 'Cristine Condie', '75651755311', '2033433', '(64)3547-7938', 23, 23);
+INSERT INTO motorista VALUES (23, '218.255.885-30', 'Cristine Condie', '75651755311', '2033433', '(64)3547-7938', '(27)98765-8212', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (24, '051.256.564-54', 'Andree Audet', '11611766086', '3113445', '(22)3346-4675', 24, 24);
+INSERT INTO motorista VALUES (24, '051.256.564-54', 'Andree Audet', '11611766086', '3113445', '(22)3346-4675', '(27)98616-7406', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (25, '409.257.831-52', 'Samual Sparacino', '32051777899', '3123455', '(76)3137-7629', 25, 25);
+INSERT INTO motorista VALUES (25, '409.257.831-52', 'Samual Sparacino', '32051777899', '3123455', '(76)3137-7629', '(27)98468-8259', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (26, '464.258.189-85', 'Rosalba Riehl', '91141788326', '8593462', '(96)3156-7137', 26, 26);
+INSERT INTO motorista VALUES (26, '464.258.189-85', 'Rosalba Riehl', '91141788326', '8593462', '(96)3156-7137', '(27)98418-3760', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (27, '304.259.034-16', 'Blair Becerra', '87601791828', '6253470', '(87)3308-2302', 27, 27);
+INSERT INTO motorista VALUES (27, '304.259.034-16', 'Blair Becerra', '87601791828', '6253470', '(87)3308-2302', '(27)98755-6004', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (28, '247.260.675-55', 'Ilene Iman', '19181805887', '8793484', '(96)3194-5266', 28, 28);
+INSERT INTO motorista VALUES (28, '247.260.675-55', 'Ilene Iman', '19181805887', '8793484', '(96)3194-5266', '(27)98918-9935', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (29, '412.261.659-19', 'Sherley Stuber', '13151812040', '9523494', '(65)3198-7532', 29, 29);
+INSERT INTO motorista VALUES (29, '412.261.659-19', 'Sherley Stuber', '13151812040', '9523494', '(65)3198-7532', '(27)97445-6076', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (30, '360.262.613-03', 'Leslee Lafler', '38461820059', '0933500', '(89)3892-9098', 30, 30);
+INSERT INTO motorista VALUES (30, '360.262.613-03', 'Leslee Lafler', '38461820059', '0933500', '(89)3892-9098', '(27)97039-6315', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (31, '438.263.737-96', 'Lavonne Leverette', '48411831216', '6573512', '(19)3733-1171', 31, 31);
+INSERT INTO motorista VALUES (31, '438.263.737-96', 'Lavonne Leverette', '48411831216', '6573512', '(19)3733-1171', '(27)97986-5188', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (32, '691.264.377-79', 'Chantal Chubb', '73941848390', '9463521', '(94)3240-8753', 32, 32);
+INSERT INTO motorista VALUES (32, '691.264.377-79', 'Chantal Chubb', '73941848390', '9463521', '(94)3240-8753', '(27)97400-3222', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (33, '971.265.544-34', 'Ozie Ottley', '23221857364', '1813532', '(31)3485-8884', 33, 33);
+INSERT INTO motorista VALUES (33, '971.265.544-34', 'Ozie Ottley', '23221857364', '1813532', '(31)3485-8884', '(27)97450-6231', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (34, '645.266.554-74', 'Judie Jaycox', '07691865179', '6963540', '(14)3663-6193', 34, 34);
+INSERT INTO motorista VALUES (34, '645.266.554-74', 'Judie Jaycox', '07691865179', '6963540', '(14)3663-6193', '(27)97359-2817', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (35, '350.267.036-46', 'Faye Fluellen', '08271875603', '1283554', '(15)3521-2023', 35, 35);
+INSERT INTO motorista VALUES (35, '350.267.036-46', 'Faye Fluellen', '08271875603', '1283554', '(15)3521-2023', '(27)97618-0622', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (36, '741.268.636-04', 'Shakia Snelson', '31601885934', '0293567', '(96)3146-1526', 36, 36);
+INSERT INTO motorista VALUES (36, '741.268.636-04', 'Shakia Snelson', '31601885934', '0293567', '(96)3146-1526', '(27)97975-7328', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (37, '769.269.178-49', 'Louisa Lathan', '09661899305', '7303572', '(64)3821-3864', 37, 37);
+INSERT INTO motorista VALUES (37, '769.269.178-49', 'Louisa Lathan', '09661899305', '7303572', '(64)3821-3864', '(27)97953-7293', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (38, '361.270.363-00', 'Dexter Dana', '43511905450', '5843587', '(99)3234-1722', 38, 38);
+INSERT INTO motorista VALUES (38, '361.270.363-00', 'Dexter Dana', '43511905450', '5843587', '(99)3234-1722', '(27)97374-3669', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (39, '487.271.710-65', 'Ray Ridder', '80511915042', '0473596', '(86)3930-3820', 39, 39);
+INSERT INTO motorista VALUES (39, '487.271.710-65', 'Ray Ridder', '80511915042', '0473596', '(86)3930-3820', '(27)97762-9554', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (40, '589.272.855-30', 'Kenny Kosak', '77231926318', '0113604', '(29)3985-4408', 40, 40);
+INSERT INTO motorista VALUES (40, '589.272.855-30', 'Kenny Kosak', '77231926318', '0113604', '(29)3985-4408', '(27)97974-8703', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (41, '107.273.484-70', 'Eliz Elie', '16151935752', '6713614', '(64)3319-6354', 41, 41);
+INSERT INTO motorista VALUES (41, '107.273.484-70', 'Eliz Elie', '16151935752', '6713614', '(64)3319-6354', '(27)97934-9813', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (42, '154.274.827-86', 'Nichole Newingham', '54201946356', '5793628', '(54)3418-2532', 42, 42);
+INSERT INTO motorista VALUES (42, '154.274.827-86', 'Nichole Newingham', '54201946356', '5793628', '(54)3418-2532', '(27)97127-4825', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (43, '835.275.875-24', 'Saul Soto', '69001958812', '4753633', '(61)3212-5100', 43, 43);
+INSERT INTO motorista VALUES (43, '835.275.875-24', 'Saul Soto', '69001958812', '4753633', '(61)3212-5100', '(27)97363-5029', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (44, '926.276.543-19', 'Julissa Jone', '74861967240', '4673640', '(16)3511-6858', 44, 44);
+INSERT INTO motorista VALUES (44, '926.276.543-19', 'Julissa Jone', '74861967240', '4673640', '(16)3511-6858', '(27)97009-1252', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (45, '231.277.503-19', 'Abram Applin', '67671970727', '5573652', '(37)3831-6654', 45, 45);
+INSERT INTO motorista VALUES (45, '231.277.503-19', 'Abram Applin', '67671970727', '5573652', '(37)3831-6654', '(27)97046-6806', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (46, '970.278.395-62', 'Rosenda Rossman', '54461984898', '4453666', '(39)3655-4190', 46, 46);
+INSERT INTO motorista VALUES (46, '970.278.395-62', 'Rosenda Rossman', '54461984898', '4453666', '(39)3655-4190', '(27)97460-3960', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (47, '361.279.253-31', 'Nidia Nembhard', '94941994969', '4373679', '(16)3541-3173', 47, 47);
+INSERT INTO motorista VALUES (47, '361.279.253-31', 'Nidia Nembhard', '94941994969', '4373679', '(16)3541-3173', '(27)97429-6887', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (48, '617.280.162-63', 'Patty Preece', '97432007081', '2623688', '(37)3468-8631', 48, 48);
+INSERT INTO motorista VALUES (48, '617.280.162-63', 'Patty Preece', '97432007081', '2623688', '(37)3468-8631', '(27)97579-9773', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (49, '928.281.587-97', 'Berenice Butt', '53602011522', '9853696', '(77)3610-9232', 49, 49);
+INSERT INTO motorista VALUES (49, '928.281.587-97', 'Berenice Butt', '53602011522', '9853696', '(77)3610-9232', '(27)97228-4006', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (50, '840.282.971-53', 'Ashlee Andreas', '97392026728', '3333701', '(18)3740-3385', 50, 50);
+INSERT INTO motorista VALUES (50, '840.282.971-53', 'Ashlee Andreas', '97392026728', '3333701', '(18)3740-3385', '(27)97890-7935', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (51, '322.283.228-72', 'Marisela Morrow', '41072037710', '0913718', '(71)3179-5230', 51, 51);
+INSERT INTO motorista VALUES (51, '322.283.228-72', 'Marisela Morrow', '41072037710', '0913718', '(71)3179-5230', '(27)97467-8580', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (52, '845.284.234-91', 'Katheleen Kenan', '51462042532', '0013721', '(19)3629-6526', 52, 52);
+INSERT INTO motorista VALUES (52, '845.284.234-91', 'Katheleen Kenan', '51462042532', '0013721', '(19)3629-6526', '(27)97623-3127', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (53, '314.285.731-12', 'Scarlett Schiavo', '49662054760', '6693735', '(66)3574-0546', 53, 53);
+INSERT INTO motorista VALUES (53, '314.285.731-12', 'Scarlett Schiavo', '49662054760', '6693735', '(66)3574-0546', '(27)97222-2303', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (54, '916.286.359-79', 'Collin Cuneo', '86272061593', '0753741', '(79)3986-9833', 54, 54);
+INSERT INTO motorista VALUES (54, '916.286.359-79', 'Collin Cuneo', '86272061593', '0753741', '(79)3986-9833', '(27)97943-4208', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (55, '676.287.477-58', 'Sharika Severs', '76422078959', '8643759', '(16)3674-5961', 55, 55);
+INSERT INTO motorista VALUES (55, '676.287.477-58', 'Sharika Severs', '76422078959', '8643759', '(16)3674-5961', '(27)97828-8201', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (56, '144.288.247-32', 'Ardelle Arrieta', '61332087667', '2493766', '(96)3960-1496', 56, 56);
+INSERT INTO motorista VALUES (56, '144.288.247-32', 'Ardelle Arrieta', '61332087667', '2493766', '(96)3960-1496', '(27)97261-5706', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (57, '089.289.862-40', 'Gaynelle Geraghty', '50712097910', '2633775', '(55)3471-3981', 57, 57);
+INSERT INTO motorista VALUES (57, '089.289.862-40', 'Gaynelle Geraghty', '50712097910', '2633775', '(55)3471-3981', '(27)99511-3159', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (58, '075.290.758-65', 'Noemi Nuzzo', '27472107419', '3293785', '(77)3618-7473', 58, 58);
+INSERT INTO motorista VALUES (58, '075.290.758-65', 'Noemi Nuzzo', '27472107419', '3293785', '(77)3618-7473', '(27)99575-1482', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (59, '184.291.702-98', 'Willis Wilkens', '13042111374', '2943790', '(85)3466-1952', 59, 59);
+INSERT INTO motorista VALUES (59, '184.291.702-98', 'Willis Wilkens', '13042111374', '2943790', '(85)3466-1952', '(27)99188-0179', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (60, '864.292.032-69', 'Nisha Neilson', '51862128049', '1943804', '(42)3719-3084', 60, 60);
+INSERT INTO motorista VALUES (60, '864.292.032-69', 'Nisha Neilson', '51862128049', '1943804', '(42)3719-3084', '(27)99127-4739', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (61, '153.293.895-39', 'Trula Toomey', '24302136138', '8713810', '(24)3792-4569', 61, 61);
+INSERT INTO motorista VALUES (61, '153.293.895-39', 'Trula Toomey', '24302136138', '8713810', '(24)3792-4569', '(27)99862-7315', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (62, '960.294.163-89', 'Jonie Johnstone', '62912148122', '7833822', '(58)3200-2708', 62, 62);
+INSERT INTO motorista VALUES (62, '960.294.163-89', 'Jonie Johnstone', '62912148122', '7833822', '(58)3200-2708', '(27)99248-9012', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (63, '859.295.575-12', 'Tod Traughber', '44882150282', '3543830', '(64)3765-2954', 63, 63);
+INSERT INTO motorista VALUES (63, '859.295.575-12', 'Tod Traughber', '44882150282', '3543830', '(64)3765-2954', '(27)99403-3261', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (64, '814.296.558-27', 'Nidia Null', '65912167983', '8093848', '(42)3919-8648', 64, 64);
+INSERT INTO motorista VALUES (64, '814.296.558-27', 'Nidia Null', '65912167983', '8093848', '(42)3919-8648', '(27)99100-3691', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (65, '511.297.988-73', 'Mamie Mccumber', '97312172611', '8333857', '(36)3747-2314', 65, 65);
+INSERT INTO motorista VALUES (65, '511.297.988-73', 'Mamie Mccumber', '97312172611', '8333857', '(36)3747-2314', '(27)99716-1920', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (66, '875.298.460-62', 'Becky Babcock', '09262183898', '8163860', '(23)3304-7896', 66, 66);
+INSERT INTO motorista VALUES (66, '875.298.460-62', 'Becky Babcock', '09262183898', '8163860', '(23)3304-7896', '(27)99339-0393', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (67, '037.299.256-09', 'Yvone Yaple', '04712193777', '5483871', '(14)3775-1649', 67, 67);
+INSERT INTO motorista VALUES (67, '037.299.256-09', 'Yvone Yaple', '04712193777', '5483871', '(14)3775-1649', '(27)99557-2963', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (68, '031.300.359-33', 'Bee Breck', '58392202933', '6453888', '(51)3310-3827', 68, 68);
+INSERT INTO motorista VALUES (68, '031.300.359-33', 'Bee Breck', '58392202933', '6453888', '(51)3310-3827', '(27)99010-9197', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (69, '206.301.867-34', 'Ara Alves', '93292214195', '7723898', '(47)3031-7142', 69, 69);
+INSERT INTO motorista VALUES (69, '206.301.867-34', 'Ara Alves', '93292214195', '7723898', '(47)3031-7142', '(27)99513-3300', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (70, '734.302.755-74', 'May Mongillo', '29822225017', '1943900', '(62)3652-8359', 70, 70);
+INSERT INTO motorista VALUES (70, '734.302.755-74', 'May Mongillo', '29822225017', '1943900', '(62)3652-8359', '(27)99361-7574', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (71, '631.303.994-92', 'Angel Altizer', '49322239537', '1823912', '(26)3000-2858', 71, 71);
+INSERT INTO motorista VALUES (71, '631.303.994-92', 'Angel Altizer', '49322239537', '1823912', '(26)3000-2858', '(27)99189-8853', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (72, '423.304.732-00', 'Bo Bledsoe', '64372241112', '4803921', '(65)3261-1225', 72, 72);
+INSERT INTO motorista VALUES (72, '423.304.732-00', 'Bo Bledsoe', '64372241112', '4803921', '(65)3261-1225', '(27)99293-4376', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (73, '163.305.999-95', 'Andre Avis', '90152253472', '9223934', '(41)3610-3776', 73, 73);
+INSERT INTO motorista VALUES (73, '163.305.999-95', 'Andre Avis', '90152253472', '9223934', '(41)3610-3776', '(27)99335-6714', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (74, '161.306.899-00', 'Lanny Lennon', '03322260604', '4363944', '(81)3670-3232', 74, 74);
+INSERT INTO motorista VALUES (74, '161.306.899-00', 'Lanny Lennon', '03322260604', '4363944', '(81)3670-3232', '(27)99756-5022', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (75, '659.307.267-21', 'Carla Cogdill', '31852272720', '9343954', '(66)3465-0708', 75, 75);
+INSERT INTO motorista VALUES (75, '659.307.267-21', 'Carla Cogdill', '31852272720', '9343954', '(66)3465-0708', '(27)99424-5661', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (76, '552.308.322-80', 'Donna Dobbin', '35022284865', '2753968', '(63)3558-2334', 76, 76);
+INSERT INTO motorista VALUES (76, '552.308.322-80', 'Donna Dobbin', '35022284865', '2753968', '(63)3558-2334', '(27)99671-4100', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (77, '962.309.372-71', 'Troy Turman', '90922293624', '7683979', '(27)3355-2905', 77, 77);
+INSERT INTO motorista VALUES (77, '962.309.372-71', 'Troy Turman', '90922293624', '7683979', '(27)3355-2905', '(27)99725-0349', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (78, '125.310.893-01', 'Mozella Mcneil', '50552301405', '1983987', '(29)3124-0938', 78, 78);
+INSERT INTO motorista VALUES (78, '125.310.893-01', 'Mozella Mcneil', '50552301405', '1983987', '(29)3124-0938', '(27)99604-5910', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (79, '306.311.784-07', 'Jennell Jarrett', '74022314656', '3243998', '(76)3794-9319', 79, 79);
+INSERT INTO motorista VALUES (79, '306.311.784-07', 'Jennell Jarrett', '74022314656', '3243998', '(76)3794-9319', '(27)99300-0132', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (80, '474.312.949-09', 'Tasha Tu', '69262326043', '2894002', '(49)3252-4685', 80, 80);
+INSERT INTO motorista VALUES (80, '474.312.949-09', 'Tasha Tu', '69262326043', '2894002', '(49)3252-4685', '(27)99250-2330', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (81, '346.313.537-79', 'Reena Releford', '89962330673', '6454010', '(96)3290-8217', 81, 81);
+INSERT INTO motorista VALUES (81, '346.313.537-79', 'Reena Releford', '89962330673', '6454010', '(96)3290-8217', '(27)99667-7150', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (82, '410.314.258-56', 'Carin Crabill', '64012342176', '1004025', '(95)3489-9071', 82, 82);
+INSERT INTO motorista VALUES (82, '410.314.258-56', 'Carin Crabill', '64012342176', '1004025', '(95)3489-9071', '(27)99297-0182', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (83, '361.315.158-58', 'Ernestine Eberhardt', '67422359261', '4674037', '(26)3429-9342', 83, 83);
+INSERT INTO motorista VALUES (83, '361.315.158-58', 'Ernestine Eberhardt', '67422359261', '4674037', '(26)3429-9342', '(27)99610-5046', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (84, '096.316.536-43', 'Berenice Benshoof', '85832364053', '8384045', '(88)3118-2249', 84, 84);
+INSERT INTO motorista VALUES (84, '096.316.536-43', 'Berenice Benshoof', '85832364053', '8384045', '(88)3118-2249', '(27)99393-2312', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (85, '603.317.131-07', 'Sharleen Spengler', '23682379328', '6804058', '(64)3429-8181', 85, 85);
+INSERT INTO motorista VALUES (85, '603.317.131-07', 'Sharleen Spengler', '23682379328', '6804058', '(64)3429-8181', '(27)96670-6555', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (86, '394.318.984-71', 'Ruth Routt', '71522387369', '4184068', '(48)3978-6694', 86, 86);
+INSERT INTO motorista VALUES (86, '394.318.984-71', 'Ruth Routt', '71522387369', '4184068', '(48)3978-6694', '(27)96201-2472', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (87, '932.319.593-00', 'Marivel Mangum', '95982396106', '5654070', '(87)3939-3948', 87, 87);
+INSERT INTO motorista VALUES (87, '932.319.593-00', 'Marivel Mangum', '95982396106', '5654070', '(87)3939-3948', '(27)96907-8562', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (88, '814.320.128-32', 'Bobby Burchard', '00012407188', '4394081', '(75)3472-8038', 88, 88);
+INSERT INTO motorista VALUES (88, '814.320.128-32', 'Bobby Burchard', '00012407188', '4394081', '(75)3472-8038', '(27)96050-4217', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (89, '361.321.614-73', 'Candance Ceniceros', '96952415874', '3834099', '(92)3146-0431', 89, 89);
+INSERT INTO motorista VALUES (89, '361.321.614-73', 'Candance Ceniceros', '96952415874', '3834099', '(92)3146-0431', '(27)96030-4570', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (90, '319.322.733-53', 'Jamee Jaillet', '17842429668', '0014100', '(65)3474-8239', 90, 90);
+INSERT INTO motorista VALUES (90, '319.322.733-53', 'Jamee Jaillet', '17842429668', '0014100', '(65)3474-8239', '(27)96280-6807', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (91, '220.323.247-87', 'Anh Arens', '09222437110', '4804114', '(93)3060-5010', 91, 91);
+INSERT INTO motorista VALUES (91, '220.323.247-87', 'Anh Arens', '09222437110', '4804114', '(93)3060-5010', '(27)96027-9163', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (92, '706.324.483-00', 'Arvilla Amore', '28952445516', '4644123', '(14)3282-0942', 92, 92);
+INSERT INTO motorista VALUES (92, '706.324.483-00', 'Arvilla Amore', '28952445516', '4644123', '(14)3282-0942', '(27)96192-8311', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (93, '520.325.579-38', 'Sierra Suess', '45642455702', '7904134', '(62)3580-4036', 93, 93);
+INSERT INTO motorista VALUES (93, '520.325.579-38', 'Sierra Suess', '45642455702', '7904134', '(62)3580-4036', '(27)96280-5734', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (94, '134.326.344-72', 'Arthur Armagost', '68332464971', '6294140', '(28)3868-0265', 94, 94);
+INSERT INTO motorista VALUES (94, '134.326.344-72', 'Arthur Armagost', '68332464971', '6294140', '(28)3868-0265', '(27)96869-1722', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (95, '073.327.028-93', 'Cami Chaplin', '31002477980', '6224150', '(55)3002-0907', 95, 95);
+INSERT INTO motorista VALUES (95, '073.327.028-93', 'Cami Chaplin', '31002477980', '6224150', '(55)3002-0907', '(27)96291-2425', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (96, '838.328.447-17', 'Joi Jarrell', '57912486838', '7954169', '(32)3763-5216', 96, 96);
+INSERT INTO motorista VALUES (96, '838.328.447-17', 'Joi Jarrell', '57912486838', '7954169', '(32)3763-5216', '(27)96913-6780', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (97, '628.329.763-35', 'Claudie Curtsinger', '22112498289', '9534172', '(87)3817-7433', 97, 97);
+INSERT INTO motorista VALUES (97, '628.329.763-35', 'Claudie Curtsinger', '22112498289', '9534172', '(87)3817-7433', '(27)96373-5641', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (98, '273.330.973-64', 'Luisa Leinen', '83372506645', '0504185', '(78)3142-2360', 98, 98);
+INSERT INTO motorista VALUES (98, '273.330.973-64', 'Luisa Leinen', '83372506645', '0504185', '(78)3142-2360', '(27)96462-5465', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (99, '869.331.507-76', 'Kendra Kitzman', '32842511369', '3104198', '(36)3123-7313', 99, 99);
+INSERT INTO motorista VALUES (99, '869.331.507-76', 'Kendra Kitzman', '32842511369', '3104198', '(36)3123-7313', '(27)96834-6659', DEFAULT);
 
-INSERT INTO Motorista(id, cpf, nome, cnh, rg, telefone, endereco_id, veiculo_id)
-VALUES (100, '211.332.620-01', 'Lucille Lirette', '41312526069', '3884200', '(18)3237-6444', 100, 100);
+INSERT INTO motorista VALUES (100, '211.332.620-01', 'Lucille Lirette', '41312526069', '3884200', '(18)3237-6444', '(27)96828-8317', DEFAULT);
+
+INSERT INTO motorista VALUES (101, '512.957.003-01', 'Ricardo Suire', '18097185824', '2684616', '(27)3519-1337', '(27)99455-4403', DEFAULT);
+
+INSERT INTO motorista VALUES (102, '827.183.347-20', 'Ardath Tilford', '84317873002', '0540403', '(27)3648-5770', '(27)99102-6988', DEFAULT);
+
+INSERT INTO motorista VALUES (103, '857.414.262-04', 'Karly Weedon', '24277764737', '5118899', '(27)3650-9538', '(27)99917-2355', DEFAULT);
+
+INSERT INTO motorista VALUES (104, '064.561.677-01', 'Modesta Bensley', '48161182778', '7820665', '(27)3364-9655', '(27)99518-2841', DEFAULT);
+
+INSERT INTO motorista VALUES (105, '335.638.723-50', 'Merry Sprung', '42809464669', '8061534', '(27)3605-4489', '(27)99673-7343', DEFAULT);
+
+INSERT INTO motorista VALUES (106, '413.643.538-06', 'Willow Nailor', '58987716169', '6947487', '(27)3064-6091', '(27)99157-4661', DEFAULT);
+
+INSERT INTO motorista VALUES (107, '531.364.871-33', 'Magnolia Blumstein', '25601310258', '3972460', '(27)3328-3803', '(27)99647-3928', DEFAULT);
+
+INSERT INTO motorista VALUES (108, '422.657.787-61', 'Jesenia Miranda', '44238179406', '8723958', '(27)3360-9995', '(27)99656-0472', DEFAULT);
+
+INSERT INTO motorista VALUES (109, '478.787.453-58', 'Shelly Kaminsky', '35601128854', '6813219', '(27)3280-3145', '(27)99944-5916', DEFAULT);
+
+INSERT INTO motorista VALUES (110, '726.353.766-46', 'Tommye Billingsly', '89753244356', '0195113', '(27)3229-7828', '(27)99677-0729', DEFAULT);
+
+INSERT INTO motorista VALUES (111, '315.922.496-12', 'Deandra Camp', '93762024546', '7836125', '(27)3283-8897', '(27)99957-2447', DEFAULT);
+
+INSERT INTO motorista VALUES (112, '777.051.202-67', 'Becky Ugarte', '28643491854', '9338872', '(27)3774-3396', '(27)99740-6905', DEFAULT);
+
+INSERT INTO motorista VALUES (113, '137.751.838-84', 'Rodrigo Agosta', '61242283443', '8514390', '(27)3792-5809', '(27)99728-8644', DEFAULT);
+
+INSERT INTO motorista VALUES (114, '070.605.949-22', 'Alfredo Ruch', '80594668723', '1069829', '(27)3849-4401', '(27)99236-1843', DEFAULT);
+
+INSERT INTO motorista VALUES (115, '316.618.323-00', 'Cassandra Wongus', '07775330074', '9439198', '(27)3283-5819', '(27)99865-2655', DEFAULT);
+
+INSERT INTO motorista VALUES (116, '604.568.747-71', 'Wayne Milian', '54163639636', '0460071', '(27)3971-5965', '(27)99120-2533', DEFAULT);
+
+INSERT INTO motorista VALUES (117, '767.527.316-83', 'Jung Burling', '91430968105', '8298149', '(27)3081-5065', '(27)99561-0549', DEFAULT);
+
+INSERT INTO motorista VALUES (118, '425.521.102-74', 'Ron Asmus', '29900000710', '5221225', '(27)3740-9100', '(27)99939-2259', DEFAULT);
+
+INSERT INTO motorista VALUES (119, '735.738.141-23', 'Demetrice Mcmurry', '88937604175', '2780896', '(27)3264-4878', '(27)99991-4216', DEFAULT);
+
+INSERT INTO motorista VALUES (120, '741.232.256-75', 'Justine Langdon', '56087067627', '3088044', '(27)3747-9618', '(27)99359-4122', DEFAULT);
+
+INSERT INTO motorista VALUES (121, '720.513.956-24', 'Slyvia Engberg', '47456960604', '1023695', '(27)3818-9184', '(27)99385-3600', DEFAULT);
+
+INSERT INTO motorista VALUES (122, '413.901.570-59', 'Junior Monn', '79694349156', '3635441', '(27)3208-4326', '(27)99707-3073', DEFAULT);
+
+INSERT INTO motorista VALUES (123, '436.943.386-08', 'Izetta Drummer', '65215158161', '9475362', '(27)3433-3156', '(27)99210-4976', DEFAULT);
+
+INSERT INTO motorista VALUES (124, '109.789.531-93', 'Kelsey Waldron', '84361415138', '1201854', '(27)3001-8461', '(27)99155-1587', DEFAULT);
+
+INSERT INTO motorista VALUES (125, '756.628.721-47', 'Nicolas Lones', '51807664819', '5303096', '(27)3168-6866', '(27)99004-2980', DEFAULT);
+
+INSERT INTO motorista VALUES (126, '715.355.936-10', 'Alissa Iorio', '56710492362', '0733890', '(27)3116-3032', '(27)99656-4025', DEFAULT);
+
+INSERT INTO motorista VALUES (127, '650.154.721-02', 'Etsuko Talmage', '80054973371', '8249599', '(27)3845-9994', '(27)99569-7189', DEFAULT);
+
+INSERT INTO motorista VALUES (128, '616.531.874-68', 'Coleman Kipp', '32212105072', '3470760', '(27)3183-2957', '(27)99552-0088', DEFAULT);
+
+INSERT INTO motorista VALUES (129, '487.853.439-78', 'Anna Amsler', '76269077731', '5527353', '(27)3558-9398', '(27)99816-4279', DEFAULT);
+
+INSERT INTO motorista VALUES (130, '882.365.634-64', 'Tanya Nordahl', '30456678038', '7858863', '(27)3608-9702', '(27)99376-1371', DEFAULT);
+
+INSERT INTO motorista VALUES (131, '395.973.398-46', 'Dee Villafane', '66317724265', '8135440', '(27)3875-5576', '(27)99362-6845', DEFAULT);
+
+INSERT INTO motorista VALUES (132, '782.110.224-51', 'Betsey Wurm', '24008268189', '8858760', '(27)3561-0247', '(27)99831-0568', DEFAULT);
+
+INSERT INTO motorista VALUES (133, '611.975.104-19', 'Johna Crawley', '46150548528', '6515169', '(27)3501-7381', '(27)99062-3384', DEFAULT);
+
+INSERT INTO motorista VALUES (134, '673.350.644-06', 'Megan Slye', '90656895842', '9142132', '(27)3949-9905', '(27)99342-7545', DEFAULT);
+
+INSERT INTO motorista VALUES (135, '425.277.751-87', 'Cathey Lippard', '20291984413', '7686336', '(27)3193-3581', '(27)99994-9337', DEFAULT);
+
+INSERT INTO motorista VALUES (136, '517.263.655-22', 'Andrew Bruening', '87324199928', '6525428', '(27)3993-5579', '(27)98656-5745', DEFAULT);
+
+INSERT INTO motorista VALUES (137, '780.724.336-87', 'Laurene Monk', '66197009161', '4050014', '(27)3945-8477', '(27)98125-4178', DEFAULT);
+
+INSERT INTO motorista VALUES (138, '359.074.260-71', 'Desire Classen', '58179465262', '3026202', '(27)3045-3210', '(27)98103-9127', DEFAULT);
+
+INSERT INTO motorista VALUES (139, '722.016.182-40', 'Shea Viramontes', '78979066144', '0925876', '(27)3958-4670', '(27)98526-5144', DEFAULT);
+
+INSERT INTO motorista VALUES (140, '852.868.836-48', 'Manda Delange', '16470671554', '1441968', '(27)3430-7211', '(27)98133-1103', DEFAULT);
+
+INSERT INTO motorista VALUES (141, '404.143.820-99', 'Hassan Hausner', '66201074393', '4752214', '(27)3510-4959', '(27)98406-4728', DEFAULT);
+
+INSERT INTO motorista VALUES (142, '696.652.386-04', 'Bari Ruggiero', '43308216534', '6106419', '(27)3381-5581', '(27)98592-8808', DEFAULT);
+
+INSERT INTO motorista VALUES (143, '570.576.152-05', 'Latrina Dinsmore', '26149119426', '1613417', '(27)3955-6886', '(27)98634-2888', DEFAULT);
+
+INSERT INTO motorista VALUES (144, '116.876.258-83', 'Toby Deady', '62334957836', '5697587', '(27)3922-5957', '(27)98070-2950', DEFAULT);
+
+INSERT INTO motorista VALUES (145, '327.537.257-21', 'Kim Earp', '17708016975', '6450709', '(27)3632-5655', '(27)98339-0945', DEFAULT);
+
+INSERT INTO motorista VALUES (146, '063.664.746-30', 'Jeanmarie Pesqueira', '46858020599', '9515987', '(27)3788-3466', '(27)98602-8025', DEFAULT);
+
+INSERT INTO motorista VALUES (147, '784.717.346-80', 'Debrah Hennessey', '60514177297', '3772940', '(27)3057-5613', '(27)98443-1079', DEFAULT);
+
+INSERT INTO motorista VALUES (148, '711.383.648-86', 'Deandre Aron', '48344988574', '5815810', '(27)3070-3438', '(27)98602-4222', DEFAULT);
+
+INSERT INTO motorista VALUES (149, '884.686.358-55', 'Chas Gunter', '86947861054', '6258291', '(27)3010-5770', '(27)98232-3491', DEFAULT);
+
+INSERT INTO motorista VALUES (150, '868.533.661-90', 'Lissa Trejo', '21096119671', '1478599', '(27)3468-8422', '(27)98118-2045', DEFAULT);
+
+INSERT INTO motorista VALUES (151, '333.676.373-86', 'Alia Hackett', '46341032323', '6264090', '(27)3112-3557', '(27)98936-9454', DEFAULT);
+
+INSERT INTO motorista VALUES (152, '245.275.731-44', 'Enda Landers', '45939324391', '5120889', '(27)3888-3441', '(27)98730-5990', DEFAULT);
+
+INSERT INTO motorista VALUES (153, '285.713.731-16', 'Morris Mcgilvery', '15518951215', '0164803', '(27)3413-1572', '(27)98674-5203', DEFAULT);
+
+INSERT INTO motorista VALUES (154, '576.818.427-99', 'Vivienne Palmer', '35734988175', '6781761', '(27)3773-4911', '(27)98650-1449', DEFAULT);
+
+INSERT INTO motorista VALUES (155, '915.128.400-68', 'Robby Asaro', '19543932997', '2309503', '(27)3378-5785', '(27)98919-3383', DEFAULT);
+
+INSERT INTO motorista VALUES (156, '486.652.516-93', 'Connie Gaulding', '28287210634', '6629363', '(27)3951-1412', '(27)98441-7158', DEFAULT);
+
+INSERT INTO motorista VALUES (157, '133.324.302-20', 'Elmer Bomberger', '78945104192', '3600896', '(27)3568-7816', '(27)98618-0826', DEFAULT);
+
+INSERT INTO motorista VALUES (158, '755.725.945-98', 'Marlon Caraway', '90692720015', '1887737', '(27)3157-4226', '(27)98390-7166', DEFAULT);
+
+INSERT INTO motorista VALUES (159, '867.422.166-11', 'Mariette Robbs', '47071895010', '7607402', '(27)3662-5483', '(27)98639-4026', DEFAULT);
+
+INSERT INTO motorista VALUES (160, '070.754.597-83', 'Chadwick Jerry', '79931290739', '5937503', '(27)3311-5611', '(27)98590-2584', DEFAULT);
+
+INSERT INTO motorista VALUES (161, '823.553.156-98', 'Delinda Deshazo', '85492099820', '2826093', '(27)3808-4664', '(27)98145-2067', DEFAULT);
+
+INSERT INTO motorista VALUES (162, '313.573.957-01', 'Conchita Landreneau', '33250925839', '9364893', '(27)3635-8821', '(27)98883-6748', DEFAULT);
+
+INSERT INTO motorista VALUES (163, '123.132.745-60', 'Oralee Castiglione', '21592339873', '3665631', '(27)3584-0547', '(27)98465-1130', DEFAULT);
+
+INSERT INTO motorista VALUES (164, '732.928.616-83', 'Jonas Antley', '95531172551', '6536559', '(27)3633-0786', '(27)98901-5554', DEFAULT);
+
+INSERT INTO motorista VALUES (165, '181.906.782-30', 'Tereasa President', '29538189385', '7826790', '(27)3847-1875', '(27)98529-6024', DEFAULT);
+
+INSERT INTO motorista VALUES (166, '732.333.370-94', 'Cleo Clouse', '70076845550', '6501737', '(27)3373-2132', '(27)98920-4788', DEFAULT);
+
+INSERT INTO motorista VALUES (167, '424.463.431-20', 'Vance Ellery', '21016969067', '3787966', '(27)3086-8363', '(27)98872-6659', DEFAULT);
+
+INSERT INTO motorista VALUES (168, '359.386.434-73', 'Ola Hawk', '45079826208', '8819627', '(27)3899-0523', '(27)98294-0185', DEFAULT);
+
+INSERT INTO motorista VALUES (169, '082.554.415-73', 'Refugio Greenland', '21797961538', '8042192', '(27)3963-0191', '(27)98610-8068', DEFAULT);
+
+INSERT INTO motorista VALUES (170, '220.229.231-46', 'Halina Lillard', '50522408254', '9130629', '(27)3915-2608', '(27)98135-1574', DEFAULT);
+
+INSERT INTO motorista VALUES (171, '112.385.441-69', 'Roma Brisson', '10402685349', '6846933', '(27)3626-2813', '(27)97999-3464', DEFAULT);
+
+INSERT INTO motorista VALUES (172, '365.251.255-37', 'Annis Sauders', '59829845653', '0416986', '(27)3564-5752', '(27)97808-9852', DEFAULT);
+
+INSERT INTO motorista VALUES (173, '756.247.224-60', 'Nydia Dandy', '36259960751', '7628800', '(27)3665-7620', '(27)97440-9057', DEFAULT);
+
+INSERT INTO motorista VALUES (174, '136.190.218-30', 'Sandi Branan', '39335193275', '2383049', '(27)3403-1022', '(27)97564-8421', DEFAULT);
+
+INSERT INTO motorista VALUES (175, '357.256.775-08', 'Meg Farfan', '19552096623', '1637766', '(27)3208-9646', '(27)97254-2171', DEFAULT);
+
+INSERT INTO motorista VALUES (176, '858.848.163-40', 'Humberto Canup', '92473232867', '6311138', '(27)3379-3385', '(27)97506-5167', DEFAULT);
+
+INSERT INTO motorista VALUES (177, '791.494.919-11', 'Maragaret Challis', '65185359235', '8191033', '(27)3429-2875', '(27)97617-0108', DEFAULT);
+
+INSERT INTO motorista VALUES (178, '723.410.711-80', 'Sommer Cowen', '44638874288', '6679008', '(27)3868-1193', '(27)97431-3901', DEFAULT);
+
+INSERT INTO motorista VALUES (179, '826.914.264-67', 'Richelle Lawlor', '82252096665', '5984193', '(27)3242-9167', '(27)97247-5947', DEFAULT);
+
+INSERT INTO motorista VALUES (180, '422.722.461-68', 'Cruz Degroff', '95930306523', '8690918', '(27)3753-8606', '(27)97316-9668', DEFAULT);
+
+INSERT INTO motorista VALUES (181, '564.415.763-68', 'Bernarda Massengill', '84246474513', '8854564', '(27)3865-7700', '(27)97247-9170', DEFAULT);
+
+INSERT INTO motorista VALUES (182, '502.471.823-20', 'Jeannie Godbold', '01633850767', '5104979', '(27)3368-5491', '(27)97101-4558', DEFAULT);
+
+INSERT INTO motorista VALUES (183, '664.486.133-40', 'Eugene Loiacono', '62479132491', '8615591', '(27)3613-1181', '(27)97670-9070', DEFAULT);
+
+INSERT INTO motorista VALUES (184, '211.648.513-49', 'Hermina Oshiro', '06288719987', '2959640', '(27)3188-6044', '(27)97005-3527', DEFAULT);
+
+INSERT INTO motorista VALUES (185, '118.615.162-58', 'Nathalie Hymes', '26040984424', '2760145', '(27)3318-7930', '(27)97510-6671', DEFAULT);
+
+INSERT INTO motorista VALUES (186, '466.115.316-29', 'Winona Bordelon', '43325917735', '4827224', '(27)3986-3120', '(27)97994-9814', DEFAULT);
+
+INSERT INTO motorista VALUES (187, '054.762.057-80', 'Luna Repass', '72696586295', '4177368', '(27)3293-3108', '(27)97010-1675', DEFAULT);
+
+INSERT INTO motorista VALUES (188, '012.348.631-97', 'Reagan Yuhas', '11773637351', '9560324', '(27)3909-3950', '(27)97586-8133', DEFAULT);
+
+INSERT INTO motorista VALUES (189, '218.833.954-10', 'Rosaura Ruch', '64903753731', '7929658', '(27)3875-5055', '(27)97880-1416', DEFAULT);
+
+INSERT INTO motorista VALUES (190, '842.313.687-67', 'Magaly Stillwell', '38802945307', '5911431', '(27)3072-7091', '(27)97328-3619', DEFAULT);
+
+INSERT INTO motorista VALUES (191, '715.812.734-60', 'Brandi Ridgway', '53712846189', '9588074', '(27)3205-6184', '(27)97166-2910', DEFAULT);
+
+INSERT INTO motorista VALUES (192, '587.455.542-00', 'Krissy Menefee', '64337161226', '8151617', '(27)3067-0284', '(27)97296-3828', DEFAULT);
+
+INSERT INTO motorista VALUES (193, '660.132.353-50', 'Duncan Philip', '53040090262', '1615789', '(27)3897-0871', '(27)97525-4851', DEFAULT);
+
+INSERT INTO motorista VALUES (194, '646.312.348-06', 'Ivelisse Bickett', '24953863316', '5787256', '(27)3776-8627', '(27)97961-7232', DEFAULT);
+
+INSERT INTO motorista VALUES (195, '742.619.044-70', 'Delcie Pompa', '04502045421', '9998908', '(27)3515-2070', '(27)97809-6154', DEFAULT);
+
+INSERT INTO motorista VALUES (196, '192.812.089-03', 'Brett Bohner', '89109138896', '0890008', '(27)3381-4728', '(27)97130-5644', DEFAULT);
+
+INSERT INTO motorista VALUES (197, '933.163.773-01', 'Lula Boldt', '11922080646', '1570195', '(27)3668-8938', '(27)97893-3863', DEFAULT);
+
+INSERT INTO motorista VALUES (198, '043.828.824-60', 'Kristine Fiqueroa', '95564316143', '1077705', '(27)3410-7542', '(27)97361-3523', DEFAULT);
+
+INSERT INTO motorista VALUES (199, '977.355.722-71', 'Sheilah Brasel', '88323356774', '4000139', '(27)3181-8750', '(27)97879-3793', DEFAULT);
+
+INSERT INTO motorista VALUES (200, '157.788.177-03', 'Assunta Mcduffy', '14761842134', '6960998', '(27)3120-9159', '(27)97032-0061', DEFAULT);
 
 SELECT setval('motorista_id_seq', 100);
