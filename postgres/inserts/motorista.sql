@@ -402,4 +402,4 @@ INSERT INTO motorista VALUES (199, '977.355.722-71', 'Sheilah Brasel', '88323356
 
 INSERT INTO motorista VALUES (200, '157.788.177-03', 'Assunta Mcduffy', '14761842134', '6960998', '(27)3120-9159', '(27)97032-0061', DEFAULT);
 
-SELECT setval('motorista_id_seq', 100);
+SELECT setval('motorista_id_seq', 200);
