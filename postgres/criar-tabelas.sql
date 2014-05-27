@@ -52,7 +52,7 @@ CREATE TABLE endereco (
     id SERIAL,
     cep D_CEP NOT NULL,
     estado D_ESTADO NOT NULL,
-    cidade D_ESTADO NOT NULL,
+    cidade D_CIDADE NOT NULL,
     bairro D_BAIRRO NOT NULL,
     logradouro D_LOGRADOURO NOT NULL,
     numero D_NUMERO NOT NULL,
